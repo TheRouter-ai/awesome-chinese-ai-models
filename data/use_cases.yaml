@@ -1,0 +1,11 @@
+use_cases:
+  - id: chinese-model-api-routing
+    title: Route requests across Chinese AI models with an OpenAI-compatible API
+    category: api_routing
+    models: []
+    difficulty: intermediate
+    summary: Use an OpenAI-compatible gateway to compare Chinese models on quality, latency, and cost.
+    links:
+      - title: TheRouter Docs
+        url: https://therouter.ai/docs
+    tags: [api, routing, fallback, cost]

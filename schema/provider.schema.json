@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Provider",
+  "type": "object",
+  "required": ["id", "name", "type", "website", "tags"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "website": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

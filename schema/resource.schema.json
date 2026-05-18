@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Resource",
+  "type": "object",
+  "required": ["id", "title", "type", "url", "verified", "tags"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "url": {"type": "string"},
+    "verified": {"type": "boolean"}
+  }
+}

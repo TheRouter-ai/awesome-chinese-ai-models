@@ -1,0 +1,29 @@
+name: Add daily update
+about: Suggest a news/update item for the daily digest
+labels: [daily-update]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [model_release, model_update, api_update, pricing, benchmark, open_source, paper, product_launch, funding, partnership, regulation, tutorial, playbook, community, infrastructure, safety_security, therouter_update, deprecated_changed]
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short factual summary
+    validations:
+      required: true

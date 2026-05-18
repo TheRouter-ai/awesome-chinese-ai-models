@@ -1,0 +1,88 @@
+providers:
+  - id: deepseek
+    name: DeepSeek
+    name_zh: 深度求索
+    type: company
+    website: https://www.deepseek.com/
+    docs: https://api-docs.deepseek.com/
+    github: https://github.com/deepseek-ai
+    huggingface: https://huggingface.co/deepseek-ai
+    modelscope: null
+    tags: [llm, reasoning, coding, open-weights]
+
+  - id: qwen
+    name: Alibaba Qwen
+    name_zh: 通义千问
+    type: company
+    website: https://qwenlm.github.io/
+    docs: https://help.aliyun.com/zh/model-studio/
+    github: https://github.com/QwenLM
+    huggingface: https://huggingface.co/Qwen
+    modelscope: https://modelscope.cn/organization/qwen
+    tags: [llm, multimodal, coding, open-weights]
+
+  - id: zhipu
+    name: Zhipu AI
+    name_zh: 智谱 AI
+    type: company
+    website: https://www.zhipuai.cn/
+    docs: https://docs.bigmodel.cn/
+    github: https://github.com/THUDM
+    huggingface: null
+    modelscope: null
+    tags: [llm, multimodal, coding]
+
+  - id: moonshot
+    name: Moonshot AI
+    name_zh: 月之暗面
+    type: company
+    website: https://www.moonshot.cn/
+    docs: https://platform.moonshot.cn/docs
+    github: null
+    huggingface: null
+    modelscope: null
+    tags: [llm, long-context]
+
+  - id: minimax
+    name: MiniMax
+    name_zh: MiniMax
+    type: company
+    website: https://www.minimaxi.com/
+    docs: https://www.minimaxi.com/document
+    github: null
+    huggingface: null
+    modelscope: null
+    tags: [llm, audio, video, agent]
+
+  - id: baidu-ernie
+    name: Baidu ERNIE
+    name_zh: 百度文心
+    type: company
+    website: https://yiyan.baidu.com/
+    docs: https://cloud.baidu.com/product/wenxinworkshop
+    github: https://github.com/PaddlePaddle
+    huggingface: null
+    modelscope: null
+    tags: [llm, enterprise, paddlepaddle]
+
+  - id: tencent-hunyuan
+    name: Tencent Hunyuan
+    name_zh: 腾讯混元
+    type: company
+    website: https://hunyuan.tencent.com/
+    docs: https://cloud.tencent.com/document/product/1729
+    github: https://github.com/Tencent-Hunyuan
+    huggingface: https://huggingface.co/tencent
+    modelscope: null
+    tags: [llm, multimodal, 3d]
+
+  - id: bytedance-doubao
+    name: ByteDance Doubao / Volcengine Ark
+    name_zh: 字节豆包 / 火山方舟
+    type: company
+    website: https://www.doubao.com/
+    docs: https://www.volcengine.com/docs/82379
+    github: null
+    huggingface: null
+    modelscope: null
+    tags: [llm, multimodal, agent]

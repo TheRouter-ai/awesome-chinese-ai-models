@@ -1,0 +1,37 @@
+capabilities:
+  - id: chat
+    name: Chat
+    name_zh: 对话
+  - id: reasoning
+    name: Reasoning
+    name_zh: 推理
+  - id: coding
+    name: Coding
+    name_zh: 代码
+  - id: vision-language
+    name: Vision-Language
+    name_zh: 视觉语言
+  - id: image-generation
+    name: Image Generation
+    name_zh: 图像生成
+  - id: video-generation
+    name: Video Generation
+    name_zh: 视频生成
+  - id: audio-speech
+    name: Audio/Speech
+    name_zh: 音频语音
+  - id: embedding
+    name: Embedding
+    name_zh: 向量嵌入
+  - id: reranker
+    name: Reranker
+    name_zh: 重排序
+  - id: agent-tool-use
+    name: Agent / Tool Use
+    name_zh: 智能体 / 工具调用
+  - id: long-context
+    name: Long Context
+    name_zh: 长上下文
+  - id: local-deploy
+    name: Local Deployment
+    name_zh: 本地部署

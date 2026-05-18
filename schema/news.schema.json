@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NewsItem",
+  "type": "object",
+  "required": ["id", "date", "title", "summary", "category", "source", "verification"],
+  "properties": {
+    "id": {"type": "string"},
+    "date": {"type": "string"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"},
+    "category": {"type": "string"}
+  }
+}

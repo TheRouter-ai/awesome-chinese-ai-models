@@ -1,0 +1,34 @@
+name: Add a model
+about: Suggest a Chinese AI model or model update
+labels: [model]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model name
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official or trusted source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access mode
+      multiple: true
+      options: [API, Web, Open weights, Local deploy, OpenAI-compatible]
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+    validations:
+      required: true
