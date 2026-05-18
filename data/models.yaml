@@ -1,0 +1,132 @@
+models:
+  - id: deepseek-v3
+    name: DeepSeek-V3
+    provider_id: deepseek
+    model_family: deepseek
+    release_date: null
+    last_updated: "2026-05-18"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, reasoning, coding]
+    access:
+      api: true
+      web: true
+      weights: true
+      local-deploy: true
+      openai_compatible: true
+    license:
+      type: custom
+      name: DeepSeek License
+      url: https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL
+    official:
+      website: https://www.deepseek.com/
+      docs: https://api-docs.deepseek.com/
+      github: https://github.com/deepseek-ai/DeepSeek-V3
+      huggingface: https://huggingface.co/deepseek-ai/DeepSeek-V3
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-18"
+    tags: [llm, reasoning, coding, open-weights]
+
+  - id: qwen3
+    name: Qwen3
+    provider_id: qwen
+    model_family: qwen
+    release_date: null
+    last_updated: "2026-05-18"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, reasoning, coding, long-context]
+    access:
+      api: true
+      web: true
+      weights: true
+      local-deploy: true
+      openai_compatible: true
+    license:
+      type: open
+      name: Apache-2.0 or model-specific license
+      url: https://github.com/QwenLM/Qwen3
+    official:
+      website: https://qwenlm.github.io/
+      docs: https://help.aliyun.com/zh/model-studio/
+      github: https://github.com/QwenLM/Qwen3
+      huggingface: https://huggingface.co/Qwen
+      modelscope: https://modelscope.cn/organization/qwen
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-18"
+    tags: [llm, reasoning, open-weights]
+
+  - id: glm-4
+    name: GLM-4
+    provider_id: zhipu
+    model_family: glm
+    release_date: null
+    last_updated: "2026-05-18"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, reasoning, coding, agent-tool-use]
+    access:
+      api: true
+      web: true
+      weights: false
+      local-deploy: false
+      openai_compatible: true
+    license:
+      type: proprietary
+      name: null
+      url: null
+    official:
+      website: https://www.bigmodel.cn/
+      docs: https://docs.bigmodel.cn/
+      github: null
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-18"
+    tags: [llm, api]
+
+  - id: kimi
+    name: Kimi
+    provider_id: moonshot
+    model_family: kimi
+    release_date: null
+    last_updated: "2026-05-18"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, long-context]
+    access:
+      api: true
+      web: true
+      weights: false
+      local-deploy: false
+      openai_compatible: true
+    license:
+      type: proprietary
+      name: null
+      url: null
+    official:
+      website: https://www.moonshot.cn/
+      docs: https://platform.moonshot.cn/docs
+      github: null
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-18"
+    tags: [llm, long-context, api]

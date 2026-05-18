@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UseCase",
+  "type": "object",
+  "required": ["id", "title", "category", "summary", "links", "tags"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"}
+  }
+}

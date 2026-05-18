@@ -1,0 +1,36 @@
+resources:
+  - id: deepseek-api-docs
+    title: DeepSeek API Documentation
+    type: official_docs
+    provider_id: deepseek
+    url: https://api-docs.deepseek.com/
+    language: en
+    verified: true
+    tags: [api, docs, deepseek]
+
+  - id: qwen-docs
+    title: Qwen Documentation
+    type: official_docs
+    provider_id: qwen
+    url: https://qwen.readthedocs.io/
+    language: en
+    verified: true
+    tags: [docs, qwen]
+
+  - id: bigmodel-docs
+    title: BigModel Documentation
+    type: official_docs
+    provider_id: zhipu
+    url: https://docs.bigmodel.cn/
+    language: zh
+    verified: true
+    tags: [api, docs, glm]
+
+  - id: moonshot-platform-docs
+    title: Moonshot Platform Documentation
+    type: official_docs
+    provider_id: moonshot
+    url: https://platform.moonshot.cn/docs
+    language: zh
+    verified: true
+    tags: [api, docs, kimi]

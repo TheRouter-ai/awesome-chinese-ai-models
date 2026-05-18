@@ -1,0 +1,23 @@
+name: Validate data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install pyyaml
+      - name: Validate data
+        run: python3 scripts/validate_data.py
+      - name: Check README generated sections
+        run: python3 scripts/generate_readme.py --check
+      - name: Check git diff cleanliness
+        run: git diff --check
