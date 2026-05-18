@@ -12,6 +12,8 @@ Phase 3 adds source adapters that turn public source signals into normalized mai
 - `static` — emits a source-tracking candidate without network access.
 - `github_org` — reads a GitHub organization via public API and maps updated repositories/releases.
 - `huggingface_org` — reads a Hugging Face organization via public API and maps model cards.
+- `modelscope_org` — maps ModelScope-style model payloads when an API endpoint is configured.
+- `therouter_catalog` — parses TheRouter's public model catalog for supported Chinese model-page discovery.
 - `rss` — parses RSS/Atom feeds into community/media candidates.
 
 ## Output

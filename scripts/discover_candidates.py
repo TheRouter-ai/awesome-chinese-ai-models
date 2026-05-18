@@ -20,8 +20,10 @@ if str(ROOT) not in sys.path:
 from scripts.discovery import (
     discover_from_github_releases,
     discover_from_huggingface_models,
+    discover_from_modelscope_models,
     discover_from_rss,
     discover_from_static_source,
+    discover_from_therouter_catalog,
     fetch_json,
     fetch_text,
     normalize_raw_item,
@@ -89,6 +91,22 @@ def discover_huggingface_org(source: dict, limit: int) -> list[dict]:
     return discover_from_huggingface_models(models[:limit], source)
 
 
+def discover_modelscope_org(source: dict, limit: int) -> list[dict]:
+    api_url = source.get("api_url")
+    if api_url:
+        payload = fetch_json(api_url.format(limit=min(limit, 20)))
+        if isinstance(payload, dict):
+            models = payload.get("Data") or payload.get("data") or payload.get("models") or payload.get("items") or []
+        else:
+            models = payload
+        return discover_from_modelscope_models(models[:limit], source)
+    return []
+
+
+def discover_therouter_catalog(source: dict, limit: int) -> list[dict]:
+    return discover_from_therouter_catalog(fetch_text(source["url"]), source)[:limit]
+
+
 def discover_source(source: dict, fetch: bool, limit: int, include_static: bool = False) -> tuple[list[dict], dict]:
     health = {"source_id": source.get("id"), "ok": True, "error": None, "count": 0}
     try:
@@ -101,6 +119,10 @@ def discover_source(source: dict, fetch: bool, limit: int, include_static: bool 
             items = discover_github_org(source, limit)
         elif adapter == "huggingface_org":
             items = discover_huggingface_org(source, limit)
+        elif adapter == "modelscope_org":
+            items = discover_modelscope_org(source, limit)
+        elif adapter == "therouter_catalog":
+            items = discover_therouter_catalog(source, limit)
         elif adapter == "rss":
             items = discover_from_rss(fetch_text(source["url"]), source)
         else:

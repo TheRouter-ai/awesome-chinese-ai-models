@@ -167,7 +167,8 @@ def select_supported_model_links(
         url = link.get("url")
         if not url or url in seen_urls:
             continue
-        if link.get("provider_id") in providers or link.get("model_id") in model_ids:
+        aliases = set(link.get("provider_aliases") or [])
+        if link.get("provider_id") in providers or aliases.intersection(providers) or link.get("model_id") in model_ids:
             selected.append(link)
             seen_urls.add(url)
     return selected

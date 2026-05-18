@@ -8,8 +8,10 @@ import yaml
 from scripts.discovery import (
     discover_from_github_releases,
     discover_from_huggingface_models,
+    discover_from_modelscope_models,
     discover_from_rss,
     discover_from_static_source,
+    discover_from_therouter_catalog,
     normalize_raw_item,
 )
 from scripts.update_repo import append_news_items, render_newsletter_files, load_therouter_model_links
@@ -70,6 +72,31 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(items[0]["model_id"], "qwen3-embedding")
         self.assertEqual(items[0]["category"], "model_update")
         self.assertEqual(items[0]["source_url"], "https://huggingface.co/Qwen/Qwen3-Embedding")
+
+    def test_discover_from_modelscope_models_maps_flexible_payloads(self):
+        models = [
+            {
+                "modelId": "Qwen3-Embedding",
+                "owner": "qwen",
+                "lastUpdated": "2026-05-18T00:00:00Z",
+                "tags": ["embedding"],
+                "description": "Qwen embedding model.",
+            }
+        ]
+        items = discover_from_modelscope_models(models, source={"id": "modelscope-qwen", "provider_id": "qwen", "source_type": "model_card"})
+        self.assertEqual(items[0]["model_id"], "qwen3-embedding")
+        self.assertEqual(items[0]["source_url"], "https://modelscope.cn/models/qwen/Qwen3-Embedding")
+
+    def test_discover_from_therouter_catalog_extracts_allowlisted_models(self):
+        html = '<a href="/models/qwen--qwen3-235b/">Qwen</a><a href="/models/openai--gpt-5/">GPT</a>'
+        items = discover_from_therouter_catalog(
+            html,
+            source={"id": "therouter", "provider_allowlist": ["qwen"], "source_type": "official_docs"},
+        )
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["provider_id"], "qwen")
+        self.assertEqual(items[0]["model_id"], "qwen3-235b")
+        self.assertEqual(items[0]["category"], "api_update")
 
     def test_discover_from_rss_extracts_items(self):
         xml = """<?xml version='1.0'?><rss><channel><item><title>New GLM update</title><link>https://example.com/glm</link><description>GLM docs update</description><pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate></item></channel></rss>"""

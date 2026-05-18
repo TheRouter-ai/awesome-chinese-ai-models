@@ -102,7 +102,7 @@ sources:
   tags:
   - modelscope
   - model_card
-  adapter: static
+  adapter: modelscope_org
 - id: opencompass
   name: OpenCompass
   source_type: benchmark
@@ -242,3 +242,26 @@ sources:
   - model_card
   - multimodal
   adapter: huggingface_org
+- id: therouter-model-catalog
+  name: TheRouter Model Catalog
+  source_type: official_docs
+  url: https://therouter.ai/models/
+  priority: 90
+  enabled: true
+  provider_id: null
+  tags:
+  - therouter
+  - model_pages
+  - api
+  adapter: therouter_catalog
+  provider_allowlist:
+  - deepseek
+  - qwen
+  - zhipu
+  - moonshot
+  - baidu
+  - tencent
+  - minimax
+  - bytedance
+  - stepfun
+  - alibaba

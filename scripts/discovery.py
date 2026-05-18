@@ -165,6 +165,81 @@ def discover_from_huggingface_models(models: list[dict[str, Any]], source: dict[
     return items
 
 
+def discover_from_modelscope_models(models: list[dict[str, Any]], source: dict[str, Any]) -> list[dict[str, Any]]:
+    """Map ModelScope-style model payloads to normalized candidates.
+
+    ModelScope endpoints have changed over time, so this mapper accepts the common
+    fields seen in public/search payloads and local fixtures rather than binding to
+    one endpoint schema.
+    """
+    items = []
+    for model in models:
+        model_id = model.get("modelId") or model.get("model_id") or model.get("id") or model.get("name")
+        if not model_id:
+            continue
+        owner = model.get("owner") or model.get("namespace") or source.get("provider_id")
+        path = str(model_id).strip("/")
+        if owner and "/" not in path:
+            path = f"{owner}/{path}"
+        url = model.get("url") or model.get("modelUrl") or f"https://modelscope.cn/models/{path}"
+        tags = model.get("tags") or model.get("tasks") or []
+        if isinstance(tags, str):
+            tags = [tags]
+        items.append(
+            normalize_raw_item(
+                {
+                    "id": stable_id(path, model.get("lastUpdated") or model.get("updated_at") or ""),
+                    "title": f"ModelScope model update: {path}",
+                    "summary": (model.get("description") or model.get("summary") or "Model card/update on ModelScope.")[:240],
+                    "source_type": source.get("source_type", "model_card"),
+                    "provider_id": source.get("provider_id"),
+                    "source_url": url,
+                    "published_at": model.get("lastUpdated") or model.get("updated_at") or model.get("gmtModified"),
+                    "model_id": path.split("/", 1)[-1],
+                    "category": "model_update",
+                    "tags": tags,
+                }
+            )
+        )
+    return items
+
+
+def discover_from_therouter_catalog(html_text: str, source: dict[str, Any]) -> list[dict[str, Any]]:
+    """Extract Chinese-model catalog entries from TheRouter's public model page."""
+    provider_allowlist = set(source.get("provider_allowlist") or [])
+    items = []
+    seen: set[str] = set()
+    for href in re.findall(r"href=[\"'](/models/[^\"']+)[\"']", html_text):
+        href = html.unescape(href)
+        slug = href.strip("/").split("/")[-1]
+        if "--" not in slug:
+            continue
+        provider_id, model_id = slug.split("--", 1)
+        if provider_allowlist and provider_id not in provider_allowlist:
+            continue
+        url = "https://therouter.ai" + href
+        if url in seen:
+            continue
+        seen.add(url)
+        items.append(
+            normalize_raw_item(
+                {
+                    "id": stable_id("therouter", provider_id, model_id),
+                    "title": f"TheRouter supported model page: {provider_id}/{model_id}",
+                    "summary": "TheRouter model page with model introduction and OpenAI-compatible access details.",
+                    "source_type": source.get("source_type", "official_docs"),
+                    "provider_id": provider_id,
+                    "model_id": model_id,
+                    "source_url": url,
+                    "published_at": today_iso(),
+                    "category": "api_update",
+                    "tags": ["therouter", "model_page"],
+                }
+            )
+        )
+    return items
+
+
 def discover_from_rss(xml_text: str, source: dict[str, Any]) -> list[dict[str, Any]]:
     root = ElementTree.fromstring(xml_text)
     items = []
