@@ -1,73 +1,282 @@
 model_links:
-  - provider_id: deepseek
-    model_id: deepseek-r1
-    title: DeepSeek R1
-    url: https://therouter.ai/models/deepseek--deepseek-r1/
-  - provider_id: deepseek
-    model_id: deepseek-v3.1
-    title: DeepSeek V3.1
-    url: https://therouter.ai/models/deepseek--deepseek-v3.1
-  - provider_id: deepseek
-    model_id: deepseek-v3.2
-    title: DeepSeek V3.2
-    url: https://therouter.ai/models/deepseek--deepseek-v3.2
-  - provider_id: deepseek
-    model_id: deepseek-v4-flash
-    title: DeepSeek V4 Flash
-    url: https://therouter.ai/models/deepseek--deepseek-v4-flash/
-  - provider_id: deepseek
-    model_id: deepseek-v4-pro
-    title: DeepSeek V4 Pro
-    url: https://therouter.ai/models/deepseek--deepseek-v4-pro/
-  - provider_id: qwen
-    model_id: qwen3-235b
-    title: Qwen3 235B
-    url: https://therouter.ai/models/qwen--qwen3-235b/
-  - provider_id: qwen
-    model_id: qwen3-235b-thinking
-    title: Qwen3 235B Thinking
-    url: https://therouter.ai/models/qwen--qwen3-235b-thinking/
-  - provider_id: qwen
-    model_id: qwen3-32b
-    title: Qwen3 32B
-    url: https://therouter.ai/models/qwen--qwen3-32b/
-  - provider_id: qwen
-    model_id: qwen3-coder-30b
-    title: Qwen3 Coder 30B
-    url: https://therouter.ai/models/qwen--qwen3-coder-30b/
-  - provider_id: qwen
-    model_id: qwen3-coder-480b
-    title: Qwen3 Coder 480B
-    url: https://therouter.ai/models/qwen--qwen3-coder-480b/
-  - provider_id: qwen
-    model_id: qwen3-vl-235b
-    title: Qwen3 VL 235B
-    url: https://therouter.ai/models/qwen--qwen3-vl-235b/
-  - provider_id: qwen
-    model_id: qwen-image-edit
-    title: Qwen Image Edit
-    url: https://therouter.ai/models/qwen--qwen-image-edit/
-  - provider_id: qwen
-    model_id: qwq-32b
-    title: QwQ 32B
-    url: https://therouter.ai/models/qwen--qwq-32b/
-  - provider_id: zhipu
-    model_id: glm-4.7
-    title: GLM 4.7
-    url: https://therouter.ai/models/zhipu--glm-4.7
-  - provider_id: zhipu
-    model_id: glm-5
-    title: GLM 5
-    url: https://therouter.ai/models/zhipu--glm-5/
-  - provider_id: zhipu
-    model_id: glm-5-turbo
-    title: GLM 5 Turbo
-    url: https://therouter.ai/models/zhipu--glm-5-turbo/
-  - provider_id: moonshot
-    model_id: kimi-k2
-    title: Kimi K2
-    url: https://therouter.ai/models/moonshot--kimi-k2/
-  - provider_id: moonshot
-    model_id: kimi-k2-thinking
-    title: Kimi K2 Thinking
-    url: https://therouter.ai/models/moonshot--kimi-k2-thinking/
+- provider_id: zhipu
+  model_id: cogvideox-3
+  title: Cogvideox 3
+  url: https://therouter.ai/models/zhipu--cogvideox-3/
+- provider_id: zhipu
+  model_id: cogvideox-flash
+  title: Cogvideox Flash
+  url: https://therouter.ai/models/zhipu--cogvideox-flash/
+- provider_id: zhipu
+  model_id: cogview-3-flash
+  title: Cogview 3 Flash
+  url: https://therouter.ai/models/zhipu--cogview-3-flash/
+- provider_id: zhipu
+  model_id: cogview-4
+  title: Cogview 4
+  url: https://therouter.ai/models/zhipu--cogview-4/
+- provider_id: alibaba
+  model_id: cosyvoice2-0.5b
+  title: Cosyvoice2 0.5b
+  url: https://therouter.ai/models/alibaba--cosyvoice2-0.5b
+  provider_aliases: &id001
+  - qwen
+- provider_id: deepseek
+  model_id: deepseek-r1
+  title: Deepseek R1
+  url: https://therouter.ai/models/deepseek--deepseek-r1/
+- provider_id: deepseek
+  model_id: deepseek-v3.1
+  title: Deepseek V3.1
+  url: https://therouter.ai/models/deepseek--deepseek-v3.1
+- provider_id: deepseek
+  model_id: deepseek-v3.1-terminus
+  title: Deepseek V3.1 Terminus
+  url: https://therouter.ai/models/deepseek--deepseek-v3.1-terminus
+- provider_id: deepseek
+  model_id: deepseek-v3.2
+  title: Deepseek V3.2
+  url: https://therouter.ai/models/deepseek--deepseek-v3.2
+- provider_id: deepseek
+  model_id: deepseek-v3.2-exp
+  title: Deepseek V3.2 Exp
+  url: https://therouter.ai/models/deepseek--deepseek-v3.2-exp
+- provider_id: deepseek
+  model_id: deepseek-v4-flash
+  title: Deepseek V4 Flash
+  url: https://therouter.ai/models/deepseek--deepseek-v4-flash/
+- provider_id: deepseek
+  model_id: deepseek-v4-pro
+  title: Deepseek V4 Pro
+  url: https://therouter.ai/models/deepseek--deepseek-v4-pro/
+- provider_id: zhipu
+  model_id: embedding-2
+  title: Embedding 2
+  url: https://therouter.ai/models/zhipu--embedding-2/
+- provider_id: zhipu
+  model_id: embedding-3
+  title: Embedding 3
+  url: https://therouter.ai/models/zhipu--embedding-3/
+- provider_id: baidu
+  model_id: ernie-4.5
+  title: Ernie 4.5
+  url: https://therouter.ai/models/baidu--ernie-4.5
+- provider_id: zhipu
+  model_id: glm-4.1v-thinking-flash
+  title: GLM 4.1v Thinking Flash
+  url: https://therouter.ai/models/zhipu--glm-4.1v-thinking-flash
+- provider_id: zhipu
+  model_id: glm-4.1v-thinking-flashx
+  title: GLM 4.1v Thinking Flashx
+  url: https://therouter.ai/models/zhipu--glm-4.1v-thinking-flashx
+- provider_id: zhipu
+  model_id: glm-4.5-air
+  title: GLM 4.5 Air
+  url: https://therouter.ai/models/zhipu--glm-4.5-air
+- provider_id: zhipu
+  model_id: glm-4.5v
+  title: GLM 4.5v
+  url: https://therouter.ai/models/zhipu--glm-4.5v
+- provider_id: zhipu
+  model_id: glm-4.6
+  title: GLM 4.6
+  url: https://therouter.ai/models/zhipu--glm-4.6
+- provider_id: zhipu
+  model_id: glm-4.6v
+  title: GLM 4.6v
+  url: https://therouter.ai/models/zhipu--glm-4.6v
+- provider_id: zhipu
+  model_id: glm-4.6v-flash
+  title: GLM 4.6v Flash
+  url: https://therouter.ai/models/zhipu--glm-4.6v-flash
+- provider_id: zhipu
+  model_id: glm-4.6v-flashx
+  title: GLM 4.6v Flashx
+  url: https://therouter.ai/models/zhipu--glm-4.6v-flashx
+- provider_id: zhipu
+  model_id: glm-4.7
+  title: GLM 4.7
+  url: https://therouter.ai/models/zhipu--glm-4.7
+- provider_id: zhipu
+  model_id: glm-4.7-flash
+  title: GLM 4.7 Flash
+  url: https://therouter.ai/models/zhipu--glm-4.7-flash
+- provider_id: zhipu
+  model_id: glm-4.7-flashx
+  title: GLM 4.7 Flashx
+  url: https://therouter.ai/models/zhipu--glm-4.7-flashx
+- provider_id: zhipu
+  model_id: glm-5
+  title: GLM 5
+  url: https://therouter.ai/models/zhipu--glm-5/
+- provider_id: zhipu
+  model_id: glm-5-turbo
+  title: GLM 5 Turbo
+  url: https://therouter.ai/models/zhipu--glm-5-turbo/
+- provider_id: zhipu
+  model_id: glm-5.1
+  title: GLM 5.1
+  url: https://therouter.ai/models/zhipu--glm-5.1
+- provider_id: zhipu
+  model_id: glm-5v-turbo
+  title: GLM 5v Turbo
+  url: https://therouter.ai/models/zhipu--glm-5v-turbo/
+- provider_id: zhipu
+  model_id: glm-image
+  title: GLM Image
+  url: https://therouter.ai/models/zhipu--glm-image/
+- provider_id: zhipu
+  model_id: glm-ocr
+  title: GLM OCR
+  url: https://therouter.ai/models/zhipu--glm-ocr/
+- provider_id: tencent
+  model_id: hunyuan-a13b
+  title: Hunyuan A13b
+  url: https://therouter.ai/models/tencent--hunyuan-a13b/
+  provider_aliases:
+  - tencent-hunyuan
+- provider_id: moonshot
+  model_id: kimi-k2
+  title: Kimi K2
+  url: https://therouter.ai/models/moonshot--kimi-k2/
+- provider_id: moonshot
+  model_id: kimi-k2-thinking
+  title: Kimi K2 Thinking
+  url: https://therouter.ai/models/moonshot--kimi-k2-thinking/
+- provider_id: moonshot
+  model_id: kimi-k2.5
+  title: Kimi K2.5
+  url: https://therouter.ai/models/moonshot--kimi-k2.5
+- provider_id: moonshot
+  model_id: kimi-k2.6
+  title: Kimi K2.6
+  url: https://therouter.ai/models/moonshot--kimi-k2.6
+- provider_id: minimax
+  model_id: m2
+  title: M2
+  url: https://therouter.ai/models/minimax--m2/
+- provider_id: minimax
+  model_id: m2.1
+  title: M2.1
+  url: https://therouter.ai/models/minimax--m2.1
+- provider_id: minimax
+  model_id: m2.1-highspeed
+  title: M2.1 Highspeed
+  url: https://therouter.ai/models/minimax--m2.1-highspeed
+- provider_id: minimax
+  model_id: m2.5
+  title: M2.5
+  url: https://therouter.ai/models/minimax--m2.5
+- provider_id: minimax
+  model_id: m2.5-highspeed
+  title: M2.5 Highspeed
+  url: https://therouter.ai/models/minimax--m2.5-highspeed
+- provider_id: minimax
+  model_id: m2.7
+  title: M2.7
+  url: https://therouter.ai/models/minimax--m2.7
+- provider_id: minimax
+  model_id: m2.7-highspeed
+  title: M2.7 Highspeed
+  url: https://therouter.ai/models/minimax--m2.7-highspeed
+- provider_id: qwen
+  model_id: qwen-image-edit
+  title: Qwen Image Edit
+  url: https://therouter.ai/models/qwen--qwen-image-edit/
+- provider_id: qwen
+  model_id: qwen3-14b
+  title: Qwen3 14b
+  url: https://therouter.ai/models/qwen--qwen3-14b/
+- provider_id: qwen
+  model_id: qwen3-235b
+  title: Qwen3 235b
+  url: https://therouter.ai/models/qwen--qwen3-235b/
+- provider_id: qwen
+  model_id: qwen3-235b-thinking
+  title: Qwen3 235b Thinking
+  url: https://therouter.ai/models/qwen--qwen3-235b-thinking/
+- provider_id: qwen
+  model_id: qwen3-30b
+  title: Qwen3 30b
+  url: https://therouter.ai/models/qwen--qwen3-30b/
+- provider_id: qwen
+  model_id: qwen3-30b-thinking
+  title: Qwen3 30b Thinking
+  url: https://therouter.ai/models/qwen--qwen3-30b-thinking/
+- provider_id: qwen
+  model_id: qwen3-32b
+  title: Qwen3 32b
+  url: https://therouter.ai/models/qwen--qwen3-32b/
+- provider_id: qwen
+  model_id: qwen3-8b
+  title: Qwen3 8b
+  url: https://therouter.ai/models/qwen--qwen3-8b/
+- provider_id: qwen
+  model_id: qwen3-coder-30b
+  title: Qwen3 Coder 30b
+  url: https://therouter.ai/models/qwen--qwen3-coder-30b/
+- provider_id: qwen
+  model_id: qwen3-coder-480b
+  title: Qwen3 Coder 480b
+  url: https://therouter.ai/models/qwen--qwen3-coder-480b/
+- provider_id: qwen
+  model_id: qwen3-next-80b
+  title: Qwen3 Next 80b
+  url: https://therouter.ai/models/qwen--qwen3-next-80b/
+- provider_id: qwen
+  model_id: qwen3-vl-235b
+  title: Qwen3 VL 235b
+  url: https://therouter.ai/models/qwen--qwen3-vl-235b/
+- provider_id: qwen
+  model_id: qwen3-vl-32b
+  title: Qwen3 VL 32b
+  url: https://therouter.ai/models/qwen--qwen3-vl-32b/
+- provider_id: qwen
+  model_id: qwen3-vl-8b
+  title: Qwen3 VL 8b
+  url: https://therouter.ai/models/qwen--qwen3-vl-8b/
+- provider_id: qwen
+  model_id: qwen3.6-35b-a3b
+  title: Qwen3.6 35b A3b
+  url: https://therouter.ai/models/qwen--qwen3.6-35b-a3b
+- provider_id: qwen
+  model_id: qwq-32b
+  title: QWQ 32b
+  url: https://therouter.ai/models/qwen--qwq-32b/
+- provider_id: bytedance
+  model_id: seed-oss-36b
+  title: Seed OSS 36b
+  url: https://therouter.ai/models/bytedance--seed-oss-36b/
+- provider_id: alibaba
+  model_id: sensevoice-small
+  title: Sensevoice Small
+  url: https://therouter.ai/models/alibaba--sensevoice-small/
+  provider_aliases: *id001
+- provider_id: stepfun
+  model_id: step-3.5-flash
+  title: Step 3.5 Flash
+  url: https://therouter.ai/models/stepfun--step-3.5-flash
+- provider_id: zhipu
+  model_id: vidu2-image
+  title: Vidu2 Image
+  url: https://therouter.ai/models/zhipu--vidu2-image/
+- provider_id: zhipu
+  model_id: vidu2-reference
+  title: Vidu2 Reference
+  url: https://therouter.ai/models/zhipu--vidu2-reference/
+- provider_id: zhipu
+  model_id: vidu2-start-end
+  title: Vidu2 Start End
+  url: https://therouter.ai/models/zhipu--vidu2-start-end/
+- provider_id: zhipu
+  model_id: viduq1-image
+  title: Viduq1 Image
+  url: https://therouter.ai/models/zhipu--viduq1-image/
+- provider_id: zhipu
+  model_id: viduq1-start-end
+  title: Viduq1 Start End
+  url: https://therouter.ai/models/zhipu--viduq1-start-end/
+- provider_id: zhipu
+  model_id: viduq1-text
+  title: Viduq1 Text
+  url: https://therouter.ai/models/zhipu--viduq1-text/
