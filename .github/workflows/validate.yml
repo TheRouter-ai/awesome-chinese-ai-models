@@ -20,7 +20,7 @@ jobs:
       - name: Validate source catalog
         run: python3 -c "from scripts.maintainer import load_source_catalog; print(len(load_source_catalog('agent/source-catalog.yaml')))"
       - name: Run maintainer unit tests
-        run: python3 -m unittest tests/test_maintainer.py
+        run: python3 -m unittest discover tests
       - name: Check README generated sections
         run: python3 scripts/generate_readme.py --check
       - name: Check git diff cleanliness

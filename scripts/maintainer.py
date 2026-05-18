@@ -103,8 +103,10 @@ def dedupe_candidates(
     seen_entities: set[str] | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Dedupe candidates, preferring higher-priority primary sources."""
-    seen_urls = seen_urls or set()
-    seen_entities = seen_entities or set()
+    initial_seen_urls = set(seen_urls or set())
+    initial_seen_entities = set(seen_entities or set())
+    seen_urls = set(initial_seen_urls)
+    seen_entities = set(initial_seen_entities)
     duplicates: list[dict[str, Any]] = []
     accepted_by_entity: dict[str, dict[str, Any]] = {}
     accepted_without_entity: list[dict[str, Any]] = []
@@ -116,11 +118,11 @@ def dedupe_candidates(
         entity = candidate.get("entity_key")
 
         if url in seen_urls:
-            candidate["duplicate_reason"] = "seen_url"
+            candidate["duplicate_reason"] = "seen_url" if url in initial_seen_urls else "duplicate_url_same_batch"
             duplicates.append(candidate)
             continue
         if entity and entity in seen_entities:
-            candidate["duplicate_reason"] = "seen_entity"
+            candidate["duplicate_reason"] = "seen_entity" if entity in initial_seen_entities else "duplicate_entity_same_batch"
             duplicates.append(candidate)
             continue
 
@@ -128,16 +130,19 @@ def dedupe_candidates(
             current = accepted_by_entity.get(entity)
             if current is None:
                 accepted_by_entity[entity] = candidate
+                seen_urls.add(url)
                 continue
             if source_rank(candidate.get("source_type")) > source_rank(current.get("source_type")):
                 current["duplicate_reason"] = "lower_priority_same_entity"
                 duplicates.append(current)
                 accepted_by_entity[entity] = candidate
+                seen_urls.add(url)
             else:
                 candidate["duplicate_reason"] = "lower_priority_same_entity"
                 duplicates.append(candidate)
         else:
             accepted_without_entity.append(candidate)
+            seen_urls.add(url)
 
     accepted = list(accepted_by_entity.values()) + accepted_without_entity
     accepted.sort(key=lambda item: (-source_rank(item.get("source_type")), item.get("id", "")))
