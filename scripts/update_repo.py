@@ -67,9 +67,18 @@ def append_news_items(root: str | Path, candidates: list[dict[str, Any]]) -> int
     return len(new_items)
 
 
+def load_therouter_model_links(root: str | Path) -> list[dict[str, Any]]:
+    path = Path(root) / "data" / "therouter_model_links.yaml"
+    if not path.exists():
+        return []
+    doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    links = doc.get("model_links") or []
+    return [link for link in links if link.get("title") and link.get("url")]
+
+
 def render_newsletter_files(root: str | Path, date: str, candidates: list[dict[str, Any]]) -> Path:
     root = Path(root)
-    digest = render_daily_digest(date, candidates)
+    digest = render_daily_digest(date, candidates, load_therouter_model_links(root))
     year, month, _day = date.split("-", 2)
     daily_path = root / "newsletters" / year / month / f"{date}.md"
     latest_path = root / "newsletters" / "latest.md"

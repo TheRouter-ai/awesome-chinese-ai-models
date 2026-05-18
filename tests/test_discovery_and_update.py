@@ -12,7 +12,7 @@ from scripts.discovery import (
     discover_from_static_source,
     normalize_raw_item,
 )
-from scripts.update_repo import append_news_items, render_newsletter_files
+from scripts.update_repo import append_news_items, render_newsletter_files, load_therouter_model_links
 from scripts.run_daily_update import filter_fresh_candidates
 
 
@@ -109,11 +109,30 @@ class UpdateRepoTests(unittest.TestCase):
     def test_render_newsletter_files_writes_latest_and_daily(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
+            data = root / "data"
+            data.mkdir()
+            (data / "therouter_model_links.yaml").write_text(
+                "model_links:\n"
+                "  - provider_id: qwen\n"
+                "    model_id: qwen3-235b\n"
+                "    title: Qwen3 235B\n"
+                "    url: https://therouter.ai/models/qwen--qwen3-235b/\n"
+                "  - provider_id: deepseek\n"
+                "    model_id: deepseek-r1\n"
+                "    title: DeepSeek R1\n"
+                "    url: https://therouter.ai/models/deepseek--deepseek-r1/\n",
+                encoding="utf-8",
+            )
             items = [{"title": "New", "summary": "Summary", "category": "model_update", "canonical_url": "https://example.com/new", "provider_id": "qwen", "score": 80}]
             daily = render_newsletter_files(root, "2026-05-18", items)
+            digest = daily.read_text(encoding="utf-8")
             self.assertTrue(daily.exists())
             self.assertTrue((root / "newsletters" / "latest.md").exists())
-            self.assertIn("Accepted updates: 1", daily.read_text(encoding="utf-8"))
+            self.assertIn("Accepted updates: 1", digest)
+            self.assertIn("## TheRouter model pages", digest)
+            self.assertIn("https://therouter.ai/models/qwen--qwen3-235b/", digest)
+            self.assertNotIn("https://therouter.ai/models/deepseek--deepseek-r1/", digest)
+            self.assertEqual(len(load_therouter_model_links(root)), 2)
 
     def test_filter_fresh_candidates_drops_stale_items(self):
         items = [
