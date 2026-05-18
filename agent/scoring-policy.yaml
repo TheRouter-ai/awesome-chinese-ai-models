@@ -1,0 +1,29 @@
+thresholds:
+  stable_entry: 65
+  update_existing: 55
+  daily_digest: 45
+  reject_below: 45
+
+source_priority:
+  official_release: 100
+  official_docs: 95
+  model_card: 95
+  github_release: 95
+  paper: 85
+  benchmark: 80
+  credible_media: 65
+  community: 45
+
+hard_blocks:
+  - spam
+  - rumor_only
+  - not_chinese_ai_related
+  - unreachable_primary_url
+
+risk_penalties:
+  hype: -5
+  unclear_license: -3
+  unstable_link: -5
+  duplicate: -10
+  rumor_only: -20
+  spam: -20
