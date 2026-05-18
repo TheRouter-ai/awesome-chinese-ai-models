@@ -1,0 +1,20 @@
+agent:
+  id: awesome-chinese-ai-models-maintainer
+  description: Daily maintainer for Awesome Chinese AI Models.
+  repo: TheRouter-ai/awesome-chinese-ai-models
+  daily_target: 10
+  max_entries_per_pr: 20
+  branch_prefix: bot/awesome-update
+  output_policy:
+    default: pull_request
+    direct_push_main: false
+    auto_merge: false
+  generated_files:
+    - README.md
+    - newsletters/latest.md
+  canonical_data_files:
+    - data/models.yaml
+    - data/providers.yaml
+    - data/news.yaml
+    - data/resources.yaml
+    - data/capabilities.yaml

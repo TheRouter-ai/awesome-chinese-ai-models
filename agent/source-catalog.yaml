@@ -1,0 +1,117 @@
+sources:
+  - id: qwen-official
+    name: Qwen Official
+    source_type: official_release
+    url: https://qwenlm.github.io/
+    priority: 100
+    enabled: true
+    provider_id: qwen
+    tags: [official, model_release, open_weights, docs]
+
+  - id: qwen-github
+    name: QwenLM GitHub
+    source_type: github_release
+    url: https://github.com/QwenLM
+    priority: 95
+    enabled: true
+    provider_id: qwen
+    tags: [github, open_source]
+
+  - id: qwen-huggingface
+    name: Qwen Hugging Face
+    source_type: model_card
+    url: https://huggingface.co/Qwen
+    priority: 95
+    enabled: true
+    provider_id: qwen
+    tags: [model_card, open_weights]
+
+  - id: deepseek-official
+    name: DeepSeek Official
+    source_type: official_release
+    url: https://www.deepseek.com/
+    priority: 100
+    enabled: true
+    provider_id: deepseek
+    tags: [official, model_release, api]
+
+  - id: deepseek-github
+    name: DeepSeek GitHub
+    source_type: github_release
+    url: https://github.com/deepseek-ai
+    priority: 95
+    enabled: true
+    provider_id: deepseek
+    tags: [github, open_source]
+
+  - id: deepseek-huggingface
+    name: DeepSeek Hugging Face
+    source_type: model_card
+    url: https://huggingface.co/deepseek-ai
+    priority: 95
+    enabled: true
+    provider_id: deepseek
+    tags: [model_card, open_weights]
+
+  - id: zhipu-docs
+    name: BigModel Docs
+    source_type: official_docs
+    url: https://docs.bigmodel.cn/
+    priority: 95
+    enabled: true
+    provider_id: zhipu
+    tags: [official, docs, api]
+
+  - id: moonshot-docs
+    name: Moonshot Platform Docs
+    source_type: official_docs
+    url: https://platform.moonshot.cn/docs
+    priority: 95
+    enabled: true
+    provider_id: moonshot
+    tags: [official, docs, api]
+
+  - id: modelscope-qwen
+    name: ModelScope Qwen
+    source_type: model_card
+    url: https://modelscope.cn/organization/qwen
+    priority: 90
+    enabled: true
+    provider_id: qwen
+    tags: [modelscope, model_card]
+
+  - id: opencompass
+    name: OpenCompass
+    source_type: benchmark
+    url: https://opencompass.org.cn/
+    priority: 80
+    enabled: true
+    provider_id: null
+    tags: [benchmark, chinese_eval]
+
+  - id: superclue
+    name: SuperCLUE
+    source_type: benchmark
+    url: https://www.superclueai.com/
+    priority: 75
+    enabled: true
+    provider_id: null
+    tags: [benchmark, chinese_eval]
+
+  - id: jiqizhixin
+    name: 机器之心
+    source_type: credible_media
+    url: https://www.jiqizhixin.com/
+    priority: 65
+    enabled: true
+    provider_id: null
+    tags: [media, discovery]
+
+  - id: qbitai
+    name: 量子位
+    source_type: credible_media
+    url: https://www.qbitai.com/
+    priority: 65
+    enabled: true
+    provider_id: null
+    tags: [media, discovery]
