@@ -18,7 +18,7 @@ The command writes:
 
 - `data/news.yaml`
 - `newsletters/YYYY/MM/YYYY-MM-DD.md`
-- `newsletters/latest.md`
+- `newsletters/latest.md`, including a final TheRouter model-pages section for supported providers/models in that digest
 - README generated sections
 - ignored run artifacts under `runs/` unless `--run-dir` is outside the repo
 
@@ -34,7 +34,7 @@ It:
 4. checks whitespace
 5. opens a PR with label `daily-update`
 
-Default scheduled runs fetch public sources and fail before PR creation if enabled sources error or fewer than 10 accepted candidates are found. Manual dispatch can pass `fetch=false` for no-network validation, but that mode should not be used as a real daily update.
+Default scheduled runs fetch public sources and create a daily PR with whatever accepted updates are available. The pipeline still reports whether the 10+ target was met, but falling below 10 does not fail the run because the repo should update every day. Manual dispatch can pass `fetch=false` for no-network validation.
 
 ## Merge policy
 
