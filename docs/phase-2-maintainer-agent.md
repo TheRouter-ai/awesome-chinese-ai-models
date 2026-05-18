@@ -30,7 +30,7 @@ Run:
 python3 scripts/run_maintainer.py --date 2026-05-18 --candidates path/to/candidates.jsonl --out-dir runs/2026-05-18/manual
 ```
 
-`runs/` is gitignored. Future cron/agent runs should keep raw/private state outside the repo or under ignored paths.
+`runs/` is gitignored. Future cron/agent runs should keep raw/private state outside the repo or under ignored paths. Static source-tracking candidates are only for smoke tests and should not be treated as real daily news.
 
 ## Next phase
 

@@ -55,6 +55,16 @@ class MaintainerTests(unittest.TestCase):
         self.assertEqual(duplicates[0]["id"], "media-1")
         self.assertEqual(duplicates[0]["duplicate_reason"], "lower_priority_same_entity")
 
+    def test_dedupe_candidates_blocks_same_url_within_batch(self):
+        candidates = [
+            {"id": "one", "title": "One", "canonical_url": "https://example.com/same", "source_type": "official_release"},
+            {"id": "two", "title": "Two", "canonical_url": "https://example.com/same", "source_type": "official_release"},
+        ]
+        accepted, duplicates = dedupe_candidates(candidates, seen_urls=set(), seen_entities=set())
+        self.assertEqual([item["id"] for item in accepted], ["one"])
+        self.assertEqual([item["id"] for item in duplicates], ["two"])
+        self.assertEqual(duplicates[0]["duplicate_reason"], "duplicate_url_same_batch")
+
     def test_render_daily_digest_writes_ten_plus_updates_with_sources(self):
         candidates = []
         for idx in range(12):
