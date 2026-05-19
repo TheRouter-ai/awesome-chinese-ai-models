@@ -19,16 +19,16 @@ A curated, machine-readable index of Chinese AI models, capabilities, official r
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-05-19 `open_source` [GitHub repository update: OpenBMB/Omni-DuplexEval](https://github.com/OpenBMB/Omni-DuplexEval) — Repository tracked from an official GitHub organization.
 - 2026-05-18 `api_update` [TheRouter supported model page: zhipu/cogvideox-3](https://therouter.ai/models/zhipu--cogvideox-3) — TheRouter model page with model introduction and OpenAI-compatible access details.
 - 2026-05-18 `api_update` [TheRouter supported model page: alibaba/cosyvoice2-0.5b](https://therouter.ai/models/alibaba--cosyvoice2-0.5b) — TheRouter model page with model introduction and OpenAI-compatible access details.
 - 2026-05-18 `api_update` [TheRouter supported model page: zhipu/cogvideox-flash](https://therouter.ai/models/zhipu--cogvideox-flash) — TheRouter model page with model introduction and OpenAI-compatible access details.
 - 2026-05-18 `api_update` [TheRouter supported model page: zhipu/cogview-4](https://therouter.ai/models/zhipu--cogview-4) — TheRouter model page with model introduction and OpenAI-compatible access details.
 - 2026-05-18 `api_update` [TheRouter supported model page: zhipu/cogview-3-flash](https://therouter.ai/models/zhipu--cogview-3-flash) — TheRouter model page with model introduction and OpenAI-compatible access details.
 - 2026-05-18 `open_source` [QwenLM/qwen-code release Release v0.15.11-nightly.20260518.f44ed0941](https://github.com/QwenLM/qwen-code/releases/tag/v0.15.11-nightly.20260518.f44ed0941) — ## What's Changed * feat(cli): wrap markdown links in OSC 8 so wrapped URLs stay clickable by @BZ-D in https://github.com/QwenLM/qwen-code/pull/4037 * fix(core): normalize cumulative OpenAI stream deltas to suffixes by @chiga0 in https://gi
+- 2026-05-18 `model_update` [Hugging Face model update: openbmb/MiniCPM-V-4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6) — Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_6, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight
 - 2026-05-18 `model_update` [Hugging Face model update: openbmb/BitCPM4-CANN-8B-unquantized](https://huggingface.co/openbmb/BitCPM4-CANN-8B-unquantized) — Model card/update on Hugging Face. Tags: transformers, pytorch, minicpm, text-generation, conversational, custom_code, zh, en
 - 2026-05-18 `model_update` [Hugging Face model update: openbmb/BitCPM4-CANN-3B-unquantized](https://huggingface.co/openbmb/BitCPM4-CANN-3B-unquantized) — Model card/update on Hugging Face. Tags: transformers, pytorch, llama, text-generation, conversational, custom_code, zh, en
-- 2026-05-18 `model_update` [Hugging Face model update: openbmb/BitCPM4-CANN-3B](https://huggingface.co/openbmb/BitCPM4-CANN-3B) — Model card/update on Hugging Face. Tags: transformers, pytorch, llama, text-generation, conversational, zh, en, license:apache-2.0
-- 2026-05-18 `model_update` [Hugging Face model update: openbmb/BitCPM4-CANN-1B-unquantized](https://huggingface.co/openbmb/BitCPM4-CANN-1B-unquantized) — Model card/update on Hugging Face. Tags: transformers, pytorch, llama, text-generation, conversational, custom_code, zh, en
 <!-- AUTO-GENERATED:END latest-news -->
 
 ## Featured Models
