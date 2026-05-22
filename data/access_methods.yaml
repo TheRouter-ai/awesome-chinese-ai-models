@@ -1,0 +1,26 @@
+# How developers can access Chinese AI models. Neutral, source-driven.
+# This section must stay vendor-neutral: it lists official APIs, aggregators,
+# and self-hosting side by side. Editorial data maintained by the acam-curator agent.
+access_methods:
+  - id: official-api
+    name: Official API
+    summary: Call the provider's own API directly.
+    best_for: Production workloads that need first-party SLAs, billing, and the newest model versions.
+    notes: Each provider has its own endpoint, pricing, and regional availability. Most expose an OpenAI-compatible mode.
+  - id: therouter
+    name: TheRouter
+    summary: An OpenAI-compatible routing gateway with fallback and cost controls.
+    best_for: Teams that want one endpoint across multiple Chinese and global models, with routing and accounting.
+    url: https://therouter.ai/
+    notes: Maintained by TheRouter.ai, the maintainer of this repository. Listed as one option among several.
+  - id: openrouter
+    name: OpenRouter
+    summary: A third-party aggregator that exposes many models behind one API.
+    best_for: Quick experimentation across providers without separate accounts.
+    url: https://openrouter.ai/
+    notes: Independent third party. Coverage and pricing of Chinese models varies.
+  - id: self-host
+    name: Self-host
+    summary: Run open-weight models on your own infrastructure.
+    best_for: Data residency requirements, offline use, and full control over inference.
+    notes: Only available for models that release open weights. Inference stacks include vLLM, SGLang, and llama.cpp.

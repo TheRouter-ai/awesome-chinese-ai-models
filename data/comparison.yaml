@@ -1,0 +1,68 @@
+# Model comparison matrix for the README comparison table.
+# Editorial data maintained by the acam-curator agent. Keep factual and neutral.
+# Verify context windows and capabilities with the official provider before relying on them.
+comparison:
+  - provider_id: deepseek
+    name: DeepSeek
+    best_for: Low-cost coding and reasoning
+    context: 128K
+    vision: false
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: qwen
+    name: Qwen
+    best_for: Multilingual and open-weight deployment
+    context: 256K
+    vision: true
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: zhipu
+    name: GLM
+    best_for: Chinese reasoning and agent workflows
+    context: 128K
+    vision: true
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: moonshot
+    name: Kimi
+    best_for: Long-context document workloads
+    context: 256K
+    vision: false
+    reasoning: true
+    api: true
+    open_source: false
+  - provider_id: minimax
+    name: MiniMax
+    best_for: Long-context, audio, and video generation
+    context: 1M
+    vision: true
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: baidu-ernie
+    name: ERNIE
+    best_for: Enterprise deployment on Baidu Cloud
+    context: 128K
+    vision: true
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: tencent-hunyuan
+    name: Hunyuan
+    best_for: Multimodal generation including 3D
+    context: 256K
+    vision: true
+    reasoning: true
+    api: true
+    open_source: true
+  - provider_id: bytedance-doubao
+    name: Doubao
+    best_for: Multimodal agents on Volcengine Ark
+    context: 256K
+    vision: true
+    reasoning: true
+    api: true
+    open_source: false

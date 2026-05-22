@@ -1,0 +1,41 @@
+# Frequently asked questions for developers approaching Chinese AI models.
+# Editorial data maintained by the acam-curator agent. Keep answers factual,
+# neutral, and useful for an international developer audience.
+faq:
+  - id: what-are-chinese-ai-models
+    question: What are Chinese AI models?
+    answer: >-
+      AI models developed by organizations based in China, such as DeepSeek,
+      Qwen (Alibaba), GLM (Zhipu AI), Kimi (Moonshot AI), MiniMax, ERNIE
+      (Baidu), and Hunyuan (Tencent). Many are released with open weights and
+      expose OpenAI-compatible APIs.
+  - id: which-model-for-coding
+    question: Which Chinese AI model is best for coding?
+    answer: >-
+      DeepSeek and Qwen are commonly used for coding workloads, often as a
+      lower-cost alternative to closed models. Compare them on a coding
+      benchmark and on your own tasks before committing.
+  - id: are-they-open-source
+    question: Are Chinese AI models open source?
+    answer: >-
+      Many are open-weight: DeepSeek, Qwen, GLM, and MiniMax publish weights on
+      Hugging Face and ModelScope. Some, such as Kimi and Doubao, are
+      API-only. Check the license of each specific model before deployment.
+  - id: how-to-access-outside-china
+    question: How can I access Chinese AI models from outside China?
+    answer: >-
+      Three common paths: call the provider's official API, use an
+      OpenAI-compatible aggregator such as TheRouter or OpenRouter, or
+      self-host open-weight models. See the "How to Access" section.
+  - id: openai-compatible
+    question: Are Chinese AI models OpenAI-compatible?
+    answer: >-
+      Most major providers expose an OpenAI-compatible API mode, so existing
+      OpenAI SDK code usually works with a changed base URL and API key.
+      Confirm supported parameters in each provider's documentation.
+  - id: cheaper-than-gpt
+    question: Are Chinese AI models cheaper than GPT or Claude?
+    answer: >-
+      Several Chinese models are priced below comparable closed models, which
+      is why developers evaluate them as cost-efficient alternatives. Pricing
+      changes frequently — verify current rates on the provider's pricing page.

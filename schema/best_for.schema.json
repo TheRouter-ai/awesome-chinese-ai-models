@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BestFor",
+  "type": "object",
+  "required": ["provider_id", "name", "use_cases"],
+  "properties": {
+    "provider_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "use_cases": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+  }
+}
