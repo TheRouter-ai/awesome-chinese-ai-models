@@ -84,15 +84,120 @@ def render_providers(providers):
     return "\n".join(lines)
 
 
+def _flag(value) -> str:
+    return "✅" if value else "—"
+
+
+def render_comparison(rows):
+    if not rows:
+        return "No comparison data yet."
+    lines = [
+        "| Model | Best For | Context | Vision | Reasoning | API | Open Weights |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ]
+    for row in rows:
+        lines.append(
+            f"| {row.get('name', '')} | {row.get('best_for', '')} | {row.get('context', '')} "
+            f"| {_flag(row.get('vision'))} | {_flag(row.get('reasoning'))} "
+            f"| {_flag(row.get('api'))} | {_flag(row.get('open_source'))} |"
+        )
+    return "\n".join(lines)
+
+
+def render_access_methods(methods):
+    if not methods:
+        return "No access methods documented yet."
+    lines = []
+    for m in methods:
+        name = m.get("name", m.get("id", ""))
+        url = m.get("url")
+        heading = f"**[{name}]({url})**" if url else f"**{name}**"
+        lines.append(f"- {heading} — {m.get('summary', '')}")
+        if m.get("best_for"):
+            lines.append(f"  - Best for: {m['best_for']}")
+        if m.get("notes"):
+            lines.append(f"  - {m['notes']}")
+    return "\n".join(lines)
+
+
+def render_availability(availability):
+    regions = availability.get("regions", [])
+    rows = availability.get("providers", [])
+    if not rows:
+        return "No availability data yet."
+    headers = ["Provider"] + [r.get("label", r.get("id", "")) for r in regions] + ["Crypto Payment"]
+    lines = ["| " + " | ".join(headers) + " |", "| " + " | ".join(["---"] * len(headers)) + " |"]
+    symbol = {"yes": "✅", "no": "—", "partial": "◐", "unknown": "?"}
+    for row in rows:
+        cells = [row.get("name", row.get("provider_id", ""))]
+        for region in regions:
+            cells.append(symbol.get(str(row.get(region.get("id"), "unknown")), "?"))
+        cells.append(_flag(row.get("crypto_payment")))
+        lines.append("| " + " | ".join(cells) + " |")
+    lines.append("")
+    lines.append("Legend: ✅ available · ◐ partial · — not available · ? unverified.")
+    lines.append("Availability changes often. Always verify with the provider.")
+    return "\n".join(lines)
+
+
+def render_best_for(rows):
+    if not rows:
+        return "No best-for mapping yet."
+    lines = []
+    for row in rows:
+        lines.append(f"- **{row.get('name', row.get('provider_id', ''))}**")
+        for case in row.get("use_cases", []):
+            lines.append(f"  - {case}")
+    return "\n".join(lines)
+
+
+def render_benchmarks(benchmarks):
+    if not benchmarks:
+        return "No benchmark sources yet."
+    lines = []
+    for bm in benchmarks:
+        name = bm.get("name", bm.get("id", ""))
+        url = bm.get("url", "")
+        link = f"[{name}]({url})" if url else name
+        lines.append(f"- {link} — {bm.get('coverage', '')}")
+        if bm.get("note"):
+            lines.append(f"  - {bm['note']}")
+    return "\n".join(lines)
+
+
+def render_faq(faq):
+    if not faq:
+        return "No FAQ entries yet."
+    lines = []
+    for entry in faq:
+        lines.append(f"### {entry.get('question', '')}")
+        lines.append("")
+        lines.append(" ".join((entry.get("answer", "") or "").split()))
+        lines.append("")
+    return "\n".join(lines).rstrip()
+
+
 def generate() -> str:
     text = README.read_text(encoding="utf-8")
     providers = load_yaml("data/providers.yaml").get("providers", [])
     models = load_yaml("data/models.yaml").get("models", [])
     news = load_yaml("data/news.yaml").get("news", [])
+    comparison = load_yaml("data/comparison.yaml").get("comparison", [])
+    access_methods = load_yaml("data/access_methods.yaml").get("access_methods", [])
+    availability = load_yaml("data/availability.yaml").get("availability", {})
+    best_for = load_yaml("data/best_for.yaml").get("best_for", [])
+    benchmarks = load_yaml("data/benchmarks.yaml").get("benchmarks", [])
+    faq = load_yaml("data/faq.yaml").get("faq", [])
     providers_by_id = {p.get("id"): p for p in providers}
+    text = replace_block(text, "comparison-table", render_comparison(comparison))
+    text = replace_block(text, "how-to-access", render_access_methods(access_methods))
+    text = replace_block(text, "best-for", render_best_for(best_for))
+    text = replace_block(text, "global-availability", render_availability(availability))
+    text = replace_block(text, "benchmarks", render_benchmarks(benchmarks))
     text = replace_block(text, "latest-news", render_latest_news(news))
     text = replace_block(text, "featured-models", render_models(models, providers_by_id))
     text = replace_block(text, "providers", render_providers(providers))
+    text = replace_block(text, "faq", render_faq(faq))
     return text
 
 

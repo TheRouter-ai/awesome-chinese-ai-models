@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AccessMethod",
+  "type": "object",
+  "required": ["id", "name", "summary", "best_for"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "summary": {"type": "string"},
+    "best_for": {"type": "string"},
+    "url": {"type": "string", "pattern": "^https?://"},
+    "notes": {"type": "string"}
+  }
+}

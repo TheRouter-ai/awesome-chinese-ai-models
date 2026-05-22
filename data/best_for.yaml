@@ -1,0 +1,44 @@
+# "Best For" mapping that helps developers unfamiliar with Chinese AI models
+# build a quick mental model. Editorial data maintained by the acam-curator agent.
+# Keep entries factual and neutral. Avoid hype words.
+best_for:
+  - provider_id: deepseek
+    name: DeepSeek
+    use_cases:
+      - Low-cost coding workloads
+      - A cost-efficient alternative for reasoning tasks
+  - provider_id: qwen
+    name: Qwen
+    use_cases:
+      - Multilingual applications
+      - Open-weight self-hosting and fine-tuning
+  - provider_id: zhipu
+    name: GLM
+    use_cases:
+      - Chinese-language reasoning
+      - Agent and tool-use workflows
+  - provider_id: moonshot
+    name: Kimi
+    use_cases:
+      - Long-context document analysis
+      - Retrieval-heavy workflows
+  - provider_id: minimax
+    name: MiniMax
+    use_cases:
+      - Very long context windows
+      - Audio and video generation
+  - provider_id: baidu-ernie
+    name: ERNIE
+    use_cases:
+      - Enterprise integration on Baidu Cloud
+      - PaddlePaddle-based deployment
+  - provider_id: tencent-hunyuan
+    name: Hunyuan
+    use_cases:
+      - Multimodal generation, including 3D assets
+      - Integration with Tencent Cloud
+  - provider_id: bytedance-doubao
+    name: Doubao
+    use_cases:
+      - Multimodal agents via Volcengine Ark
+      - High-throughput production workloads

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComparisonRow",
+  "type": "object",
+  "required": ["provider_id", "name", "best_for", "context", "vision", "reasoning", "api", "open_source"],
+  "properties": {
+    "provider_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "best_for": {"type": "string"},
+    "context": {"type": "string"},
+    "vision": {"type": "boolean"},
+    "reasoning": {"type": "boolean"},
+    "api": {"type": "boolean"},
+    "open_source": {"type": "boolean"}
+  }
+}

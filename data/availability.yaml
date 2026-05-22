@@ -1,0 +1,82 @@
+# Global availability matrix for Chinese AI model providers.
+# This is the differentiating section of the repo: where can developers
+# outside China actually access these models, and how can they pay?
+#
+# Values use: yes | no | partial | unknown
+# Editorial data maintained by the acam-curator agent. This information changes
+# often — always verify with the provider before relying on it.
+availability:
+  regions:
+    - id: global
+      label: Global API
+    - id: russia
+      label: Russia
+    - id: middle_east
+      label: Middle East
+    - id: sea
+      label: Southeast Asia
+  providers:
+    - provider_id: deepseek
+      name: DeepSeek
+      global: yes
+      russia: yes
+      middle_east: yes
+      sea: yes
+      crypto_payment: no
+      notes: Open weights are downloadable worldwide; the official API accepts international cards.
+    - provider_id: qwen
+      name: Qwen
+      global: yes
+      russia: yes
+      middle_east: yes
+      sea: yes
+      crypto_payment: no
+      notes: Open weights on Hugging Face and ModelScope; API via Alibaba Cloud Model Studio (Singapore and China regions).
+    - provider_id: zhipu
+      name: GLM
+      global: yes
+      russia: partial
+      middle_east: partial
+      sea: yes
+      crypto_payment: no
+      notes: International API available; verify regional payment support with the provider.
+    - provider_id: moonshot
+      name: Kimi
+      global: partial
+      russia: unknown
+      middle_east: unknown
+      sea: partial
+      crypto_payment: no
+      notes: Primarily China-focused; international access expanding. Verify before relying on it.
+    - provider_id: minimax
+      name: MiniMax
+      global: yes
+      russia: partial
+      middle_east: partial
+      sea: yes
+      crypto_payment: no
+      notes: Open weights worldwide; international API available.
+    - provider_id: baidu-ernie
+      name: ERNIE
+      global: partial
+      russia: unknown
+      middle_east: unknown
+      sea: partial
+      crypto_payment: no
+      notes: Access mainly through Baidu Cloud; open weights downloadable worldwide.
+    - provider_id: tencent-hunyuan
+      name: Hunyuan
+      global: partial
+      russia: unknown
+      middle_east: unknown
+      sea: partial
+      crypto_payment: no
+      notes: Access through Tencent Cloud; open weights downloadable worldwide.
+    - provider_id: bytedance-doubao
+      name: Doubao
+      global: partial
+      russia: unknown
+      middle_east: partial
+      sea: yes
+      crypto_payment: no
+      notes: Access through Volcengine Ark; regional availability varies.

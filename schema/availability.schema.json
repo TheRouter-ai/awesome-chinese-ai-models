@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AvailabilityRow",
+  "type": "object",
+  "required": ["provider_id", "name", "crypto_payment"],
+  "properties": {
+    "provider_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string"},
+    "crypto_payment": {"type": "boolean"},
+    "notes": {"type": "string"}
+  }
+}

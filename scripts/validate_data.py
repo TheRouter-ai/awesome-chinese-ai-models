@@ -48,6 +48,11 @@ def main() -> int:
     resources_doc = load_yaml("data/resources.yaml") or {}
     benchmarks_doc = load_yaml("data/benchmarks.yaml") or {}
     use_cases_doc = load_yaml("data/use_cases.yaml") or {}
+    comparison_doc = load_yaml("data/comparison.yaml") or {}
+    best_for_doc = load_yaml("data/best_for.yaml") or {}
+    access_doc = load_yaml("data/access_methods.yaml") or {}
+    availability_doc = load_yaml("data/availability.yaml") or {}
+    faq_doc = load_yaml("data/faq.yaml") or {}
 
     providers = providers_doc.get("providers", [])
     models = models_doc.get("models", [])
@@ -56,6 +61,11 @@ def main() -> int:
     resources = resources_doc.get("resources", [])
     benchmarks = benchmarks_doc.get("benchmarks", [])
     use_cases = use_cases_doc.get("use_cases", [])
+    comparison = comparison_doc.get("comparison", [])
+    best_for = best_for_doc.get("best_for", [])
+    access_methods = access_doc.get("access_methods", [])
+    availability = (availability_doc.get("availability") or {}).get("providers", [])
+    faq = faq_doc.get("faq", [])
 
     provider_ids = check_unique(providers, "id", "providers", errors)
     model_ids = check_unique(models, "id", "models", errors)
@@ -64,6 +74,8 @@ def main() -> int:
     check_unique(resources, "id", "resources", errors)
     check_unique(benchmarks, "id", "benchmarks", errors)
     check_unique(use_cases, "id", "use_cases", errors)
+    check_unique(access_methods, "id", "access_methods", errors)
+    check_unique(faq, "id", "faq", errors)
 
     for provider in providers:
         pid = provider.get("id")
@@ -117,6 +129,46 @@ def main() -> int:
         links = uc.get("links", [])
         require(isinstance(links, list) and links, f"use case {uid} missing links", errors)
 
+    for bm in benchmarks:
+        bid = bm.get("id")
+        require(bool(bid and ID_RE.match(bid)), f"invalid benchmark id: {bid}", errors)
+        require(bool(bm.get("name")), f"benchmark {bid} missing name", errors)
+        require(bool(bm.get("url") and URL_RE.match(bm.get("url"))), f"benchmark {bid} missing valid url", errors)
+
+    for row in comparison:
+        pid = row.get("provider_id")
+        require(pid in provider_ids, f"comparison row references unknown provider_id {pid}", errors)
+        require(bool(row.get("name")), f"comparison row {pid} missing name", errors)
+        require(bool(row.get("best_for")), f"comparison row {pid} missing best_for", errors)
+        for flag in ("vision", "reasoning", "api", "open_source"):
+            require(isinstance(row.get(flag), bool), f"comparison row {pid} field {flag} must be boolean", errors)
+
+    for row in best_for:
+        pid = row.get("provider_id")
+        require(pid in provider_ids, f"best_for row references unknown provider_id {pid}", errors)
+        cases = row.get("use_cases")
+        require(isinstance(cases, list) and bool(cases), f"best_for row {pid} missing use_cases", errors)
+
+    for am in access_methods:
+        amid = am.get("id")
+        require(bool(amid and ID_RE.match(amid)), f"invalid access method id: {amid}", errors)
+        require(bool(am.get("name")), f"access method {amid} missing name", errors)
+        require(bool(am.get("summary")), f"access method {amid} missing summary", errors)
+        url = am.get("url")
+        if url is not None:
+            require(bool(URL_RE.match(url)), f"access method {amid} has invalid url", errors)
+
+    for row in availability:
+        pid = row.get("provider_id")
+        require(pid in provider_ids, f"availability row references unknown provider_id {pid}", errors)
+        require(isinstance(row.get("crypto_payment"), bool), f"availability row {pid} crypto_payment must be boolean", errors)
+
+    for entry in faq:
+        fid = entry.get("id")
+        require(bool(fid and ID_RE.match(fid)), f"invalid faq id: {fid}", errors)
+        require(bool(entry.get("question")), f"faq {fid} missing question", errors)
+        require(bool(entry.get("answer")), f"faq {fid} missing answer", errors)
+
     if errors:
         print("Validation failed:")
         for err in errors:
@@ -124,6 +176,7 @@ def main() -> int:
         return 1
     print("Validation passed.")
     print(f"Providers: {len(providers)} | Models: {len(models)} | Resources: {len(resources)} | News: {len(news)} | Use cases: {len(use_cases)}")
+    print(f"Comparison: {len(comparison)} | Best-for: {len(best_for)} | Access methods: {len(access_methods)} | Availability: {len(availability)} | Benchmarks: {len(benchmarks)} | FAQ: {len(faq)}")
     return 0
 
 

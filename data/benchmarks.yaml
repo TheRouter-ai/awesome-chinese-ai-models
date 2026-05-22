@@ -1,1 +1,35 @@
-benchmarks: []
+# Aggregated benchmark sources, viewed through a Chinese-model lens.
+# This repo does not invent benchmarks. It points to established leaderboards
+# and reports, and notes how they cover Chinese AI models.
+# Editorial data maintained by the acam-curator agent.
+benchmarks:
+  - id: lmarena
+    name: LMArena (Chatbot Arena)
+    url: https://lmarena.ai/
+    type: aggregator
+    coverage: Human-preference Elo rankings; includes major Chinese models.
+    note: Crowd-voted; useful for general quality signal, not task-specific performance.
+  - id: artificial-analysis
+    name: Artificial Analysis
+    url: https://artificialanalysis.ai/
+    type: aggregator
+    coverage: Quality, speed, and price comparisons across providers.
+    note: Good for cost and latency trade-offs; tracks Chinese models alongside global ones.
+  - id: opencompass
+    name: OpenCompass
+    url: https://opencompass.org.cn/
+    type: leaderboard
+    coverage: Open-source evaluation suite with strong Chinese-language task coverage.
+    note: Maintained by Shanghai AI Lab; broad academic benchmark coverage.
+  - id: superclue
+    name: SuperCLUE
+    url: https://www.superclueai.com/
+    type: leaderboard
+    coverage: Chinese-language general benchmark.
+    note: Chinese-language focus; verify test version and date.
+  - id: huggingface-leaderboards
+    name: Hugging Face Leaderboards
+    url: https://huggingface.co/collections
+    type: aggregator
+    coverage: Task-specific community leaderboards (coding, reasoning, embeddings).
+    note: Coverage varies by leaderboard; check maintainer and methodology.

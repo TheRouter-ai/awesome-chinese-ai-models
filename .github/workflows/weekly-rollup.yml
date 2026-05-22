@@ -1,0 +1,37 @@
+name: Weekly rollup
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  weekly-rollup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install pyyaml
+      - name: Build weekly rollup draft
+        run: python3 scripts/weekly_rollup.py --end "$(date -u +%F)"
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.MAINTAINER_PAT || github.token }}
+          commit-message: "chore: weekly Chinese AI models rollup draft"
+          title: "Weekly rollup: This Week in China AI Models (draft)"
+          body: |
+            Automated weekly rollup draft.
+
+            This is a raw aggregation of the past 7 days of `data/news.yaml`.
+            The acam-curator agent rewrites it into the published digest.
+          branch: bot/weekly-rollup
+          labels: weekly-rollup, automation
+          delete-branch: true
