@@ -1,4 +1,373 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-mt2-49d5a1e070
+  date: '2026-05-22'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-MT2'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-MT2
+    published_at: '2026-05-22T04:26:57Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-19de6ed765
+  date: '2026-05-21'
+  title: QwenLM/qwen-code release Release v0.16.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.0 -->  ## What''s Changed
+    * feat(cli): wrap markdown links in OSC 8 so wrapped URLs stay clickable by @BZ-D in https://github.com/QwenLM/qwen-code/pull/'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.0
+    published_at: '2026-05-21T09:48:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hy-mt2-1-8b-e95a68b668
+  date: '2026-05-22'
+  title: 'Hugging Face model update: tencent/Hy-MT2-1.8B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hunyuan_v1_dense, text-generation, translation,
+    zh, en, fr'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-1-8b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-1.8B
+    published_at: '2026-05-22T05:09:24.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-1-8b-fp8-2c8bf88533
+  date: '2026-05-21'
+  title: 'Hugging Face model update: tencent/Hy-MT2-1.8B-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, hunyuan_v1_dense, arxiv:2512.24092, base_model:tencent/Hy-MT2-1.8B,
+    base_model:quantized:tencent/Hy-MT2-1.8B, compressed-tensors, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-1-8b-fp8
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-1.8B-FP8
+    published_at: '2026-05-21T09:19:10.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-30b-a3b-40416960eb
+  date: '2026-05-21'
+  title: 'Hugging Face model update: tencent/Hy-MT2-30B-A3B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hy_v3, text-generation, translation, zh, en,
+    fr'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-30b-a3b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-30B-A3B
+    published_at: '2026-05-21T12:26:34.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-7b-e35ff735ab
+  date: '2026-05-21'
+  title: 'Hugging Face model update: tencent/Hy-MT2-7B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hunyuan_v1_dense, text-generation, translation,
+    zh, en, fr'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-7b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-7B
+    published_at: '2026-05-21T12:27:04.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-7b-fp8-a59d6983d4
+  date: '2026-05-21'
+  title: 'Hugging Face model update: tencent/Hy-MT2-7B-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, hunyuan_v1_dense, arxiv:2512.24092, base_model:tencent/Hy-MT2-7B,
+    base_model:quantized:tencent/Hy-MT2-7B, compressed-tensors, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-7b-fp8
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-7B-FP8
+    published_at: '2026-05-21T09:18:52.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-minicpm-d93ddac58a
+  date: '2026-05-21'
+  title: 'GitHub repository update: OpenBMB/MiniCPM'
+  summary: 'MiniCPM4 & MiniCPM4.1: Ultra-Efficient LLMs on End Devices, achieving 3+ generation speedup on reasoning tasks'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM
+    published_at: '2026-05-21T14:44:28Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-etchr-flux-2-klein-9b-d597571753
+  date: '2026-05-21'
+  title: 'Hugging Face model update: internlm/ETCHR-FLUX.2-klein-9B'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, license:other, diffusers:Flux2KleinPipeline,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - etchr-flux-2-klein-9b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/ETCHR-FLUX.2-klein-9B
+    published_at: '2026-05-21T11:35:39.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-thinking-awq-a6f23ea477
+  date: '2026-05-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-Thinking-AWQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_6, image-text-to-text, minicpm-v,
+    multimodal, On-Device Model, lightweight'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-thinking-awq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking-AWQ
+    published_at: '2026-05-19T15:33:34.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-thinking-bnb-5ebae6f639
+  date: '2026-05-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-Thinking-BNB'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_6, image-text-to-text, minicpm-v,
+    multimodal, On-Device Model, lightweight'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-thinking-bnb
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking-BNB
+    published_at: '2026-05-19T15:33:37.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-thinking-gptq-47fd6a02f0
+  date: '2026-05-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-Thinking-GPTQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_6, image-text-to-text, minicpm-v,
+    multimodal, On-Device Model, lightweight'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-thinking-gptq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking-GPTQ
+    published_at: '2026-05-19T15:33:40.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-thinking-gguf-d0542cb6f0
+  date: '2026-05-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-Thinking-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, minicpm-v, multimodal, On-Device Model, lightweight,
+    image-text-to-text, arxiv:2604.27393'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-thinking-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking-gguf
+    published_at: '2026-05-19T15:33:43.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-gguf-1fbf9b9ece
+  date: '2026-05-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, minicpm-v, multimodal, On-Device Model, lightweight,
+    image-text-to-text, arxiv:2604.27393'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-gguf
+    published_at: '2026-05-19T15:33:30.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-deepseek-ai-deepgemm-60df4c3893
   date: '2026-05-13'
   title: 'GitHub repository update: deepseek-ai/DeepGEMM'
