@@ -229,3 +229,107 @@ models:
       verified: true
       verified_at: "2026-05-24"
     tags: [multimodal, vision, on-device, open-weights]
+
+  - id: hy-mt2
+    name: Hy-MT2
+    provider_id: tencent-hunyuan
+    model_family: hunyuan
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [translation]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: custom
+      name: verify with provider
+      url: https://github.com/Tencent-Hunyuan/Hy-MT2
+    official:
+      website: null
+      docs: https://github.com/Tencent-Hunyuan/Hy-MT2#readme
+      github: https://github.com/Tencent-Hunyuan/Hy-MT2
+      huggingface: https://huggingface.co/tencent/Hy-MT2-7B
+      modelscope: null
+      paper: https://arxiv.org/abs/2512.24092
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [translation, multilingual, open-weights]
+    notes: >
+      Machine-translation family from Tencent Hunyuan. Available in 1.8B,
+      7B, and 30B-A3B (MoE) sizes with zh/en/fr support. FP8 quantized
+      variants available on Hugging Face.
+
+  - id: hunyuan-ocr
+    name: HunyuanOCR
+    provider_id: tencent-hunyuan
+    model_family: hunyuan
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [image]
+      output: [text]
+    capabilities: [ocr]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: custom
+      name: verify with provider
+      url: https://github.com/Tencent-Hunyuan/HunyuanOCR
+    official:
+      website: null
+      docs: https://github.com/Tencent-Hunyuan/HunyuanOCR#readme
+      github: https://github.com/Tencent-Hunyuan/HunyuanOCR
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [ocr, vision, open-weights]
+
+  - id: intern-s1
+    name: Intern-S1
+    provider_id: internlm
+    model_family: internlm
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [text, image]
+      output: [text]
+    capabilities: [chat, reasoning, vision-language]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0
+      url: https://github.com/InternLM/Intern-S1
+    official:
+      website: null
+      docs: https://github.com/InternLM/Intern-S1#readme
+      github: https://github.com/InternLM/Intern-S1
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [multimodal, science, research, open-weights]
+    notes: Scientific Multimodal Foundation Model from InternLM (Shanghai AI Lab).

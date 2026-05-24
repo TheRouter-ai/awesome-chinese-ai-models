@@ -180,6 +180,7 @@ See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
 - [Tencent Hunyuan / 腾讯混元](https://hunyuan.tencent.com/) — llm, multimodal, 3d.
 - [ByteDance Doubao / Volcengine Ark / 字节豆包 / 火山方舟](https://www.doubao.com/) — llm, multimodal, agent.
 - [OpenBMB (MiniCPM) / 清华 & 面壁智能](https://www.openbmb.cn/) — llm, multimodal, on-device, open-weights.
+- [InternLM (Shanghai AI Lab) / 书生·浦语 / 上海人工智能实验室](https://internlm.intern-ai.org.cn/) — llm, multimodal, science, open-weights.
 <!-- AUTO-GENERATED:END providers -->
 
 ## Featured Models
@@ -196,6 +197,9 @@ Entries from the machine-readable registry in `data/models.yaml`:
 | [Qwen-Code](https://github.com/QwenLM/qwen-code) | Alibaba Qwen | coding, agent-tool-use | weights / local-deploy | Yes | [Source](https://github.com/QwenLM/qwen-code) |
 | [HY-World 2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) | Tencent Hunyuan | image-generation, video-generation | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/HY-World-2.0) |
 | [MiniCPM-V 4](https://github.com/OpenBMB/MiniCPM-V) | OpenBMB (MiniCPM) | chat, vision-language, reasoning | weights / local-deploy | Yes | [Source](https://github.com/OpenBMB/MiniCPM-V) |
+| [Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) | Tencent Hunyuan | translation | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/Hy-MT2) |
+| [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR) | Tencent Hunyuan | ocr | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/HunyuanOCR) |
+| [Intern-S1](https://github.com/InternLM/Intern-S1) | InternLM (Shanghai AI Lab) | chat, reasoning, vision-language | weights / local-deploy | Yes | [Source](https://github.com/InternLM/Intern-S1) |
 <!-- AUTO-GENERATED:END featured-models -->
 
 ## Collections

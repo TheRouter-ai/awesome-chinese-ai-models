@@ -35,3 +35,9 @@ capabilities:
   - id: local-deploy
     name: Local Deployment
     name_zh: 本地部署
+  - id: translation
+    name: Translation
+    name_zh: 机器翻译
+  - id: ocr
+    name: OCR
+    name_zh: 光学字符识别

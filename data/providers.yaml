@@ -97,3 +97,14 @@ providers:
     huggingface: https://huggingface.co/openbmb
     modelscope: null
     tags: [llm, multimodal, on-device, open-weights]
+
+  - id: internlm
+    name: InternLM (Shanghai AI Lab)
+    name_zh: 书生·浦语 / 上海人工智能实验室
+    type: research
+    website: https://internlm.intern-ai.org.cn/
+    docs: https://github.com/InternLM
+    github: https://github.com/InternLM
+    huggingface: https://huggingface.co/internlm
+    modelscope: null
+    tags: [llm, multimodal, science, open-weights]
