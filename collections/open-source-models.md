@@ -11,6 +11,9 @@ deployment — "open weights" does not always mean a permissive license.
 | [Qwen-Code](https://github.com/QwenLM/qwen-code) | Alibaba Qwen | coding CLI agent | Apache-2.0 |
 | [MiniCPM-V 4](https://huggingface.co/openbmb/MiniCPM-V-4.6) | OpenBMB | vision-language, on-device | Apache-2.0 |
 | [HY-World 2.0](https://huggingface.co/tencent/HY-World-2.0) | Tencent Hunyuan | 3D world model, generation | verify with provider |
+| [Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) | Tencent Hunyuan | machine translation (zh/en/fr) | verify with provider |
+| [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR) | Tencent Hunyuan | OCR | verify with provider |
+| [Intern-S1](https://github.com/InternLM/Intern-S1) | InternLM (Shanghai AI Lab) | scientific multimodal | Apache-2.0 |
 
 ## How to run
 
