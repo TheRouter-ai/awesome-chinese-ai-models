@@ -130,3 +130,102 @@ models:
       verified: true
       verified_at: "2026-05-18"
     tags: [llm, long-context, api]
+
+  - id: qwen-code
+    name: Qwen-Code
+    provider_id: qwen
+    model_family: qwen
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [coding, agent-tool-use]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0
+      url: https://github.com/QwenLM/qwen-code/blob/main/LICENSE
+    official:
+      website: null
+      docs: https://github.com/QwenLM/qwen-code#readme
+      github: https://github.com/QwenLM/qwen-code
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [coding, cli-agent, open-source, open-weights]
+
+  - id: hy-world-2
+    name: HY-World 2.0
+    provider_id: tencent-hunyuan
+    model_family: hunyuan
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [text, image]
+      output: [image, video]
+    capabilities: [image-generation, video-generation]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: custom
+      name: HY-World-2.0 License (verify with provider)
+      url: https://github.com/Tencent-Hunyuan/HY-World-2.0
+    official:
+      website: null
+      docs: https://github.com/Tencent-Hunyuan/HY-World-2.0#readme
+      github: https://github.com/Tencent-Hunyuan/HY-World-2.0
+      huggingface: https://huggingface.co/tencent/HY-World-2.0
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [multimodal, 3d, world-model, open-weights]
+
+  - id: minicpm-v-4
+    name: MiniCPM-V 4
+    provider_id: openbmb
+    model_family: minicpm
+    release_date: null
+    last_updated: "2026-05-24"
+    modalities:
+      input: [text, image]
+      output: [text]
+    capabilities: [chat, vision-language, reasoning, local-deploy]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0
+      url: https://github.com/OpenBMB/MiniCPM-V/blob/main/LICENSE
+    official:
+      website: null
+      docs: https://github.com/OpenBMB/MiniCPM-V#readme
+      github: https://github.com/OpenBMB/MiniCPM-V
+      huggingface: https://huggingface.co/openbmb/MiniCPM-V-4.6
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-24"
+    tags: [multimodal, vision, on-device, open-weights]

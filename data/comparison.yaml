@@ -52,7 +52,7 @@ comparison:
     open_source: true
   - provider_id: tencent-hunyuan
     name: Hunyuan
-    best_for: Multimodal generation including 3D
+    best_for: Multimodal generation including 3D world models
     context: 256K
     vision: true
     reasoning: true

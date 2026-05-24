@@ -86,3 +86,14 @@ providers:
     huggingface: null
     modelscope: null
     tags: [llm, multimodal, agent]
+
+  - id: openbmb
+    name: OpenBMB (MiniCPM)
+    name_zh: 清华 & 面壁智能
+    type: research
+    website: https://www.openbmb.cn/
+    docs: https://github.com/OpenBMB/MiniCPM-V#readme
+    github: https://github.com/OpenBMB
+    huggingface: https://huggingface.co/openbmb
+    modelscope: null
+    tags: [llm, multimodal, on-device, open-weights]

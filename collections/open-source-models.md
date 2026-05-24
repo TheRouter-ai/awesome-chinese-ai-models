@@ -8,6 +8,9 @@ deployment — "open weights" does not always mean a permissive license.
 | --- | --- | --- | --- |
 | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3) | DeepSeek | chat, reasoning, coding | DeepSeek License |
 | [Qwen3](https://huggingface.co/Qwen) | Alibaba Qwen | chat, reasoning, coding, long-context | Apache-2.0 / model-specific |
+| [Qwen-Code](https://github.com/QwenLM/qwen-code) | Alibaba Qwen | coding CLI agent | Apache-2.0 |
+| [MiniCPM-V 4](https://huggingface.co/openbmb/MiniCPM-V-4.6) | OpenBMB | vision-language, on-device | Apache-2.0 |
+| [HY-World 2.0](https://huggingface.co/tencent/HY-World-2.0) | Tencent Hunyuan | 3D world model, generation | verify with provider |
 
 ## How to run
 
