@@ -12,6 +12,7 @@ best_for:
     use_cases:
       - Multilingual applications
       - Open-weight self-hosting and fine-tuning
+      - Terminal coding agents (Qwen-Code)
   - provider_id: zhipu
     name: GLM
     use_cases:

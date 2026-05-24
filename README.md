@@ -49,7 +49,7 @@ open-weight models; GLM and Kimi focus on reasoning and long context.
 | Kimi | Long-context document workloads | 256K | — | ✅ | ✅ | — |
 | MiniMax | Long-context, audio, and video generation | 1M | ✅ | ✅ | ✅ | ✅ |
 | ERNIE | Enterprise deployment on Baidu Cloud | 128K | ✅ | ✅ | ✅ | ✅ |
-| Hunyuan | Multimodal generation including 3D | 256K | ✅ | ✅ | ✅ | ✅ |
+| Hunyuan | Multimodal generation including 3D world models | 256K | ✅ | ✅ | ✅ | ✅ |
 | Doubao | Multimodal agents on Volcengine Ark | 256K | ✅ | ✅ | ✅ | — |
 <!-- AUTO-GENERATED:END comparison-table -->
 
@@ -90,6 +90,7 @@ before committing.
 - **Qwen**
   - Multilingual applications
   - Open-weight self-hosting and fine-tuning
+  - Terminal coding agents (Qwen-Code)
 - **GLM**
   - Chinese-language reasoning
   - Agent and tool-use workflows
@@ -178,6 +179,7 @@ See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
 - [Baidu ERNIE / 百度文心](https://yiyan.baidu.com/) — llm, enterprise, paddlepaddle.
 - [Tencent Hunyuan / 腾讯混元](https://hunyuan.tencent.com/) — llm, multimodal, 3d.
 - [ByteDance Doubao / Volcengine Ark / 字节豆包 / 火山方舟](https://www.doubao.com/) — llm, multimodal, agent.
+- [OpenBMB (MiniCPM) / 清华 & 面壁智能](https://www.openbmb.cn/) — llm, multimodal, on-device, open-weights.
 <!-- AUTO-GENERATED:END providers -->
 
 ## Featured Models
@@ -191,6 +193,9 @@ Entries from the machine-readable registry in `data/models.yaml`:
 | [Qwen3](https://qwenlm.github.io/) | Alibaba Qwen | chat, reasoning, coding | api / web / weights / local-deploy / openai_compatible | Yes | [Source](https://qwenlm.github.io/) |
 | [GLM-4](https://www.bigmodel.cn/) | Zhipu AI | chat, reasoning, coding | api / web / openai_compatible | No | [Source](https://www.bigmodel.cn/) |
 | [Kimi](https://www.moonshot.cn/) | Moonshot AI | chat, long-context | api / web / openai_compatible | No | [Source](https://www.moonshot.cn/) |
+| [Qwen-Code](https://github.com/QwenLM/qwen-code) | Alibaba Qwen | coding, agent-tool-use | weights / local-deploy | Yes | [Source](https://github.com/QwenLM/qwen-code) |
+| [HY-World 2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) | Tencent Hunyuan | image-generation, video-generation | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/HY-World-2.0) |
+| [MiniCPM-V 4](https://github.com/OpenBMB/MiniCPM-V) | OpenBMB (MiniCPM) | chat, vision-language, reasoning | weights / local-deploy | Yes | [Source](https://github.com/OpenBMB/MiniCPM-V) |
 <!-- AUTO-GENERATED:END featured-models -->
 
 ## Collections
