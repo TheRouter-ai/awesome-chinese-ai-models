@@ -1,4 +1,395 @@
 news:
+- id: qwenlm-qwen-code-eab343cf57
+  date: '2026-05-23'
+  title: QwenLM/qwen-code release Release v0.16.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1 -->  ## What''s Changed
+    * chore(release): v0.16.0 by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/4404 * fix(core,cli): close tool_use↔tool'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1
+    published_at: '2026-05-23T14:53:04Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-a4e7a52b89
+  date: '2026-05-24'
+  title: QwenLM/qwen-code release Release v0.16.1-nightly.20260524.84f408017
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-nightly.20260524.84f408017
+    -->  ## What''s Changed * fix(build): clean stale outputs before tsc --build to prevent TS5055 by @doudouOUC in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-nightly.20260524.84f408017
+    published_at: '2026-05-24T00:37:54Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-66403a30bc
+  date: '2026-05-25'
+  title: QwenLM/qwen-code release Release v0.16.1-nightly.20260525.84f408017
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-nightly.20260525.84f408017
+    -->  ## What''s Changed * fix(build): clean stale outputs before tsc --build to prevent TS5055 by @doudouOUC in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-nightly.20260525.84f408017
+    published_at: '2026-05-25T00:38:53Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hy-mt2-30b-a3b-fp8-3ba2ffcac3
+  date: '2026-05-22'
+  title: 'Hugging Face model update: tencent/Hy-MT2-30B-A3B-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, hy_v3, arxiv:2605.22064, base_model:tencent/Hy-MT2-30B-A3B,
+    base_model:quantized:tencent/Hy-MT2-30B-A3B, fp8, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-30b-a3b-fp8
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-30B-A3B-FP8
+    published_at: '2026-05-22T05:16:00.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-7b-gguf-a4753973cc
+  date: '2026-05-22'
+  title: 'Hugging Face model update: tencent/Hy-MT2-7B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: gguf, arxiv:2605.22064, base_model:tencent/Hy-MT2-7B, base_model:quantized:tencent/Hy-MT2-7B,
+    endpoints_compatible, region:us, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-7b-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-7B-GGUF
+    published_at: '2026-05-22T05:16:12.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-internlm-caprl-818d0d1897
+  date: '2026-05-25'
+  title: 'GitHub repository update: InternLM/CapRL'
+  summary: '[ICLR 2026] An official implementation of "CapRL: Stimulating Dense Image Caption Capabilities via Reinforcement
+    Learning"'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - caprl
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/CapRL
+    published_at: '2026-05-25T03:46:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-internlm-etchr-790ad9fb68
+  date: '2026-05-25'
+  title: 'GitHub repository update: InternLM/ETCHR'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - etchr
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/ETCHR
+    published_at: '2026-05-25T02:59:45Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-chatdev-1f7ffa9813
+  date: '2026-05-25'
+  title: 'GitHub repository update: OpenBMB/ChatDev'
+  summary: 'ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - chatdev
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/ChatDev
+    published_at: '2026-05-25T03:12:24Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-minicpm-desk-pet-a8f74a6038
+  date: '2026-05-25'
+  title: 'GitHub repository update: OpenBMB/MiniCPM-Desk-Pet'
+  summary: a local-first desktop pet powered by MiniCPM5-0.9B
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-desk-pet
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-Desk-Pet
+    published_at: '2026-05-25T05:33:09Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-caprl-video-4b-726cdc8cde
+  date: '2026-05-25'
+  title: 'Hugging Face model update: internlm/CapRL-Video-4B'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3_vl, license:apache-2.0, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - caprl-video-4b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/CapRL-Video-4B
+    published_at: '2026-05-25T04:54:44.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-bitcpm-cann-0-5b-unquantized-62b8ac49b4
+  date: '2026-05-23'
+  title: 'Hugging Face model update: openbmb/BitCPM-CANN-0.5B-unquantized'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, text-generation, conversational, custom_code,
+    zh, en, license:apache-2.0'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - bitcpm-cann-0-5b-unquantized
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/BitCPM-CANN-0.5B-unquantized
+    published_at: '2026-05-23T18:23:15.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-bitcpm-cann-1b-unquantized-3332015c2f
+  date: '2026-05-23'
+  title: 'Hugging Face model update: openbmb/BitCPM-CANN-1B-unquantized'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, llama, text-generation, conversational, custom_code,
+    zh, en'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - bitcpm-cann-1b-unquantized
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/BitCPM-CANN-1B-unquantized
+    published_at: '2026-05-23T18:26:43.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-bitcpm-cann-3b-unquantized-8a619dc5d8
+  date: '2026-05-23'
+  title: 'Hugging Face model update: openbmb/BitCPM-CANN-3B-unquantized'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, llama, text-generation, conversational, custom_code,
+    zh, en'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - bitcpm-cann-3b-unquantized
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/BitCPM-CANN-3B-unquantized
+    published_at: '2026-05-23T18:26:56.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-bitcpm-cann-8b-caf1a0819d
+  date: '2026-05-24'
+  title: 'Hugging Face model update: openbmb/BitCPM-CANN-8B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, minicpm, text-generation, conversational, custom_code,
+    zh, en'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - bitcpm-cann-8b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/BitCPM-CANN-8B
+    published_at: '2026-05-24T10:43:34.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-bitcpm-cann-8b-unquantized-890c412c66
+  date: '2026-05-23'
+  title: 'Hugging Face model update: openbmb/BitCPM-CANN-8B-unquantized'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, minicpm, text-generation, conversational, custom_code,
+    zh, en'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - bitcpm-cann-8b-unquantized
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/BitCPM-CANN-8B-unquantized
+    published_at: '2026-05-23T18:27:10.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy-mt2-49d5a1e070
   date: '2026-05-22'
   title: 'GitHub repository update: Tencent-Hunyuan/Hy-MT2'
