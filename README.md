@@ -18,7 +18,7 @@ This repository is a curated, continuously updated entry point. It covers:
 - **Daily updates** — releases, API changes, and ecosystem news
 
 中文：一个持续更新的中国 AI 模型索引——对比、接入方式、全球可用性、benchmark 和每日生态新闻。
-Maintained by [TheRouter.ai](https://therouter.ai/) for the global developer community.
+Maintained by [TheRouter.ai](https://therouter.ai/?_tk=Z30eO1Ub) for the global developer community.
 
 ## Contents
 
