@@ -1,4 +1,189 @@
 news:
+- id: qwenlm-qwen-code-8c006b9ae1
+  date: '2026-05-26'
+  title: QwenLM/qwen-code release Release v0.16.1-nightly.20260526.e8b79d772
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-nightly.20260526.e8b79d772
+    -->  ## What''s Changed * fix(build): clean stale outputs before tsc --build to prevent TS5055 by @doudouOUC in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-nightly.20260526.e8b79d772
+    published_at: '2026-05-26T00:39:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: openbmb-minicpm-56f470a6ea
+  date: '2026-05-26'
+  title: OpenBMB/MiniCPM release MiniCPM5-1B
+  summary: We are releasing **MiniCPM5-1B**, the first model in the **MiniCPM5** series. It is a dense 1B Transformer built
+    for on-device, local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.    🏆 **1B-class
+    open-s
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM/releases/tag/5.0
+    published_at: '2026-05-26T02:48:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm-desk-pet-fe1ac7643c
+  date: '2026-05-25'
+  title: OpenBMB/MiniCPM-Desk-Pet release MiniCPM Desk Pet v0.7.1
+  summary: '# MiniCPM Desk Pet v0.7.1 — Release Notes    ---    ## 中文    ### MiniCPM Desk Pet — 首个公开发布    **MiniCPM Desk Pet**
+    是一款本地优先的桌面 AI 桌宠。安装后跟随首次启动引导完成设置，即可在桌面上与 MiniCPM 聊天，并在你使用 Cursor、Claude Code、Codex 等 coding agent 时展示不同状态。    ### 主要功能    -
+    *'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-desk-pet
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-Desk-Pet/releases/tag/v0.7.1
+    published_at: '2026-05-25T11:01:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm5-1b-ae4f5d8ad6
+  date: '2026-05-26'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-1B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-1b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-1B
+    published_at: '2026-05-26T04:24:04.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-1b-gguf-1576a0ba63
+  date: '2026-05-25'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-1B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, minicpm, minicpm5, llama, text-generation, long-context,
+    tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-1b-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-1B-GGUF
+    published_at: '2026-05-25T10:55:40.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-1b-mlx-c9d5dcedcc
+  date: '2026-05-25'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-1B-MLX'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-1b-mlx
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-1B-MLX
+    published_at: '2026-05-25T10:55:51.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-1b-sft-840539b097
+  date: '2026-05-25'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-1B-SFT'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-1b-sft
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-1B-SFT
+    published_at: '2026-05-25T11:18:10.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-eab343cf57
   date: '2026-05-23'
   title: QwenLM/qwen-code release Release v0.16.1
