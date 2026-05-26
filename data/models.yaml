@@ -230,6 +230,105 @@ models:
       verified_at: "2026-05-24"
     tags: [multimodal, vision, on-device, open-weights]
 
+  - id: intern-s2-preview
+    name: Intern-S2-Preview
+    provider_id: internlm
+    model_family: internlm
+    release_date: null
+    last_updated: "2026-05-26"
+    modalities:
+      input: [text, image]
+      output: [text]
+    capabilities: [chat, vision-language, reasoning]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0
+      url: https://huggingface.co/internlm/Intern-S2-Preview
+    official:
+      website: null
+      docs: https://huggingface.co/internlm/Intern-S2-Preview
+      github: https://github.com/InternLM/Intern-S1
+      huggingface: https://huggingface.co/internlm/Intern-S2-Preview
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: preview
+      verified: true
+      verified_at: "2026-05-26"
+    tags: [multimodal, vision, scientific, open-weights]
+
+  - id: qwen3-6
+    name: Qwen3.6
+    provider_id: qwen
+    model_family: qwen
+    release_date: null
+    last_updated: "2026-05-26"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, reasoning, coding, long-context]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0 (verify with provider)
+      url: https://github.com/QwenLM/Qwen3.6
+    official:
+      website: https://qwenlm.github.io/
+      docs: https://github.com/QwenLM/Qwen3.6#readme
+      github: https://github.com/QwenLM/Qwen3.6
+      huggingface: https://huggingface.co/Qwen
+      modelscope: https://modelscope.cn/organization/qwen
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-26"
+    tags: [llm, reasoning, open-weights]
+
+  - id: voxcpm
+    name: VoxCPM
+    provider_id: openbmb
+    model_family: minicpm
+    release_date: null
+    last_updated: "2026-05-26"
+    modalities:
+      input: [text]
+      output: [audio]
+    capabilities: [audio-speech]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0 (verify with provider)
+      url: https://github.com/OpenBMB/VoxCPM
+    official:
+      website: null
+      docs: https://github.com/OpenBMB/VoxCPM#readme
+      github: https://github.com/OpenBMB/VoxCPM
+      huggingface: null
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-26"
+    tags: [tts, speech, multilingual, open-weights]
+
   - id: hy-mt2
     name: Hy-MT2
     provider_id: tencent-hunyuan

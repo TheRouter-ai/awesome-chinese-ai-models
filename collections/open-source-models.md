@@ -14,6 +14,9 @@ deployment — "open weights" does not always mean a permissive license.
 | [Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) | Tencent Hunyuan | machine translation (zh/en/fr) | verify with provider |
 | [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR) | Tencent Hunyuan | OCR | verify with provider |
 | [Intern-S1](https://github.com/InternLM/Intern-S1) | InternLM (Shanghai AI Lab) | scientific multimodal | Apache-2.0 |
+| [Intern-S2-Preview](https://huggingface.co/internlm/Intern-S2-Preview) | InternLM (Shanghai AI Lab) | vision-language, reasoning (preview) | Apache-2.0 |
+| [Qwen3.6](https://github.com/QwenLM/Qwen3.6) | Alibaba Qwen | chat, reasoning, coding | Apache-2.0 (verify) |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | OpenBMB | TTS, multilingual speech synthesis | Apache-2.0 (verify) |
 
 ## How to run
 

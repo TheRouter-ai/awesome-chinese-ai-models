@@ -197,9 +197,11 @@ Entries from the machine-readable registry in `data/models.yaml`:
 | [Qwen-Code](https://github.com/QwenLM/qwen-code) | Alibaba Qwen | coding, agent-tool-use | weights / local-deploy | Yes | [Source](https://github.com/QwenLM/qwen-code) |
 | [HY-World 2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) | Tencent Hunyuan | image-generation, video-generation | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/HY-World-2.0) |
 | [MiniCPM-V 4](https://github.com/OpenBMB/MiniCPM-V) | OpenBMB (MiniCPM) | chat, vision-language, reasoning | weights / local-deploy | Yes | [Source](https://github.com/OpenBMB/MiniCPM-V) |
+| [Intern-S2-Preview](https://github.com/InternLM/Intern-S1) | InternLM (Shanghai AI Lab) | chat, vision-language, reasoning | weights / local-deploy | Yes | [Source](https://github.com/InternLM/Intern-S1) |
+| [Qwen3.6](https://qwenlm.github.io/) | Alibaba Qwen | chat, reasoning, coding | weights / local-deploy | Yes | [Source](https://qwenlm.github.io/) |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | OpenBMB (MiniCPM) | audio-speech | weights / local-deploy | Yes | [Source](https://github.com/OpenBMB/VoxCPM) |
 | [Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2) | Tencent Hunyuan | translation | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/Hy-MT2) |
 | [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR) | Tencent Hunyuan | ocr | weights / local-deploy | Yes | [Source](https://github.com/Tencent-Hunyuan/HunyuanOCR) |
-| [Intern-S1](https://github.com/InternLM/Intern-S1) | InternLM (Shanghai AI Lab) | chat, reasoning, vision-language | weights / local-deploy | Yes | [Source](https://github.com/InternLM/Intern-S1) |
 <!-- AUTO-GENERATED:END featured-models -->
 
 ## Collections
