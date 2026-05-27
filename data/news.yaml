@@ -1,4 +1,320 @@
 news:
+- id: qwenlm-qwen-code-3a6365c41a
+  date: '2026-05-27'
+  title: QwenLM/qwen-code release Release v0.16.1-nightly.20260527.641a1a739
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-nightly.20260527.641a1a739
+    -->  ## What''s Changed * fix(build): clean stale outputs before tsc --build to prevent TS5055 by @doudouOUC in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-nightly.20260527.641a1a739
+    published_at: '2026-05-27T00:40:26Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-f01141a217
+  date: '2026-05-27'
+  title: QwenLM/qwen-code release Release v0.16.1-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-preview.0 -->  ## What''s
+    Changed * fix(build): clean stale outputs before tsc --build to prevent TS5055 by @doudouOUC in https://github.com/QwenLM/qw'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-preview.0
+    published_at: '2026-05-27T00:45:13Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hy-mt1-5-1-8b-1-25bit-67e54a0db4
+  date: '2026-05-27'
+  title: 'Hugging Face model update: tencent/Hy-MT1.5-1.8B-1.25bit'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, hunyuan_v1_dense, translation, hy-mt, quant, 1.25bit, sherry,
+    multilingual'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt1-5-1-8b-1-25bit
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT1.5-1.8B-1.25bit
+    published_at: '2026-05-27T03:43:14.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-1-8b-1-25bit-gguf-a7b9c47a03
+  date: '2026-05-26'
+  title: 'Hugging Face model update: tencent/Hy-MT2-1.8B-1.25Bit-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: gguf, arxiv:2605.22064, base_model:tencent/Hy-MT2-1.8B, base_model:quantized:tencent/Hy-MT2-1.8B,
+    license:apache-2.0, endpoints_compatible, region:us, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-1-8b-1-25bit-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-1.8B-1.25Bit-GGUF
+    published_at: '2026-05-26T09:06:32.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-1-8b-2bit-gguf-0581e03482
+  date: '2026-05-26'
+  title: 'Hugging Face model update: tencent/Hy-MT2-1.8B-2Bit-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: gguf, arxiv:2605.22064, base_model:tencent/Hy-MT2-1.8B, base_model:quantized:tencent/Hy-MT2-1.8B,
+    license:apache-2.0, endpoints_compatible, region:us, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-1-8b-2bit-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-1.8B-2Bit-GGUF
+    published_at: '2026-05-26T09:06:26.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-mt2-1-8b-gguf-c775d02b4d
+  date: '2026-05-26'
+  title: 'Hugging Face model update: tencent/Hy-MT2-1.8B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: gguf, arxiv:2605.22064, base_model:tencent/Hy-MT2-1.8B, base_model:quantized:tencent/Hy-MT2-1.8B,
+    license:apache-2.0, endpoints_compatible, region:us, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-mt2-1-8b-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF
+    published_at: '2026-05-26T09:06:16.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-internlm-skill-as-pseudocode-4b7de9d4a4
+  date: '2026-05-27'
+  title: 'GitHub repository update: InternLM/Skill-as-Pseudocode'
+  summary: 'Skill-as-Pseudocode: refactoring markdown skill libraries into typed pseudocode contracts for LLM agents.'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - skill-as-pseudocode
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/Skill-as-Pseudocode
+    published_at: '2026-05-27T05:04:58Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-forgetrain-6619dd075b
+  date: '2026-05-26'
+  title: 'GitHub repository update: OpenBMB/ForgeTrain'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - forgetrain
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/ForgeTrain
+    published_at: '2026-05-26T13:15:23Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-pilotdeck-92959e0bf4
+  date: '2026-05-27'
+  title: 'GitHub repository update: OpenBMB/PilotDeck'
+  summary: Task-oriented AI Agent productivity platform
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck
+    published_at: '2026-05-27T05:22:50Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm-desk-pet-7f1f1ecc75
+  date: '2026-05-26'
+  title: OpenBMB/MiniCPM-Desk-Pet release MiniCPM Desk Pet v0.7.2
+  summary: '# MiniCPM Desk Pet v0.7.2 — Release Notes    ## 中文    ### 概述    v0.7.2 为维护版本，重点提升 sidecar 可靠性、缩小安装包体积，并补充 Windows
+    安装说明。    ### 问题修复    - **Sidecar 启动失败** — 修复部分用户在启动时可能遇到的 sidecar 无法正常启动问题（例如提示「Llama Server is not running」或推理服务一直无法就绪）。    #'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-desk-pet
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-Desk-Pet/releases/tag/v0.7.2
+    published_at: '2026-05-26T14:55:28Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-13d83fb339
+  date: '2026-05-26'
+  title: OpenBMB/PilotDeck release PilotDeck Desktop v0.0.10
+  summary: 'PilotDeck Desktop v0.0.10 macOS build.  Build: aa3499b6 Mode: signed Notarization: .app and DMG both accepted
+    and stapled Verification: macOS L1/L2/L3 full verification passed locally  Assets: - PilotDeck-0.0.10-arm64.dmg: signed,
+    notarized'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v0.0.10
+    published_at: '2026-05-26T14:22:46Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-e4bb097e2e
+  date: '2026-05-25'
+  title: OpenBMB/PilotDeck release PilotDeck v0.0.9
+  summary: '## PilotDeck v0.0.9  ### Highlights - **New app icon**: replaced with PilotDeck logo (icns + ico) - **Deep-clone
+    fix**: fixed shallow-copy bug in `buildForkedMessages.ts` — uses shared `cloneMessage` utility - **Runtime fix**: `edgeclaw-mem'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v0.0.9
+    published_at: '2026-05-25T18:39:45Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-8c006b9ae1
   date: '2026-05-26'
   title: QwenLM/qwen-code release Release v0.16.1-nightly.20260526.e8b79d772
