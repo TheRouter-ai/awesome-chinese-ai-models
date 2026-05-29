@@ -399,6 +399,44 @@ models:
       verified_at: "2026-05-24"
     tags: [ocr, vision, open-weights]
 
+  - id: minicpm5
+    name: MiniCPM5
+    provider_id: openbmb
+    model_family: minicpm
+    release_date: null
+    last_updated: "2026-05-27"
+    modalities:
+      input: [text]
+      output: [text]
+    capabilities: [chat, long-context, agent-tool-use, local-deploy]
+    access:
+      api: false
+      web: false
+      weights: true
+      local-deploy: true
+      openai_compatible: false
+    license:
+      type: open
+      name: Apache-2.0 (verify with provider)
+      url: https://github.com/OpenBMB/MiniCPM
+    official:
+      website: https://www.openbmb.cn/
+      docs: https://github.com/OpenBMB/MiniCPM#readme
+      github: https://github.com/OpenBMB/MiniCPM
+      huggingface: https://huggingface.co/openbmb/MiniCPM5-1B
+      modelscope: null
+      paper: null
+    status:
+      lifecycle: active
+      verified: true
+      verified_at: "2026-05-27"
+    tags: [llm, on-device, long-context, open-weights]
+    notes: >
+      MiniCPM5 is the fifth generation of OpenBMB's compact on-device LLM
+      series. The first release (MiniCPM5-1B) is a dense 1B Transformer
+      targeting on-device and resource-constrained scenarios. GGUF and MLX
+      quantized variants available on Hugging Face.
+
   - id: intern-s1
     name: Intern-S1
     provider_id: internlm
