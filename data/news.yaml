@@ -1,4 +1,84 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-motion-1-0-3c4edea864
+  date: '2026-05-25'
+  title: 'GitHub repository update: Tencent-Hunyuan/HY-Motion-1.0'
+  summary: HY-Motion model for 3D human motion or 3D character animation generation.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-motion-1-0
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/HY-Motion-1.0
+    published_at: '2026-05-25T03:42:57Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen-image-bench-d47a8b3224
+  date: '2026-05-28'
+  title: 'Hugging Face model update: Qwen/Qwen-Image-Bench'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, judge-model,
+    text-to-image, evaluation, benchmark'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-bench
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Image-Bench
+    published_at: '2026-05-28T08:07:27.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-minicpm-desk-pet-f4c20d5b92
+  date: '2026-05-28'
+  title: OpenBMB/MiniCPM-Desk-Pet release MiniCPM Desk Pet v0.7.3
+  summary: '# MiniCPM Desk Pet v0.7.3 — Release Notes    ## 中文    ### 概述    v0.7.3 是一次稳定性与发布链路维护版本，重点修复 Windows 启动与 sidecar
+    生命周期问题，并切换后端到 llama.cpp 主线。    ### 问题修复    - 修复部分环境下 permission bubble 定位时 pet bounds 为空导致的崩溃。  - 修复系统配置 SOCKS/HTTP 代理时
+    sidecar'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-desk-pet
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-Desk-Pet/releases/tag/v0.7.3
+    published_at: '2026-05-28T14:08:06Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: openbmb-pilotdeck-d8a6607f40
   date: '2026-05-27'
   title: OpenBMB/PilotDeck release PilotDeck Desktop v0.0.11
