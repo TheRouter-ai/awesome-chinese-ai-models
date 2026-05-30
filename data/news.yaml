@@ -1,4 +1,112 @@
 news:
+- id: github-repository-update-qwenlm-qwen-vla-c2ae5771d4
+  date: '2026-05-29'
+  title: 'GitHub repository update: QwenLM/Qwen-VLA'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-vla
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-VLA
+    published_at: '2026-05-29T13:49:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-3a4944906b
+  date: '2026-05-29'
+  title: QwenLM/qwen-code release Release v0.16.1-nightly.20260529.7bed56b9b
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.16.1-nightly.20260529.7bed56b9b
+    -->  ## What''s Changed * fix(cli): surface startup warnings on stderr before TUI render (#4448) by @kagura-agent in https:'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.16.1-nightly.20260529.7bed56b9b
+    published_at: '2026-05-29T00:40:15Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-cf35a7f813
+  date: '2026-05-29'
+  title: QwenLM/qwen-code release Release v0.17.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.17.0 -->  ## What''s Changed
+    * fix(cli): surface startup warnings on stderr before TUI render (#4448) by @kagura-agent in https://github.com/QwenLM/qwen-co'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.17.0
+    published_at: '2026-05-29T09:58:49Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-bf53786dd9
+  date: '2026-05-30'
+  title: QwenLM/qwen-code release Release v0.17.0-nightly.20260530.c699738f9
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.17.0-nightly.20260530.c699738f9
+    -->  ## What''s Changed * chore(release): v0.17.0 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/4626
+    * f'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.17.0-nightly.20260530.c699738f9
+    published_at: '2026-05-30T00:43:09Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy-motion-1-0-3c4edea864
   date: '2026-05-25'
   title: 'GitHub repository update: Tencent-Hunyuan/HY-Motion-1.0'
