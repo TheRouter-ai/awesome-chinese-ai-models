@@ -1,4 +1,58 @@
 news:
+- id: github-repository-update-tencent-hunyuan-planningbench-0178372189
+  date: '2026-05-29'
+  title: 'GitHub repository update: Tencent-Hunyuan/PlanningBench'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - planningbench
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/PlanningBench
+    published_at: '2026-05-29T02:28:01Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-bf5cf468b7
+  date: '2026-06-01'
+  title: QwenLM/qwen-code release Release v0.17.0-nightly.20260601.1c48e4121
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.17.0-nightly.20260601.1c48e4121
+    -->  ## What''s Changed * chore(release): v0.17.0 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/4626
+    * f'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.17.0-nightly.20260601.1c48e4121
+    published_at: '2026-06-01T00:40:33Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: qwenlm-qwen-code-038a58b24b
   date: '2026-05-31'
   title: QwenLM/qwen-code release Release v0.17.0-nightly.20260531.c699738f9
