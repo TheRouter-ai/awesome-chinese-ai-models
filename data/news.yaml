@@ -1,4 +1,136 @@
 news:
+- id: github-repository-update-qwenlm-open-computer-use-c871125b04
+  date: '2026-06-03'
+  title: 'GitHub repository update: QwenLM/open-computer-use'
+  summary: MCP-based Computer Use service for Qwen Code and any AI agent — controls macOS, Linux, and Windows via accessibility
+    APIs.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - open-computer-use
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/open-computer-use
+    published_at: '2026-06-03T09:06:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-unirl-6b5b7e14c6
+  date: '2026-06-10'
+  title: 'GitHub repository update: Tencent-Hunyuan/UniRL'
+  summary: UniRL is a Framework for Unified Multimodal Model Reinforcement Learning
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - unirl
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/UniRL
+    published_at: '2026-06-10T04:50:16Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-open-computer-use-0ac1233427
+  date: '2026-06-03'
+  title: QwenLM/open-computer-use release v0.2.0
+  summary: '**Full Changelog**: https://github.com/QwenLM/open-computer-use/commits/v0.2.0'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - open-computer-use
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/open-computer-use/releases/tag/v0.2.0
+    published_at: '2026-06-03T03:03:12Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-326b23174e
+  date: '2026-06-09'
+  title: QwenLM/qwen-code release Release v0.18.0-preview.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.0-preview.1 -->  ## What''s
+    Changed * chore(release): v0.17.1 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/4742 * fix(cli): skip
+    tho'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.0-preview.1
+    published_at: '2026-06-09T07:10:52Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-internlm-internbootcamp-d1d28889d9
+  date: '2026-06-10'
+  title: 'GitHub repository update: InternLM/InternBootcamp'
+  summary: Official implement on InternBootCamp
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - internbootcamp
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/InternBootcamp
+    published_at: '2026-06-10T05:43:50Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-bbeeafb4cc
   date: '2026-06-08'
   title: QwenLM/qwen-code release Release v0.17.1-nightly.20260608.aea34fa2c
