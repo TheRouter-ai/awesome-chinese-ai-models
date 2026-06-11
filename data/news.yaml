@@ -1,4 +1,56 @@
 news:
+- id: qwenlm-open-computer-use-90fbac71f3
+  date: '2026-06-10'
+  title: QwenLM/open-computer-use release Demo Assets
+  summary: Demo video assets
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - open-computer-use
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/open-computer-use/releases/tag/demo-assets
+    published_at: '2026-06-10T16:23:31Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: openbmb-pilotdeck-1f8b2b512d
+  date: '2026-06-10'
+  title: OpenBMB/PilotDeck release PilotDeck Desktop v0.1.0
+  summary: 'Release date: 2026.6.10    ## Downloads      | Platform | File                                                                                          |
+    Size   |  | -------- | ---------------------------------------------------------------'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v0.1.0
+    published_at: '2026-06-10T09:08:12Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: github-repository-update-qwenlm-open-computer-use-c871125b04
   date: '2026-06-03'
   title: 'GitHub repository update: QwenLM/open-computer-use'
