@@ -154,7 +154,9 @@ and reports, with notes on how each covers Chinese AI models.
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-06-12 `open_source` [QwenLM/qwen-code release Release v0.18.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.0) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.0 -->  ## What's Changed * chore(release): v0.17.1 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/4742 * fix(cli): skip thought parts
 - 2026-06-11 `open_source` [QwenLM/qwen-code release Release v0.18.0-preview.2](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.0-preview.2) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.0-preview.2 -->  ## What's Changed * chore(release): v0.17.1 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/4742 * fix(cli): skip tho
+- 2026-06-11 `open_source` [GitHub repository update: deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP) — DeepEP: an efficient expert-parallel communication library
 - 2026-06-10 `open_source` [QwenLM/open-computer-use release Demo Assets](https://github.com/QwenLM/open-computer-use/releases/tag/demo-assets) — Demo video assets
 - 2026-06-10 `open_source` [OpenBMB/PilotDeck release PilotDeck Desktop v0.1.0](https://github.com/OpenBMB/PilotDeck/releases/tag/v0.1.0) — Release date: 2026.6.10    ## Downloads      | Platform | File                                                                                          | Size   |  | -------- | ---------------------------------------------------------------
 - 2026-06-10 `open_source` [GitHub repository update: Tencent-Hunyuan/UniRL](https://github.com/Tencent-Hunyuan/UniRL) — UniRL is a Framework for Unified Multimodal Model Reinforcement Learning
@@ -162,8 +164,6 @@ and reports, with notes on how each covers Chinese AI models.
 - 2026-06-10 `open_source` [GitHub repository update: InternLM/InternBootcamp](https://github.com/InternLM/InternBootcamp) — Official implement on InternBootCamp
 - 2026-06-10 `open_source` [GitHub repository update: InternLM/Challenge-Cup-2026](https://github.com/InternLM/Challenge-Cup-2026) — Repository tracked from an official GitHub organization.
 - 2026-06-09 `api_update` [TheRouter supported model page: baidu/ernie-x1-turbo-32k](https://therouter.ai/models/baidu--ernie-x1-turbo-32k) — TheRouter model page with model introduction and OpenAI-compatible access details.
-- 2026-06-09 `api_update` [TheRouter supported model page: baidu/ernie-4.5-turbo-128k](https://therouter.ai/models/baidu--ernie-4.5-turbo-128k) — TheRouter model page with model introduction and OpenAI-compatible access details.
-- 2026-06-09 `api_update` [TheRouter supported model page: baidu/ernie-4.5-turbo-vl-32k](https://therouter.ai/models/baidu--ernie-4.5-turbo-vl-32k) — TheRouter model page with model introduction and OpenAI-compatible access details.
 <!-- AUTO-GENERATED:END latest-news -->
 
 See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
