@@ -1,4 +1,140 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-embodied-0-5-vla-c3149032f5
+  date: '2026-06-15'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Embodied-0.5-VLA'
+  summary: From Vision-Language-Action Models to a Real-World Robot Learning Stack
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-embodied-0-5-vla
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA
+    published_at: '2026-06-15T08:41:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-d92099c32e
+  date: '2026-06-15'
+  title: QwenLM/qwen-code release Release v0.18.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.1 -->  ## What''s Changed
+    * chore(release): v0.18.0 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5050 * feat(daemon): gate direct
+    se'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1
+    published_at: '2026-06-15T11:26:09Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-95bb713594
+  date: '2026-06-16'
+  title: QwenLM/qwen-code release Release v0.18.1-nightly.20260616.a68b2e1e7
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.1-nightly.20260616.a68b2e1e7
+    -->  ## What''s Changed * fix: warn on oversized context instructions by @he-yufeng in https://github.com/QwenLM/qwen-code/'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1-nightly.20260616.a68b2e1e7
+    published_at: '2026-06-16T00:59:31Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-04cc46ba67
+  date: '2026-06-16'
+  title: QwenLM/qwen-code release Release v0.18.1-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.1-preview.0 -->  ## What''s
+    Changed * fix: warn on oversized context instructions by @he-yufeng in https://github.com/QwenLM/qwen-code/pull/5073 *
+    docs:'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1-preview.0
+    published_at: '2026-06-16T02:52:21Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: internlm-lmdeploy-c8be2fccb8
+  date: '2026-06-16'
+  title: InternLM/lmdeploy release v0.14.0a2
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at main -->    ## What''s Changed  ###
+    🚀 Features  * FP8 kv cache quantization by @CUHKSZzxy in https://github.com/InternLM/lmdeploy/pull/4563  * Support Qwen3
+    Omni by @'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - lmdeploy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/lmdeploy/releases/tag/0.14.0a2
+    published_at: '2026-06-16T04:16:04Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-3cf62276bf
   date: '2026-06-15'
   title: QwenLM/qwen-code release desktop-v0.0.4
