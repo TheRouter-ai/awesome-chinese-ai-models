@@ -1,4 +1,58 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-embodied-78b0f752d3
+  date: '2026-06-15'
+  title: 'GitHub repository update: Tencent-Hunyuan/HY-Embodied'
+  summary: 'HY-Embodied: Embodied Foundation Models for Real-World Agents'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-embodied
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/HY-Embodied
+    published_at: '2026-06-15T14:42:37Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-1fc4773ead
+  date: '2026-06-17'
+  title: QwenLM/qwen-code release Release v0.18.1-preview.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.1-preview.1 -->  ## What''s
+    Changed * fix: warn on oversized context instructions by @he-yufeng in https://github.com/QwenLM/qwen-code/pull/5073 *
+    docs:'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1-preview.1
+    published_at: '2026-06-17T04:33:25Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy-embodied-0-5-vla-c3149032f5
   date: '2026-06-15'
   title: 'GitHub repository update: Tencent-Hunyuan/Hy-Embodied-0.5-VLA'
