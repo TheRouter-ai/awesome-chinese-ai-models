@@ -154,6 +154,7 @@ and reports, with notes on how each covers Chinese AI models.
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-06-23 `open_source` [QwenLM/qwen-code release Release v0.19.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.0) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.0 -->  ## What's Changed * chore(release): v0.18.5 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5558 * ci(release): Auto-publish VS
 - 2026-06-22 `open_source` [QwenLM/qwen-code release Release v0.18.5-nightly.20260622.6bc3f853e](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5-nightly.20260622.6bc3f853e) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.5-nightly.20260622.6bc3f853e -->  ## What's Changed * chore(release): v0.18.5 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5558 * c
 - 2026-06-21 `open_source` [QwenLM/qwen-code release Release v0.18.3-nightly.20260621.6b2f800ab](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.3-nightly.20260621.6b2f800ab) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.3-nightly.20260621.6b2f800ab -->  ## What's Changed * fix(core): require opt-in for plan mode prompt by @tt-a1i in https://github.com/QwenLM/qwen-code/
 - 2026-06-21 `open_source` [QwenLM/qwen-code release Release v0.18.5](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.5 -->  ## What's Changed * fix(core): require opt-in for plan mode prompt by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5433 * test(core): dro
@@ -163,7 +164,6 @@ and reports, with notes on how each covers Chinese AI models.
 - 2026-06-18 `open_source` [GitHub repository update: QwenLM/Qwen-Image-Bench](https://github.com/QwenLM/Qwen-Image-Bench) — Repository tracked from an official GitHub organization.
 - 2026-06-18 `open_source` [GitHub repository update: InternLM/RNGBench](https://github.com/InternLM/RNGBench) — Official Implementation of "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games"
 - 2026-06-17 `open_source` [QwenLM/qwen-code release Release v0.18.3](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.3) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.3 -->  ## What's Changed * chore(release): v0.18.2 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5243 * fix(cli): Stop after cancell
-- 2026-06-17 `open_source` [QwenLM/qwen-code release Release v0.18.1-preview.1](https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1-preview.1) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.18.1-preview.1 -->  ## What's Changed * fix: warn on oversized context instructions by @he-yufeng in https://github.com/QwenLM/qwen-code/pull/5073 * docs:
 <!-- AUTO-GENERATED:END latest-news -->
 
 See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
