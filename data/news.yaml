@@ -1,4 +1,220 @@
 news:
+- id: github-repository-update-qwenlm-qwen-agentworld-17e4851b21
+  date: '2026-06-24'
+  title: 'GitHub repository update: QwenLM/Qwen-AgentWorld'
+  summary: 'Qwen-AgentWorld: Language World Models for General Agents'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-agentworld
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-AgentWorld
+    published_at: '2026-06-24T02:10:42Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-563e896939
+  date: '2026-06-24'
+  title: QwenLM/qwen-code release Release v0.18.5-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.18.5-preview.0 -->  ## What''s
+    Changed * chore(release): v0.19.1 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5762 * feat(serve):
+    Add r'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5-preview.0
+    published_at: '2026-06-24T00:58:05Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-74ab42c54c
+  date: '2026-06-23'
+  title: QwenLM/qwen-code release Release v0.19.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.1 -->  ## What''s Changed
+    * feat(cli): match MCP resource completions by name and discover servers by @wenshao in https://github.com/QwenLM/qwen-code/pu'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.1
+    published_at: '2026-06-23T09:22:11Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-051b270077
+  date: '2026-06-24'
+  title: QwenLM/qwen-code release Release v0.19.1-nightly.20260624.a234860a4
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.1-nightly.20260624.a234860a4
+    -->  ## What''s Changed * chore(release): v0.19.1 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5762
+    * f'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.1-nightly.20260624.a234860a4
+    published_at: '2026-06-24T00:51:55Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen-agentworld-35b-a3b-9b73fd3485
+  date: '2026-06-24'
+  title: 'Hugging Face model update: Qwen/Qwen-AgentWorld-35B-A3B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5_moe, image-text-to-text, qwen, world-model,
+    agent, environment-simulation'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-agentworld-35b-a3b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B
+    published_at: '2026-06-24T02:04:34.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-shift-5f3069f578
+  date: '2026-06-23'
+  title: 'GitHub repository update: OpenBMB/SHIFT'
+  summary: 'Souce code for paper "SHIFT: Gate-Modulated Activation Steering for Knowledge Conflict Mitigation in Retrieval-Augmented
+    Generation"'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - shift
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/SHIFT
+    published_at: '2026-06-23T15:11:58Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-lmdeploy-4623ff6e0f
+  date: '2026-06-24'
+  title: InternLM/lmdeploy release v0.14.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at main -->    ## What''s Changed  ###
+    🚀 Features  * FP8 kv cache quantization by @CUHKSZzxy in https://github.com/InternLM/lmdeploy/pull/4563  * Support Qwen3
+    Omni by @'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - lmdeploy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/lmdeploy/releases/tag/v0.14.0
+    published_at: '2026-06-24T04:36:56Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-ccbc37fe58
+  date: '2026-06-23'
+  title: OpenBMB/PilotDeck release PilotDeck Desktop 260623
+  summary: '# PilotDeck Desktop 260623    Release date: 2026.06.23    This release updates PilotDeck Desktop to build `260623`
+    (`0.1.260623`). Compared with `v0.1.0`, this version focuses on stability, IM channels, frontend experience, and Cron
+    / Alway'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v260623
+    published_at: '2026-06-23T13:10:25Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-12c79cf27a
   date: '2026-06-23'
   title: QwenLM/qwen-code release Release v0.19.0
