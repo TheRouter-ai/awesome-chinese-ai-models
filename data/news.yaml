@@ -1,4 +1,137 @@
 news:
+- id: github-repository-update-qwenlm-qwen-robotnav-52f0e1880a
+  date: '2026-06-30'
+  title: 'GitHub repository update: QwenLM/Qwen-RobotNav'
+  summary: Official Repo for Qwen-RobotNav
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-robotnav
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-RobotNav
+    published_at: '2026-06-30T03:01:19Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-hunyuanvideo-4e35a2eddf
+  date: '2026-06-29'
+  title: 'GitHub repository update: Tencent-Hunyuan/HunyuanVideo'
+  summary: 'HunyuanVideo: A Systematic Framework For Large Video Generation Model'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hunyuanvideo
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/HunyuanVideo
+    published_at: '2026-06-29T09:33:50Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-rosetta-inference-96b2cef7ae
+  date: '2026-06-30'
+  title: 'GitHub repository update: Tencent-Hunyuan/Rosetta-inference'
+  summary: Open-source native multimodal pretraining — without catastrophic forgetting.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - rosetta-inference
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Rosetta-inference
+    published_at: '2026-06-30T03:56:42Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-3ea014a957
+  date: '2026-06-28'
+  title: QwenLM/qwen-code release Release v0.19.3
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3 -->  ## What''s Changed
+    * fix(core): allow web_fetch JSON fallback by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5660 * chore(release):
+    v0.19'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3
+    published_at: '2026-06-28T06:12:31Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-60fb19cbf5
+  date: '2026-06-30'
+  title: QwenLM/qwen-code release Release v0.19.3-nightly.20260630.e00fe6a27
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3-nightly.20260630.e00fe6a27
+    -->  ## What''s Changed * docs(daemon): refresh daemon docs for recent PRs (wave 2) by @doudouOUC in https://github.com/Qwe'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260630.e00fe6a27
+    published_at: '2026-06-30T00:54:13Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: deepseek-ai-dflash-gemma4-12b-block7-e1d15feaca
   date: '2026-06-28'
   title: 'Hugging Face model update: deepseek-ai/dflash_gemma4_12b_block7'

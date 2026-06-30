@@ -154,16 +154,16 @@ and reports, with notes on how each covers Chinese AI models.
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-06-30 `open_source` [QwenLM/qwen-code release Release v0.19.3-nightly.20260630.e00fe6a27](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260630.e00fe6a27) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3-nightly.20260630.e00fe6a27 -->  ## What's Changed * docs(daemon): refresh daemon docs for recent PRs (wave 2) by @doudouOUC in https://github.com/Qwe
+- 2026-06-30 `open_source` [GitHub repository update: Tencent-Hunyuan/Rosetta-inference](https://github.com/Tencent-Hunyuan/Rosetta-inference) — Open-source native multimodal pretraining — without catastrophic forgetting.
+- 2026-06-30 `open_source` [GitHub repository update: QwenLM/Qwen-RobotNav](https://github.com/QwenLM/Qwen-RobotNav) — Official Repo for Qwen-RobotNav
+- 2026-06-29 `open_source` [GitHub repository update: Tencent-Hunyuan/HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) — HunyuanVideo: A Systematic Framework For Large Video Generation Model
 - 2026-06-28 `open_source` [QwenLM/qwen-code release Release v0.19.2-nightly.20260628.714513df2](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2-nightly.20260628.714513df2) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.2-nightly.20260628.714513df2 -->  ## What's Changed * fix(core): allow web_fetch JSON fallback by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5
+- 2026-06-28 `open_source` [QwenLM/qwen-code release Release v0.19.3](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3 -->  ## What's Changed * fix(core): allow web_fetch JSON fallback by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5660 * chore(release): v0.19
 - 2026-06-28 `open_source` [GitHub repository update: InternLM/VSR](https://github.com/InternLM/VSR) — Repository tracked from an official GitHub organization.
 - 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_8b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_8b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
 - 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_4b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_4b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
 - 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_14b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_14b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
-- 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_gemma4_12b_ttt7](https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, gemma4_unified_text, region:us
-- 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/dflash_gemma4_12b_block7](https://huggingface.co/deepseek-ai/dflash_gemma4_12b_block7) — Model card/update on Hugging Face. Tags: safetensors, gemma4_text, region:us
-- 2026-06-27 `open_source` [QwenLM/qwen-code release Release v0.19.2-nightly.20260627.d93bec905](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2-nightly.20260627.d93bec905) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.2-nightly.20260627.d93bec905 -->  ## What's Changed * fix(core): allow web_fetch JSON fallback by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5
-- 2026-06-27 `open_source` [GitHub repository update: deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) — DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms
-- 2026-06-27 `model_update` [Hugging Face model update: deepseek-ai/DeepSeek-V4-Pro-DSpark](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark) — Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v4, text-generation, arxiv:2606.19348, license:mit, endpoints_compatible, 8-bit
 <!-- AUTO-GENERATED:END latest-news -->
 
 See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
