@@ -154,6 +154,8 @@ and reports, with notes on how each covers Chinese AI models.
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-07-01 `open_source` [QwenLM/qwen-code release Release v0.19.3-nightly.20260701.a974594d7](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260701.a974594d7) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3-nightly.20260701.a974594d7 -->  ## What's Changed * docs(daemon): refresh daemon docs for recent PRs (wave 2) by @doudouOUC in https://github.com/Qwe
+- 2026-07-01 `open_source` [GitHub repository update: Tencent-Hunyuan/GEAR](https://github.com/Tencent-Hunyuan/GEAR) — Repository tracked from an official GitHub organization.
 - 2026-06-30 `open_source` [QwenLM/qwen-code release Release v0.19.3-nightly.20260630.e00fe6a27](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260630.e00fe6a27) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3-nightly.20260630.e00fe6a27 -->  ## What's Changed * docs(daemon): refresh daemon docs for recent PRs (wave 2) by @doudouOUC in https://github.com/Qwe
 - 2026-06-30 `open_source` [GitHub repository update: Tencent-Hunyuan/Rosetta-inference](https://github.com/Tencent-Hunyuan/Rosetta-inference) — Open-source native multimodal pretraining — without catastrophic forgetting.
 - 2026-06-30 `open_source` [GitHub repository update: QwenLM/Qwen-RobotNav](https://github.com/QwenLM/Qwen-RobotNav) — Official Repo for Qwen-RobotNav
@@ -162,8 +164,6 @@ and reports, with notes on how each covers Chinese AI models.
 - 2026-06-28 `open_source` [QwenLM/qwen-code release Release v0.19.3](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3 -->  ## What's Changed * fix(core): allow web_fetch JSON fallback by @tt-a1i in https://github.com/QwenLM/qwen-code/pull/5660 * chore(release): v0.19
 - 2026-06-28 `open_source` [GitHub repository update: InternLM/VSR](https://github.com/InternLM/VSR) — Repository tracked from an official GitHub organization.
 - 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_8b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_8b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
-- 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_4b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_4b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
-- 2026-06-28 `model_update` [Hugging Face model update: deepseek-ai/eagle3_qwen3_14b_ttt7](https://huggingface.co/deepseek-ai/eagle3_qwen3_14b_ttt7) — Model card/update on Hugging Face. Tags: safetensors, qwen3, region:us
 <!-- AUTO-GENERATED:END latest-news -->
 
 See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
