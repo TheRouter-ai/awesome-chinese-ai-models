@@ -1,4 +1,30 @@
 news:
+- id: github-repository-update-tencent-hunyuan-mixgrpo-78431c748e
+  date: '2026-07-01'
+  title: 'GitHub repository update: Tencent-Hunyuan/MixGRPO'
+  summary: '[ECCV 2026] MixGRPO: Unlocking Flow-based GRPO Efficiency with Mixed ODE-SDE'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - mixgrpo
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/MixGRPO
+    published_at: '2026-07-01T10:49:26Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-gear-37ebf91e48
   date: '2026-07-01'
   title: 'GitHub repository update: Tencent-Hunyuan/GEAR'
