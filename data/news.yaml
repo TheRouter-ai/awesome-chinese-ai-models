@@ -1,4 +1,59 @@
 news:
+- id: qwenlm-qwen-code-ee78aebfd4
+  date: '2026-07-03'
+  title: QwenLM/qwen-code release Release v0.19.6
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6 -->  ## What''s Changed
+    * fix(web-shell): cut mobile session-switch jank (memoized timeline signature, replay-first dispatch) by @qqqys in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6
+    published_at: '2026-07-03T16:36:59Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-d917ac7adf
+  date: '2026-07-04'
+  title: QwenLM/qwen-code release Release v0.19.6-nightly.20260704.5dc2e1501
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6-nightly.20260704.5dc2e1501
+    -->  ## What''s Changed * fix(triage): strengthen PR gate with batch detection, problem existence check, and red flag
+    patte'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260704.5dc2e1501
+    published_at: '2026-07-04T00:48:07Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: qwenlm-qwen-code-cdd4f6f8c1
   date: '2026-07-02'
   title: QwenLM/qwen-code release Release v0.19.4-nightly.20260702.46814e4f1

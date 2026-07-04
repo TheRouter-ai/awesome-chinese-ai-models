@@ -154,6 +154,8 @@ and reports, with notes on how each covers Chinese AI models.
 ## Latest Updates
 
 <!-- AUTO-GENERATED:START latest-news -->
+- 2026-07-04 `open_source` [QwenLM/qwen-code release Release v0.19.6-nightly.20260704.5dc2e1501](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260704.5dc2e1501) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6-nightly.20260704.5dc2e1501 -->  ## What's Changed * fix(triage): strengthen PR gate with batch detection, problem existence check, and red flag patte
+- 2026-07-03 `open_source` [QwenLM/qwen-code release Release v0.19.6](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6 -->  ## What's Changed * fix(web-shell): cut mobile session-switch jank (memoized timeline signature, replay-first dispatch) by @qqqys in https://git
 - 2026-07-03 `open_source` [QwenLM/qwen-code release Release v0.19.5-nightly.20260703.b16baf1ff](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.5-nightly.20260703.b16baf1ff) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.5-nightly.20260703.b16baf1ff -->  ## What's Changed * fix(web-shell): cut mobile session-switch jank (memoized timeline signature, replay-first dispatc
 - 2026-07-02 `open_source` [QwenLM/qwen-code release Release v0.19.4-nightly.20260702.46814e4f1](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.4-nightly.20260702.46814e4f1) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.4-nightly.20260702.46814e4f1 -->  ## What's Changed * feat(cli): Harden daemon-managed channel worker by @doudouOUC in https://github.com/QwenLM/qwen-c
 - 2026-07-02 `open_source` [QwenLM/qwen-code release Release v0.19.5](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.5) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.5 -->  ## What's Changed * feat(cli): Harden daemon-managed channel worker by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/6098 * fix(web-she
@@ -162,8 +164,6 @@ and reports, with notes on how each covers Chinese AI models.
 - 2026-07-01 `open_source` [GitHub repository update: Tencent-Hunyuan/GEAR](https://github.com/Tencent-Hunyuan/GEAR) — Repository tracked from an official GitHub organization.
 - 2026-06-30 `open_source` [QwenLM/qwen-code release Release v0.19.3-nightly.20260630.e00fe6a27](https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260630.e00fe6a27) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.19.3-nightly.20260630.e00fe6a27 -->  ## What's Changed * docs(daemon): refresh daemon docs for recent PRs (wave 2) by @doudouOUC in https://github.com/Qwe
 - 2026-06-30 `open_source` [GitHub repository update: Tencent-Hunyuan/Rosetta-inference](https://github.com/Tencent-Hunyuan/Rosetta-inference) — Open-source native multimodal pretraining — without catastrophic forgetting.
-- 2026-06-30 `open_source` [GitHub repository update: QwenLM/Qwen-RobotNav](https://github.com/QwenLM/Qwen-RobotNav) — Official Repo for Qwen-RobotNav
-- 2026-06-29 `open_source` [GitHub repository update: Tencent-Hunyuan/HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) — HunyuanVideo: A Systematic Framework For Large Video Generation Model
 <!-- AUTO-GENERATED:END latest-news -->
 
 See [`newsletters/latest.md`](newsletters/latest.md) for the full daily digest.
