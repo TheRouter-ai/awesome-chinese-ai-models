@@ -1,4 +1,58 @@
 news:
+- id: qwenlm-qwen-code-23b5600098
+  date: '2026-07-05'
+  title: QwenLM/qwen-code release Release v0.19.6-nightly.20260705.015ee4248
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6-nightly.20260705.015ee4248
+    -->  ## What''s Changed * fix(triage): strengthen PR gate with batch detection, problem existence check, and red flag
+    patte'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260705.015ee4248
+    published_at: '2026-07-05T00:48:31Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-ex-omni-1ba5831adc
+  date: '2026-07-04'
+  title: 'Hugging Face model update: tencent/Ex-Omni'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3, arxiv:2602.07106, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - ex-omni
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Ex-Omni
+    published_at: '2026-07-04T12:10:38.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: qwenlm-qwen-code-ee78aebfd4
   date: '2026-07-03'
   title: QwenLM/qwen-code release Release v0.19.6
