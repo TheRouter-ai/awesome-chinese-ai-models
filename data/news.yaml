@@ -1,4 +1,59 @@
 news:
+- id: qwenlm-qwen-code-e4a1ae18ee
+  date: '2026-07-06'
+  title: QwenLM/qwen-code release Release v0.19.6-nightly.20260706.47f62a466
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6-nightly.20260706.47f62a466
+    -->  ## What''s Changed * fix(triage): strengthen PR gate with batch detection, problem existence check, and red flag
+    patte'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260706.47f62a466
+    published_at: '2026-07-06T00:48:59Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hunyuanocr-ca583250c4
+  date: '2026-07-06'
+  title: 'Hugging Face model update: tencent/HunyuanOCR'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hunyuan_vl, image-text-to-text, ocr, vision-language-model,
+    document-parsing, text-spotting'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hunyuanocr
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/HunyuanOCR
+    published_at: '2026-07-06T05:21:58.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: qwenlm-qwen-code-23b5600098
   date: '2026-07-05'
   title: QwenLM/qwen-code release Release v0.19.6-nightly.20260705.015ee4248
