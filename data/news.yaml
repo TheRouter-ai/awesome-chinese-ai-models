@@ -1,4 +1,166 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hils-attention-991ddb07c8
+  date: '2026-07-07'
+  title: 'GitHub repository update: Tencent-Hunyuan/HiLS-Attention'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hils-attention
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/HiLS-Attention
+    published_at: '2026-07-07T13:07:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-c983fed085
+  date: '2026-07-08'
+  title: QwenLM/qwen-code release Release v0.19.6-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.6-preview.0 -->  ## What''s
+    Changed * docs(channels): add WeCom to channels overview by @DragonnZhang in https://github.com/QwenLM/qwen-code/pull/6490'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-preview.0
+    published_at: '2026-07-08T00:50:05Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-60e64e50c8
+  date: '2026-07-07'
+  title: QwenLM/qwen-code release Release v0.19.7
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.7 -->  ## What''s Changed
+    * fix(triage): strengthen PR gate with batch detection, problem existence check, and red flag patterns by @pomelo-nwu
+    in https'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.7
+    published_at: '2026-07-07T17:22:03Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-9ff14be695
+  date: '2026-07-08'
+  title: QwenLM/qwen-code release Release v0.19.7-nightly.20260708.394c1a289
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.7-nightly.20260708.394c1a289
+    -->  ## What''s Changed * docs(channels): add WeCom to channels overview by @DragonnZhang in https://github.com/QwenLM/qwen'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.7-nightly.20260708.394c1a289
+    published_at: '2026-07-08T00:48:59Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-r3-embedding-0-6b-f5bbe27413
+  date: '2026-07-08'
+  title: 'Hugging Face model update: tencent/R3-embedding-0.6b'
+  summary: 'Model card/update on Hugging Face. Tags: sentence-transformers, safetensors, qwen3, feature-extraction, agent-skill-retrieval,
+    sentence-similarity, arxiv:2606.03565, base_model:Qwen/Qwen3-Embedding-0.6B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - r3-embedding-0-6b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/R3-embedding-0.6b
+    published_at: '2026-07-08T04:04:18.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-r3-rerank-0-6b-de846770ed
+  date: '2026-07-08'
+  title: 'Hugging Face model update: tencent/R3-rerank-0.6b'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3, cross-encoder, agent-skill-retrieval, text-ranking,
+    arxiv:2606.03565, base_model:Qwen/Qwen3-Reranker-0.6B, base_model:finetune:Qwen/Qwen3-Reranker-0.6B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - r3-rerank-0-6b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/R3-rerank-0.6b
+    published_at: '2026-07-08T04:04:21.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy3-6284e37ab3
   date: '2026-07-06'
   title: 'GitHub repository update: Tencent-Hunyuan/Hy3'
