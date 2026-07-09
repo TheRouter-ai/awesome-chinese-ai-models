@@ -1,4 +1,57 @@
 news:
+- id: github-repository-update-qwenlm-qwen-code-action-ac59f25c92
+  date: '2026-07-09'
+  title: 'GitHub repository update: QwenLM/qwen-code-action'
+  summary: A GitHub Action that integrates Qwen Code into your development workflow.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code-action
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code-action
+    published_at: '2026-07-09T04:41:06Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-f083df56b5
+  date: '2026-07-08'
+  title: QwenLM/qwen-code release Release v0.19.8
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.8 -->  ## What''s Changed
+    * docs(channels): add WeCom to channels overview by @DragonnZhang in https://github.com/QwenLM/qwen-code/pull/6490 * feat(cli)'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.19.8
+    published_at: '2026-07-08T15:29:45Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hils-attention-991ddb07c8
   date: '2026-07-07'
   title: 'GitHub repository update: Tencent-Hunyuan/HiLS-Attention'
