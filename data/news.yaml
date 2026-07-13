@@ -1,4 +1,214 @@
 news:
+- id: github-repository-update-qwenlm-flashqla-2dd66bedbd
+  date: '2026-07-09'
+  title: 'GitHub repository update: QwenLM/FlashQLA'
+  summary: high-performance linear attention kernel library built on TileLang
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - flashqla
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/FlashQLA
+    published_at: '2026-07-09T07:04:54Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-flashqla-ef149ab104
+  date: '2026-07-09'
+  title: QwenLM/FlashQLA release FlashQLA v0.1.2
+  summary: FlashQLA v0.1.2    🚀 Highlights  - [Flash-Linear-Attention](https://github.com/fla-org/flash-linear-attention)
+    backend integration by @Erix025 — FlashQLA can now be used as a drop-in backend for FLA's GDN (chunked gated delta rule)
+    via the
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - flashqla
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/FlashQLA/releases/tag/v0.1.2
+    published_at: '2026-07-09T06:49:12Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: baai-aquila-7b-6c22b744f4
+  date: '2026-07-13'
+  title: 'Hugging Face model update: BAAI/Aquila-7B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, aquila, custom_code, license:other, endpoints_compatible,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aquila-7b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/Aquila-7B
+    published_at: '2026-07-13T04:11:41.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: baai-aquilachat-7b-2a084d593f
+  date: '2026-07-13'
+  title: 'Hugging Face model update: BAAI/AquilaChat-7B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, aquila, custom_code, license:other, endpoints_compatible,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aquilachat-7b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/AquilaChat-7B
+    published_at: '2026-07-13T04:11:30.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: baai-aquilachat2-70b-expr-7724f33472
+  date: '2026-07-13'
+  title: 'Hugging Face model update: BAAI/AquilaChat2-70B-Expr'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, aquila, text-generation, license:other, endpoints_compatible,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aquilachat2-70b-expr
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/AquilaChat2-70B-Expr
+    published_at: '2026-07-13T04:11:20.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: baai-aquilacode-multi-1e4191bb9b
+  date: '2026-07-13'
+  title: 'Hugging Face model update: BAAI/AquilaCode-multi'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, aquila, custom_code, license:other, endpoints_compatible,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aquilacode-multi
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/AquilaCode-multi
+    published_at: '2026-07-13T04:11:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: baai-aquilasql-7b-e857bafb12
+  date: '2026-07-13'
+  title: 'Hugging Face model update: BAAI/AquilaSQL-7B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, pytorch, aquila, custom_code, license:other, endpoints_compatible,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aquilasql-7b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/AquilaSQL-7B
+    published_at: '2026-07-13T04:11:12.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-ultrax-0-6b-preview-52075c2fdf
+  date: '2026-07-12'
+  title: 'Hugging Face model update: openbmb/UltraX-0.6B-Preview'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, data-refinement, function-calling, programmatic-editing,
+    pretraining, text-generation, en, arxiv:2607.08646'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - ultrax-0-6b-preview
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/UltraX-0.6B-Preview
+    published_at: '2026-07-12T14:50:19.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-6fc14486da
   date: '2026-07-11'
   title: QwenLM/qwen-code release Release v0.19.8-nightly.20260711.0ef3a76bd
