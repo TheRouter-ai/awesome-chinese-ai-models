@@ -1,38 +1,33 @@
-# Social drafts — This Week in China AI Models (2026-W30)
+# Social Drafts — This Week in China AI Models (2026-W31)
 
-Source newsletter: `newsletters/weekly/2026-W30.md`  
-Window: 2026-07-14 → 2026-07-20
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W31.md
 
-## X / Twitter
+## X
 
-This Week in China AI Models (2026-W30): Tencent Hunyuan released Hy-Embodied-RxBrain-1.0, a ~6.2B embodied-cognition model for VQA, future-frame prediction, and interleaved subgoal planning. Also: Hy-Embodied-VLM-1.0, Qwen Code v0.19.10, UltraEval-Audio.
+Quiet week for China AI model releases: the 2026-W31 automated rollup found 0 high-signal updates across the tracked HF/GitHub/news sources.
 
-Full weekly digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W30.md
+Logged as a short archive issue rather than padding with stale items.
+
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W31.md
 
 ## Reddit
 
-Title: This Week in China AI Models (2026-W30): Tencent Hy-Embodied-RxBrain-1.0, Qwen Code v0.19.10
+Title: This Week in China AI Models: quiet Week 31, no tracked releases
 
-Post:
+Body:
 
-I published the 2026-W30 weekly digest for Chinese AI model releases and ecosystem updates.
+This week's automated rollup for Chinese AI model releases found no high-signal updates in the tracked sources for July 21–27, 2026.
 
-Highlights:
+Rather than padding the digest with stale items, I kept the issue short and recorded the quiet window. Things to watch next: delayed HF/GitHub updates for that week, follow-up activity around Tencent Hunyuan's embodied-AI releases, and continued Qwen Code ecosystem updates after the v0.19.x cadence.
 
-- Tencent Hunyuan released Hy-Embodied-RxBrain-1.0, a roughly 6.2B multimodal model for embodied cognition.
-- RxBrain is positioned around three capabilities: visual-language reasoning over images/video, near-future world-state prediction, and joint subgoal planning with language actions plus visual goal states.
-- Tencent also added Hy-Embodied-VLM-1.0, tagged for embodied AI, robotics, spatial reasoning, and image-text-to-text use.
-- Qwen Code v0.19.10 focused on multi-workspace support, web-shell artifact/review panels, more resilient session/model recovery, richer subagent visibility, and SDK/daemon controls.
-- OpenBMB updated UltraEval-Audio, an evaluation framework for audio LLMs, ASR, TTS, audio codec, speech, sound, medicine, and music tasks.
-
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W30.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W31.md
 
 ## Hacker News
 
-Title: This Week in China AI Models: Tencent Hy-Embodied-RxBrain-1.0
+Title: This Week in China AI Models: quiet Week 31, no tracked releases
 
-URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W30.md
+URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W31.md
 
 Optional text:
 
-Weekly roundup of Chinese AI model releases. This issue covers Tencent Hunyuan's Hy-Embodied-RxBrain-1.0 embodied-cognition model, Hy-Embodied-VLM-1.0, Qwen Code v0.19.10 tooling updates, qwen-code-docs, BAAI Orca-4B, and OpenBMB UltraEval-Audio.
+Weekly roundup of Chinese AI model releases. The July 21–27, 2026 window had no high-signal updates in the tracked Hugging Face, GitHub, and source feeds, so this issue records the quiet week instead of reusing stale items.
