@@ -1,4 +1,348 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hunyuan3d-buffalo1-0-45e932926e
+  date: '2026-08-04'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hunyuan3D-Buffalo1.0'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hunyuan3d-buffalo1-0
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0
+    published_at: '2026-08-04T02:09:53Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-c2bdf24a37
+  date: '2026-08-03'
+  title: QwenLM/qwen-code release Release v0.21.4
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  - Web Shell is now a release-ready desktop app with native lifecycle
+    management, single-instance behavior, and automatic updates. ([#8132](https://github.com/QwenLM/qwen-code/pull/8132))
+    - Web'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.4
+    published_at: '2026-08-03T04:19:14Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-0bed571ecf
+  date: '2026-08-04'
+  title: QwenLM/qwen-code release Release v0.21.4-nightly.20260804.d6f55a1c9
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.4-nightly.20260804.d6f55a1c9
+    -->  ## What''s Changed * feat(desktop): bridge Electron users to Tauri updates by @yiliang114 in https://github.com/QwenLM'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.4-nightly.20260804.d6f55a1c9
+    published_at: '2026-08-04T02:15:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-61d884c7e8
+  date: '2026-08-04'
+  title: QwenLM/qwen-code release Release v0.21.5
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  - Adds an opt-in one-time update bridge for macOS users to migrate
+    from the Electron desktop app to the new Tauri shell. ([#8392](https://github.com/QwenLM/qwen-code/pull/8392)) - Introduces
+    de'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.5
+    published_at: '2026-08-04T02:17:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: therouter-081c1a3d8b
+  date: '2026-08-04'
+  title: 'TheRouter supported model page: deepseek/deepseek-r1'
+  summary: TheRouter model page with model introduction and OpenAI-compatible access details.
+  category: api_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-r1
+  source:
+    type: official_docs
+    name: deepseek
+    url: https://therouter.ai/models/deepseek--deepseek-r1
+    published_at: '2026-08-04'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - api_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 81
+  decision: stable_entry
+- id: deepseek-ai-deepseek-v4-flash-0731-dfcf281d2f
+  date: '2026-08-01'
+  title: 'Hugging Face model update: deepseek-ai/DeepSeek-V4-Flash-0731'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v4, text-generation, conversational,
+    arxiv:2606.19348, license:mit, eval-results'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-v4-flash-0731
+  source:
+    type: model_card
+    name: deepseek
+    url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731
+    published_at: '2026-08-01T03:07:41.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-forgestencil-dbc72e7cac
+  date: '2026-08-03'
+  title: 'GitHub repository update: OpenBMB/ForgeStencil'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - forgestencil
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/ForgeStencil
+    published_at: '2026-08-03T16:48:13Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-lmdeploy-9620b5e13e
+  date: '2026-07-31'
+  title: InternLM/lmdeploy release v0.15.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at main -->    ## What''s Changed  ###
+    🚀 Features  * Support long-context and MTP prefix-cache hits by @grimoire in https://github.com/InternLM/lmdeploy/pull/4688  *
+    [Fe'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - lmdeploy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/lmdeploy/releases/tag/v0.15.0
+    published_at: '2026-07-31T13:00:46Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-intern-s2-preview-397b-5ce6d7b2a2
+  date: '2026-07-29'
+  title: 'Hugging Face model update: internlm/Intern-S2-Preview-397B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, intern_s2_preview, image-text-to-text, conversational,
+    custom_code, license:apache-2.0, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-s2-preview-397b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-S2-Preview-397B
+    published_at: '2026-07-29T12:52:27.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-6-thinking-f60bce1fef
+  date: '2026-08-03'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.6-Thinking'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_6, image-text-to-text, minicpm-v,
+    multimodal, On-Device Model, lightweight'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-6-thinking
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.6-Thinking
+    published_at: '2026-08-03T09:42:44.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-o-4-5-gptq-29184b1b9c
+  date: '2026-08-03'
+  title: 'Hugging Face model update: openbmb/MiniCPM-o-4_5-GPTQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o,
+    minicpm-v, multimodal'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-o-4-5-gptq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-o-4_5-GPTQ
+    published_at: '2026-08-03T10:15:28.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-o-4-5-awq-dbfaf61c76
+  date: '2026-08-03'
+  title: 'Hugging Face model update: openbmb/MiniCPM-o-4_5-awq'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o,
+    minicpm-v, multimodal'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-o-4-5-awq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-o-4_5-awq
+    published_at: '2026-08-03T10:14:49.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-o-4-5-gguf-d94a251202
+  date: '2026-08-03'
+  title: 'Hugging Face model update: openbmb/MiniCPM-o-4_5-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, minicpm-o, minicpm-v, multimodal, full-duplex, any-to-any,
+    arxiv:2408.01800'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-o-4-5-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-o-4_5-gguf
+    published_at: '2026-08-03T10:15:12.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy-embodied-rxbrain-1-0-940a97834a
   date: '2026-07-15'
   title: 'GitHub repository update: Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0'
