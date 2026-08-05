@@ -1,4 +1,286 @@
 news:
+- id: github-repository-update-qwenlm-qwen-mm-plugins-99d574022e
+  date: '2026-08-04'
+  title: 'GitHub repository update: QwenLM/Qwen-MM-Plugins'
+  summary: Make any agent harness multimodal-native.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-mm-plugins
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-MM-Plugins
+    published_at: '2026-08-04T23:36:26Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-36304cf0f1
+  date: '2026-08-05'
+  title: QwenLM/qwen-code release Release v0.21.5-nightly.20260805.32e274157
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.5-nightly.20260805.32e274157
+    -->  ## What''s Changed * feat(browser-ext): add alpha readiness diagnostics by @yiliang114 in https://github.com/QwenLM/qw'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.5-nightly.20260805.32e274157
+    published_at: '2026-08-05T00:58:35Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-2eecf62b2e
+  date: '2026-08-05'
+  title: QwenLM/qwen-code release Release v0.21.6-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.6-preview.0 -->  ## What''s
+    Changed * feat(browser-ext): add alpha readiness diagnostics by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/6739'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6-preview.0
+    published_at: '2026-08-05T01:03:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-internlm-intern-s2-mobius-8019d42482
+  date: '2026-08-05'
+  title: 'GitHub repository update: InternLM/Intern-S2-Mobius'
+  summary: Intern-S2-Mobius
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-s2-mobius
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/Intern-S2-Mobius
+    published_at: '2026-08-05T03:38:13Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-internlm-archspace-610a1a8cc5
+  date: '2026-07-29'
+  title: 'GitHub repository update: InternLM/archspace'
+  summary: Turning LLM architecture exploration into reusable knowledge for the community. 🌳
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - archspace
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/archspace
+    published_at: '2026-07-29T08:27:42Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-staffdeck-bec8411275
+  date: '2026-08-05'
+  title: 'GitHub repository update: OpenBMB/StaffDeck'
+  summary: Enterprise Digital Employee Platform
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck
+    published_at: '2026-08-05T03:12:56Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-e4f10829e8
+  date: '2026-07-31'
+  title: OpenBMB/StaffDeck release v0.1.2-beta.2
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.12-beta.2
+    published_at: '2026-07-31T06:45:47Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-ebdc902d13
+  date: '2026-08-03'
+  title: OpenBMB/StaffDeck release v0.2.0
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.2.0
+    published_at: '2026-08-03T06:27:59Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-9f56355950
+  date: '2026-08-03'
+  title: OpenBMB/StaffDeck release v0.2.0-beta.1
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.2.0-beta.1
+    published_at: '2026-08-03T08:47:51Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-intern-s2-mobius-9f0f75f77d
+  date: '2026-08-05'
+  title: 'Hugging Face model update: internlm/Intern-S2-Mobius'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, interns2_mobius, image-text-to-text, conversational,
+    custom_code, license:apache-2.0, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-s2-mobius
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-S2-Mobius
+    published_at: '2026-08-05T03:42:39.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-intern-s2-mobius-fp8-15c2028f98
+  date: '2026-08-05'
+  title: 'Hugging Face model update: internlm/Intern-S2-Mobius-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, interns2_mobius, image-text-to-text, conversational,
+    custom_code, license:apache-2.0, fp8'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-s2-mobius-fp8
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-S2-Mobius-FP8
+    published_at: '2026-08-05T03:54:43.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hunyuan3d-buffalo1-0-45e932926e
   date: '2026-08-04'
   title: 'GitHub repository update: Tencent-Hunyuan/Hunyuan3D-Buffalo1.0'
