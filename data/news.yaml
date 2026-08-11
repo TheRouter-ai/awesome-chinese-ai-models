@@ -1,4 +1,190 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hunyuan3d-worldclaw-770c918093
+  date: '2026-08-10'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hunyuan3D-WorldClaw'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hunyuan3d-worldclaw
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw
+    published_at: '2026-08-10T13:54:35Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-r-dmesh-67b6258abb
+  date: '2026-08-11'
+  title: 'GitHub repository update: Tencent-Hunyuan/R-DMesh'
+  summary: '[SIGGRAPH2026] Official code for SIGGRAPH2026 paper: R-DMesh: Video-Guided 3D Animation via Rectified Dynamic
+    Mesh Flow'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - r-dmesh
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/R-DMesh
+    published_at: '2026-08-11T01:56:44Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-94af8134a7
+  date: '2026-08-10'
+  title: QwenLM/qwen-code release Release v0.21.8-nightly.20260810.55e20db328
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.8-nightly.20260810.55e20db328
+    -->  ## What''s Changed * feat(core): support Qoder plugin extensions by @callmeYe in https://github.com/QwenLM/qwen-code/'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.8-nightly.20260810.55e20db328
+    published_at: '2026-08-10T00:50:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-146d827fd4
+  date: '2026-08-10'
+  title: QwenLM/qwen-code release Release v0.21.9
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  - Added native support for installing Qoder plugins from directories,
+    archives, Git repos, URLs, and npm packages with automatic system-prompt loading. ([#8661](https://github.com/QwenLM/qwen-c'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.9
+    published_at: '2026-08-10T15:14:22Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-b36465201e
+  date: '2026-08-11'
+  title: QwenLM/qwen-code release Release v0.21.9-nightly.20260811.8c90697ace
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.9-nightly.20260811.8c90697ace
+    -->  ## What''s Changed * test(memory): Cover context refresh marker carry-over turns by @ZijianZhang989 in https://github'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.9-nightly.20260811.8c90697ace
+    published_at: '2026-08-11T00:39:53Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: internlm-intern-memdec-4b-b2854bcc40
+  date: '2026-08-06'
+  title: 'Hugging Face model update: internlm/Intern-MemDec-4B'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3_5, intern-s2, memory-decoder, biology, scientific-ai,
+    domain-adaptation, arxiv:2607.25614'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-memdec-4b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-MemDec-4B
+    published_at: '2026-08-06T08:43:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-intern-s1-fp8-e1e1604f16
+  date: '2026-08-06'
+  title: 'Hugging Face model update: internlm/Intern-S1-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, interns1, image-text-to-text, conversational, custom_code,
+    arxiv:2508.15763, base_model:internlm/Intern-S1, base_model:quantized:internlm/Intern-S1'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-s1-fp8
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-S1-FP8
+    published_at: '2026-08-06T13:50:22.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-qwenlm-qwen-mm-plugins-99d574022e
   date: '2026-08-04'
   title: 'GitHub repository update: QwenLM/Qwen-MM-Plugins'
