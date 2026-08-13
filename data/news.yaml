@@ -1,4 +1,111 @@
 news:
+- id: qwenlm-qwen-code-5834bda4ea
+  date: '2026-08-12'
+  title: QwenLM/qwen-code release Qwen Code Desktop v0.2.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at 464e8910e87231bba82280a34e2f33d644ed7ea5
+    -->  ## What''s Changed * refactor(serve): default project memory to workspace scope by @qqqys in https://github.com/QwenLM/q'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.2.1
+    published_at: '2026-08-12T17:08:01Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen3-8-2-4t-a95b-a7722cb146
+  date: '2026-08-12'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-2.4T-A95B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5_moe_text, text-generation, conversational,
+    license:other, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-2-4t-a95b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
+    published_at: '2026-08-12T10:24:04.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-8-2-4t-a95b-fp8-93ee33736e
+  date: '2026-08-12'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-2.4T-A95B-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5_moe_text, text-generation, conversational,
+    base_model:Qwen/Qwen3.8-2.4T-A95B, base_model:quantized:Qwen/Qwen3.8-2.4T-A95B, license:other'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-2-4t-a95b-fp8
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8
+    published_at: '2026-08-12T10:23:42.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-pilotdeck-40a1925f3b
+  date: '2026-08-07'
+  title: OpenBMB/PilotDeck release v260806
+  summary: '# PilotDeck Desktop 260806  Release Date: 2026.08.06    It focuses on improving document and spreadsheet workflows.    ##
+    Download    | Platform | File |  |---|---|  | macOS Universal | [PilotDeck-260806-mac-universal.dmg](https://github.co'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v260806
+    published_at: '2026-08-07T09:42:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-c0571eb7b9
   date: '2026-08-12'
   title: QwenLM/qwen-code release DSW EAS infrastructure smoke 2026-08-12
