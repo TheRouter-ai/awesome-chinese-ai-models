@@ -1,4 +1,142 @@
 news:
+- id: qwenlm-qwen-code-db5f7eb3cc
+  date: '2026-08-15'
+  title: QwenLM/qwen-code release Release v0.21.11-nightly.20260815.c396fe3d12
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.11-nightly.20260815.c396fe3d12
+    -->  ## What''s Changed * feat(autofix): deny-by-default footprint gate and positional window censuses by @wenshao in
+    htt'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260815.c396fe3d12
+    published_at: '2026-08-15T00:46:12Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-55da25f40a
+  date: '2026-08-14'
+  title: QwenLM/qwen-code release Release v0.21.12
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  - Added support for uploading workspace files to the Web Shell
+    composer via drag-and-drop or the @ file panel with progress tracking. ([#8874](https://github.com/QwenLM/qwen-code/pull/8874))
+    -'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12
+    published_at: '2026-08-14T16:39:48Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-eac5ab8b24
+  date: '2026-08-14'
+  title: QwenLM/qwen-code release Release v0.21.12-preview.4
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.12-preview.4 -->  ##
+    What''s Changed * fix(web-shell): preserve standalone session target by @ytahdn in https://github.com/QwenLM/qwen-code/pull/9038
+    *'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.4
+    published_at: '2026-08-14T08:37:31Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen3-8-27b-4063e14aed
+  date: '2026-08-14'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-27B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, conversational,
+    license:apache-2.0, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-27b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-27B
+    published_at: '2026-08-14T15:00:01.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-8-27b-fp8-24b4c27d22
+  date: '2026-08-14'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-27B-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, conversational,
+    base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-27b-fp8
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-27B-FP8
+    published_at: '2026-08-14T14:44:41.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: github-repository-update-deepseek-ai-deepseek-harness-0002a3e81a
   date: '2026-08-13'
   title: 'GitHub repository update: deepseek-ai/deepseek-harness'
