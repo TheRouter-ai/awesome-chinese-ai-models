@@ -1,4 +1,59 @@
 news:
+- id: qwenlm-qwen-code-884b1ffb09
+  date: '2026-08-16'
+  title: QwenLM/qwen-code release Release v0.21.11-nightly.20260816.5677823abb
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.11-nightly.20260816.5677823abb
+    -->  ## What''s Changed * feat(autofix): deny-by-default footprint gate and positional window censuses by @wenshao in
+    htt'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260816.5677823abb
+    published_at: '2026-08-16T00:47:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-9b726116dd
+  date: '2026-08-16'
+  title: QwenLM/qwen-code release Release v0.21.12-preview.5
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.12-preview.5 -->    **Full
+    Changelog**: https://github.com/QwenLM/qwen-code/compare/v0.21.12...v0.21.12-preview.5'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.5
+    published_at: '2026-08-16T00:48:15Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: qwenlm-qwen-code-db5f7eb3cc
   date: '2026-08-15'
   title: QwenLM/qwen-code release Release v0.21.11-nightly.20260815.c396fe3d12
