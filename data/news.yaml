@@ -1,4 +1,246 @@
 news:
+- id: github-repository-update-qwenlm-qwen3-8-flash-next-f845a02a88
+  date: '2026-08-27'
+  title: 'GitHub repository update: QwenLM/Qwen3.8-Flash-Next'
+  summary: Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-flash-next
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen3.8-Flash-Next
+    published_at: '2026-08-27T07:31:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-b538c1baf5
+  date: '2026-08-26'
+  title: QwenLM/qwen-code release Qwen Code Desktop v0.2.2
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at 7b69293266441dc60846d6d8a50efa1b2cad1eb4
+    -->  ## What''s Changed * fix(goal): converge the three continuation prompts on one guarded contract by @qqqys in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.2.2
+    published_at: '2026-08-26T09:37:43Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-26b7431fa5
+  date: '2026-08-26'
+  title: QwenLM/qwen-code release Release v0.22.2
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  - refactor(node-repl)!:
+    deliver the persistent Node REPL as a standalone MCP server ([#9499](https://github.com/QwenLM/qwen-code/pull'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.2
+    published_at: '2026-08-26T12:57:21Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-5229a02f9a
+  date: '2026-08-26'
+  title: QwenLM/qwen-code release Release v0.22.2-preview.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.22.2-preview.1 -->  ## What''s
+    Changed * fix(goal): converge the three continuation prompts on one guarded contract by @qqqys in https://github.com/QwenLM/'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.2-preview.1
+    published_at: '2026-08-26T06:12:32Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen3-8-flash-next-b42124109f
+  date: '2026-08-27'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-Flash-Next'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen4_exp, image-text-to-text, conversational,
+    license:other, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-flash-next
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-Flash-Next
+    published_at: '2026-08-27T05:03:36.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-8-flash-next-fp8-2caa483790
+  date: '2026-08-27'
+  title: 'Hugging Face model update: Qwen/Qwen3.8-Flash-Next-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen4_exp, image-text-to-text, conversational,
+    base_model:Qwen/Qwen3.8-Flash-Next, base_model:quantized:Qwen/Qwen3.8-Flash-Next, license:other'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-8-flash-next-fp8
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8
+    published_at: '2026-08-27T05:04:18.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-embedding-2b-b36c8a8660
+  date: '2026-08-26'
+  title: 'Hugging Face model update: tencent/WeMM-Embedding-2B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, sentence-transformers,
+    multimodal-embedding, text-embedding, image-embedding'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-embedding-2b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Embedding-2B
+    published_at: '2026-08-26T03:06:06.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-embedding-4b-452cea21ce
+  date: '2026-08-26'
+  title: 'Hugging Face model update: tencent/WeMM-Embedding-4B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, sentence-transformers,
+    multimodal-embedding, text-embedding, image-embedding'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-embedding-4b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Embedding-4B
+    published_at: '2026-08-26T03:06:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-embedding-9b-c7cf28ecc1
+  date: '2026-08-26'
+  title: 'Hugging Face model update: tencent/WeMM-Embedding-9B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, sentence-transformers,
+    multimodal-embedding, text-embedding, image-embedding'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-embedding-9b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Embedding-9B
+    published_at: '2026-08-26T03:07:30.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: qwenlm-qwen-code-4b7ee97072
   date: '2026-08-22'
   title: QwenLM/qwen-code release Release v0.22.0
