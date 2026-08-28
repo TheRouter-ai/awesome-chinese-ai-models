@@ -1,4 +1,163 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy4-preview-fb68667e62
+  date: '2026-08-28'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy4-preview'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy4-preview
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy4-preview
+    published_at: '2026-08-28T09:35:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-5e9b183170
+  date: '2026-08-28'
+  title: QwenLM/qwen-code release Release v0.22.2-nightly.20260828.7357136dd1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.22.2-nightly.20260828.7357136dd1
+    -->  ## What''s Changed * fix(web-shell): restore saved session diffs by @ytahdn in https://github.com/QwenLM/qwen-code/pu'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.2-nightly.20260828.7357136dd1
+    published_at: '2026-08-28T03:24:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-cef824a1da
+  date: '2026-08-27'
+  title: deepseek-ai/deepseek-harness release v0.1.2-alpha.1
+  summary: '[中文](#cn-v0.1.2-alpha.1) | [English](#en-v0.1.2-alpha.1)    <h3 id="cn-v0.1.2-alpha.1">新增功能</h3>    * 会话流默认在每个已完成回答前折叠过程内容，并默认折叠的「System
+    prompt」 @07akioni, @lsdsjy  * 会话流正文宽度可自适应或拖拽调整 @yixiangihsiang  * 会话流每个已完成回答后可展开查看精确 token 用量 @hypatiam'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1
+    published_at: '2026-08-27T17:06:37Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hy4-preview-6f677013c7
+  date: '2026-08-28'
+  title: 'Hugging Face model update: tencent/Hy4-preview'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hy_v4, text-generation, hunyuan, hy4, moe,
+    conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy4-preview
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy4-preview
+    published_at: '2026-08-28T09:34:20.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy4-preview-fp8-0815eb69f7
+  date: '2026-08-28'
+  title: 'Hugging Face model update: tencent/Hy4-preview-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, hy_v4, text-generation, hunyuan, hy4, moe,
+    fp8'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy4-preview-fp8
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy4-preview-FP8
+    published_at: '2026-08-28T09:34:27.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-simplenav-107357fbb9
+  date: '2026-08-28'
+  title: 'GitHub repository update: OpenBMB/SimpleNav'
+  summary: 'SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - simplenav
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/SimpleNav
+    published_at: '2026-08-28T02:46:44Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: github-repository-update-qwenlm-qwen3-8-flash-next-f845a02a88
   date: '2026-08-27'
   title: 'GitHub repository update: QwenLM/Qwen3.8-Flash-Next'
