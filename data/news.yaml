@@ -1,4 +1,159 @@
 news:
+- id: qwenlm-qwen-code-efbdd65b4e
+  date: '2026-08-28'
+  title: QwenLM/qwen-code release Release v0.22.3
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  - Added owner-scoped named sessions in Channels to manage up to
+    eight persistent tasks per chat. ([#10198](https://github.com/QwenLM/qwen-code/pull/10198)) - Enabled daemon Extension
+    installs t'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.3
+    published_at: '2026-08-28T17:16:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-0e13a29e98
+  date: '2026-08-29'
+  title: QwenLM/qwen-code release Release v0.22.3-nightly.20260829.e5cb60ad48
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.22.3-nightly.20260829.e5cb60ad48
+    -->  ## What''s Changed * feat(web-shell): show git state hints beside branch picker actions by @wenshao in https://github'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.3-nightly.20260829.e5cb60ad48
+    published_at: '2026-08-29T00:52:24Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-openbmb-minicpm-robot-33f9bd8801
+  date: '2026-08-25'
+  title: 'GitHub repository update: OpenBMB/MiniCPM-Robot'
+  summary: A Smarter and Faster On-Device AI Brain for Robots
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-robot
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-Robot
+    published_at: '2026-08-25T10:04:27Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-195da2eba4
+  date: '2026-08-22'
+  title: OpenBMB/StaffDeck release 0.5.0
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.5.0
+    published_at: '2026-08-22T13:42:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-f555ffd360
+  date: '2026-08-25'
+  title: OpenBMB/StaffDeck release 0.5.1
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.5.1
+    published_at: '2026-08-25T17:43:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-staffdeck-abe81fc0cf
+  date: '2026-08-26'
+  title: OpenBMB/StaffDeck release 0.5.2
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - staffdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/StaffDeck/releases/tag/v0.5.2
+    published_at: '2026-08-26T15:45:47Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-hy4-preview-fb68667e62
   date: '2026-08-28'
   title: 'GitHub repository update: Tencent-Hunyuan/Hy4-preview'
