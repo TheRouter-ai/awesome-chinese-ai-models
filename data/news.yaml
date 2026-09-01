@@ -1,4 +1,135 @@
 news:
+- id: qwenlm-qwen-code-46bc4a75bb
+  date: '2026-08-31'
+  title: QwenLM/qwen-code release Release v0.22.3-nightly.20260831.3a0c4c6108
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.22.3-nightly.20260831.3a0c4c6108
+    -->  ## What''s Changed * feat(web-shell): show git state hints beside branch picker actions by @wenshao in https://github'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.22.3-nightly.20260831.3a0c4c6108
+    published_at: '2026-08-31T15:31:21Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-889645fe16
+  date: '2026-08-31'
+  title: deepseek-ai/deepseek-harness release v0.1.2-alpha.3
+  summary: '[中文](#cn-v0.1.2-alpha.3) | [English](#en-v0.1.2-alpha.3)    <h3 id="cn-v0.1.2-alpha.3">体验优化</h3>    * 长会话右侧导航支持预览和跳转尚未载入的全部分页轮次
+    @LegGasai  * 改善长会话渲染的内存开销和代码高亮流畅度 @imccyu, @07akioni  * 优化权限标签多语言表达 @ZiyaZhang    <h3>问题修复</h3>    * 会话运行中追加或排队发'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.3
+    published_at: '2026-08-31T16:03:39Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-v4-flash-vision-exp-34201bb3d6
+  date: '2026-09-01'
+  title: 'Hugging Face model update: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v4, text-generation, image-text-to-text,
+    license:mit, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-v4-flash-vision-exp
+  source:
+    type: model_card
+    name: deepseek
+    url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
+    published_at: '2026-09-01T02:50:12.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-internlm-internlumina-u2-e8168138df
+  date: '2026-09-01'
+  title: 'GitHub repository update: InternLM/InternLumina-U2'
+  summary: InternLumina-U2
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - internlumina-u2
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/InternLumina-U2
+    published_at: '2026-09-01T04:03:52Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-internlumina-u2-7bedb55b1d
+  date: '2026-09-01'
+  title: 'Hugging Face model update: internlm/InternLumina-U2'
+  summary: 'Model card/update on Hugging Face. Tags: license:apache-2.0, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - internlumina-u2
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/InternLumina-U2
+    published_at: '2026-09-01T04:16:45.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: deepseek-ai-deepseek-harness-a9705337d6
   date: '2026-08-30'
   title: deepseek-ai/deepseek-harness release v0.1.2-alpha.2
