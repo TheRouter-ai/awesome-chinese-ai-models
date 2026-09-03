@@ -1,4 +1,246 @@
 news:
+- id: github-repository-update-qwenlm-e-commercebench-c2207b50c3
+  date: '2026-09-01'
+  title: 'GitHub repository update: QwenLM/E-CommerceBench'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - e-commercebench
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/E-CommerceBench
+    published_at: '2026-09-01T16:12:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-qwenlm-qwen-drive-1-0-a8cbcdca15
+  date: '2026-09-03'
+  title: 'GitHub repository update: QwenLM/Qwen-Drive-1.0'
+  summary: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-drive-1-0
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-Drive-1.0
+    published_at: '2026-09-03T01:38:48Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-a24e33be34
+  date: '2026-09-02'
+  title: QwenLM/qwen-code release Qwen Live Host v0.2.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at 867bb94a1f317e6fae04c2f5b78961b42e030311
+    -->  ## What''s Changed * fix(ci): make shared ECS Vitest concurrency tunable by @yiliang114 in https://github.com/QwenLM/qwe'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/live-host-v0.2.0
+    published_at: '2026-09-02T14:29:52Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-ae4179a938
+  date: '2026-09-01'
+  title: QwenLM/qwen-code release cua-driver-rs v0.20.3
+  summary: 'Qwen CUA Driver prebuilt binaries (vendored under `packages/cua-driver`).  - **macOS**: codesigned + notarized
+    universal binary + `QwenCuaDriver.app` - **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor) - **Windows**: unsigned
+    UIAccess'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.3
+    published_at: '2026-09-01T07:12:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-cd05a4cb1a
+  date: '2026-09-01'
+  title: deepseek-ai/deepseek-harness release v0.1.2-alpha.4
+  summary: '[中文](#cn-v0.1.2-alpha.4) | [English](#en-v0.1.2-alpha.4)    <h3 id="cn-v0.1.2-alpha.4">新增功能</h3>    * 父 Agent
+    与可持续子 Agent 可通过 `send_message` 双向传递后续消息，取代单向 `report` 工具 @Dudu-0223    <h3>体验优化</h3>    * 自定义模型发现复用 Profile 请求头；模型目录支持搜索和筛选
+    @LegGa'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4
+    published_at: '2026-09-01T15:45:07Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-7e44816d91
+  date: '2026-09-02'
+  title: deepseek-ai/deepseek-harness release v0.1.2-alpha.5
+  summary: '[中文](#cn-v0.1.2-alpha.5) | [English](#en-v0.1.2-alpha.5)    <h3 id="cn-v0.1.2-alpha.5">问题修复</h3>    * 修复从 `0.1.1-rc.2`
+    或 `0.1.2-alpha.3` 升级时，应用可能启动失败或者会话列表标题丢失的问题 @imccyu    ---    <h3 id="en-v0.1.2-alpha.5">Bug Fixes</h3>    * Fix an issue'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.5
+    published_at: '2026-09-02T10:02:56Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen-drive-1-0-4b-f8174d03db
+  date: '2026-09-02'
+  title: 'Hugging Face model update: Qwen/Qwen-Drive-1.0-4B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen_drive, autonomous-driving, motion-planning,
+    3d-perception, visual-question-answering, qwen'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-drive-1-0-4b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Drive-1.0-4B
+    published_at: '2026-09-02T06:31:52.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: internlm-lmdeploy-c77c1dabf5
+  date: '2026-09-01'
+  title: InternLM/lmdeploy release v0.17.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at main -->    ## What''s Changed  ###
+    🚀 Features  * Integrate DeepEPv2 by @irexyc in https://github.com/InternLM/lmdeploy/pull/4783  * feat(pytorch): support
+    Kimi K2.6'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - lmdeploy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/lmdeploy/releases/tag/v0.17.0
+    published_at: '2026-09-01T07:13:39Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-5159eb80ca
+  date: '2026-09-02'
+  title: OpenBMB/PilotDeck release Desktop 2026-09-02
+  summary: '## What''s Changed * fix(chat): stabilize long-running sessions, compaction, and multimodal recovery by @mssssss123
+    in https://github.com/OpenBMB/PilotDeck/pull/486 * feat(cron): add schedule configuration and task management by @atgaopengju'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/desktop-v2026.09.02
+    published_at: '2026-09-02T12:06:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-46bc4a75bb
   date: '2026-08-31'
   title: QwenLM/qwen-code release Release v0.22.3-nightly.20260831.3a0c4c6108
