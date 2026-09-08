@@ -1,4 +1,295 @@
 news:
+- id: qwenlm-qwen-code-f1f5b3c1ed
+  date: '2026-09-07'
+  title: QwenLM/qwen-code release Release v0.23.0-nightly.20260907.f1ed3bc31a
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.0-nightly.20260907.f1ed3bc31a
+    -->  ## What''s Changed * feat(web-shell): visualize and manage dynamic workflow runs by @qqqys in https://github.com/Qwen'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.23.0-nightly.20260907.f1ed3bc31a
+    published_at: '2026-09-07T22:01:05Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-389f099442
+  date: '2026-09-07'
+  title: QwenLM/qwen-code release cua-driver-rs v0.20.4
+  summary: 'Qwen CUA Driver prebuilt binaries (vendored under `packages/cua-driver`).  - **macOS**: codesigned + notarized
+    universal binary + `QwenCuaDriver.app` - **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor) - **Windows**: unsigned
+    UIAccess'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.4
+    published_at: '2026-09-07T10:27:09Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-8fc3a8624d
+  date: '2026-09-07'
+  title: deepseek-ai/deepseek-harness release v0.1.3-alpha.2
+  summary: '[中文](#chinese) | [English](#english)    <h2 id="chinese">0.1.3-alpha.2 · 中文</h2>    <h3>新增功能</h3>    - 升级 pi-ai
+    到 0.85.1，支持新模型。 — @tianyicui  - Web 顶栏新增“在应用中打开”，可用已安装的编辑器、IDE、终端或文件管理器等打开 Workspace。 — @yixiangihsiang  - 可继续对话的子代理支持消息排队、编辑、删除'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.3-alpha.2
+    published_at: '2026-09-07T13:59:29Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-evie-4-5b-af48e7bc05
+  date: '2026-09-07'
+  title: 'Hugging Face model update: tencent/EVIE-4.5B'
+  summary: 'Model card/update on Hugging Face. Tags: colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction,
+    multi-vector, matryoshka'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - evie-4-5b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/EVIE-4.5B
+    published_at: '2026-09-07T13:19:26.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-evie-8b-a937c99e99
+  date: '2026-09-07'
+  title: 'Hugging Face model update: tencent/EVIE-8B'
+  summary: 'Model card/update on Hugging Face. Tags: colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction,
+    multi-vector, vidore'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - evie-8b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/EVIE-8B
+    published_at: '2026-09-07T13:19:29.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-meshy-9afbd5e38b
+  date: '2026-09-08'
+  title: 'GitHub repository update: OpenBMB/Meshy'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - meshy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/Meshy
+    published_at: '2026-09-08T03:57:20Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-gguf-38fdd95a26
+  date: '2026-09-08'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, minicpm, minicpm5, llama, text-generation, long-context,
+    tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-GGUF
+    published_at: '2026-09-08T03:58:46.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-gptq-91d4a62e98
+  date: '2026-09-08'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-GPTQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-gptq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-GPTQ
+    published_at: '2026-09-08T03:59:09.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-mlx-eaeebd0987
+  date: '2026-09-08'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-MLX'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-mlx
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-MLX
+    published_at: '2026-09-08T03:59:51.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-midtrain-ab1b7411b5
+  date: '2026-09-08'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-Midtrain'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-midtrain
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-Midtrain
+    published_at: '2026-09-08T03:59:32.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-sft-1a6e74f6b6
+  date: '2026-09-08'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-SFT'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-sft
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-SFT
+    published_at: '2026-09-08T04:00:05.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-9a8d9e6101
   date: '2026-09-06'
   title: QwenLM/qwen-code release Release v0.23.0-nightly.20260906.92a8a8d179
