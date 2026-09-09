@@ -1,4 +1,219 @@
 news:
+- id: github-repository-update-tencent-hunyuan-auk-a43c7a61cc
+  date: '2026-09-09'
+  title: 'GitHub repository update: Tencent-Hunyuan/AuK'
+  summary: 'AuK: An Open-Source Foundational Model for Speech Generation and Editing'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - auk
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/AuK
+    published_at: '2026-09-09T05:02:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-3b5d2d8bcb
+  date: '2026-09-08'
+  title: QwenLM/qwen-code release Release v0.23.1
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  - refactor!:
+    retire @qwen-code/webui ([#9812](https://github.com/QwenLM/qwen-code/pull/9812)) by @yiliang114  ## Complete Change List'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.23.1
+    published_at: '2026-09-08T15:56:16Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-81b8f51e31
+  date: '2026-09-08'
+  title: QwenLM/qwen-code release Release v0.23.2-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-preview.0 -->  ## What''s
+    Changed * fix(ci): isolate subprocess-heavy E2E from fork pressure by @yiliang114 in https://github.com/QwenLM/qwen-code/pul'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2-preview.0
+    published_at: '2026-09-08T17:56:17Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-22b05379d7
+  date: '2026-09-08'
+  title: QwenLM/qwen-code release SDK TypeScript Release v0.1.9
+  summary: '## Highlights  The bundled CLI 0.23.0 includes two fixes requested in #11022:  - Managed memory availability now
+    respects the `memory.enableManagedAutoMemory` setting (#6941). Hosts that disable managed auto memory no longer see remember/dr'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.9
+    published_at: '2026-09-08T15:21:49Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-aa9f014951
+  date: '2026-09-08'
+  title: deepseek-ai/deepseek-harness release v0.1.5-alpha.1
+  summary: '[中文](#cn-v0.1.5-alpha.1) | [English](#en-v0.1.5-alpha.1)    <h3 id="cn-v0.1.5-alpha.1">新增功能</h3>    - 支持动态修改系统提示词且不破坏
+    KV Cache，模型需显式声明支持 @tianyicui  - 新增实验性右侧 Sidebar，支持多标签、分栏与全屏；聊天文件链接和产出文件支持 Sidebar 打开，并移除原 Detail 面板 @imccyu    ### 体验优化'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-alpha.1
+    published_at: '2026-09-08T16:16:04Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-auk-ffd405ed8f
+  date: '2026-09-09'
+  title: 'Hugging Face model update: tencent/AuK'
+  summary: 'Model card/update on Hugging Face. Tags: audio, speech, text-to-speech, zero-shot-tts, voice-cloning, speech-generation,
+    speech-editing, speech-enhancement'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - auk
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/AuK
+    published_at: '2026-09-09T05:08:22.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-auk-flash-d6d582266b
+  date: '2026-09-09'
+  title: 'Hugging Face model update: tencent/AuK-Flash'
+  summary: 'Model card/update on Hugging Face. Tags: speech, text-to-speech, zero-shot-tts, voice-cloning, speech-generation,
+    speech-editing, speech-enhancement, source-separation'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - auk-flash
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/AuK-Flash
+    published_at: '2026-09-09T05:08:40.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-minicpm-v-apps-5fee02d696
+  date: '2026-09-08'
+  title: OpenBMB/MiniCPM-V-Apps release MiniCPM-V-Apps v2.5
+  summary: '## MiniCPM-V-Apps v2.5  ### 新增功能  - **MiniCPM5-2B**：新增纯文本 2B 模型（Q4_K_M，约 1.5 GB） - **思考开关**：MiniCPM5 与 MiniCPM-V-4.6
+    输入栏增加思考按钮，默认关闭 - **输入栏布局**：优化输入框与功能按钮在窄屏下的排布，避免相互遮挡  ### 模型下载  - App 内 Model Management 页面可直接下载（HuggingFace 与 ModelScope
+    竞速'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-apps
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-V-Apps/releases/tag/v2.5
+    published_at: '2026-09-08T14:32:44Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-f1f5b3c1ed
   date: '2026-09-07'
   title: QwenLM/qwen-code release Release v0.23.0-nightly.20260907.f1ed3bc31a
