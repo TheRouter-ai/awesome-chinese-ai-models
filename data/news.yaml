@@ -1,4 +1,297 @@
 news:
+- id: github-repository-update-deepseek-ai-deepjit-f8e0f71ce1
+  date: '2026-09-08'
+  title: 'GitHub repository update: deepseek-ai/DeepJIT'
+  summary: A lightweight library for xPU kernel JIT compilation
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepjit
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/DeepJIT
+    published_at: '2026-09-08T03:58:54Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-fc1541c5d3
+  date: '2026-09-10'
+  title: QwenLM/qwen-code release Qwen Code Desktop v0.3.0-preview.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at ad92d2bf8f1cea911213493121d2b3fb571ba80e
+    -->  ## What''s Changed * test(channels): canonicalize restored worktree fixture paths by @yiliang114 in https://github.com/Q'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.3.0-preview.0
+    published_at: '2026-09-10T05:53:37Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-8da3295b25
+  date: '2026-09-09'
+  title: QwenLM/qwen-code release Release v0.23.2
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Complete Change List  ### Features  - feat(web-shell): Improve split-view session navigation
+    ([#11250]'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2
+    published_at: '2026-09-09T10:51:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-fc8337faa8
+  date: '2026-09-09'
+  title: QwenLM/qwen-code release Release v0.23.2-nightly.20260909.2e212144d3
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-nightly.20260909.2e212144d3
+    -->  ## What''s Changed * fix(goal): retry a checkpoint that overran the claim budget instead of spending a stall by @qqqy'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2-nightly.20260909.2e212144d3
+    published_at: '2026-09-09T22:00:29Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-b58906fbf2
+  date: '2026-09-09'
+  title: deepseek-ai/deepseek-harness release v0.1.5-alpha.2
+  summary: '[中文](#cn-v0.1.5-alpha.2) | [English](#en-v0.1.5-alpha.2)    <h3 id="cn-v0.1.5-alpha.2">新增功能</h3>    - 右侧 Sidebar
+    新增常见文档类型预览，支持 Markdown、代码高亮、HTML、PDF 、图片 @imccyu, @Yifffan, @yixiangihsiang, @CreatixChu, @yudshj  - 支持模型显式在会话中交付文件，并支持在右侧
+    Side'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-alpha.2
+    published_at: '2026-09-09T14:23:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-40f759349c
+  date: '2026-09-10'
+  title: deepseek-ai/deepseek-harness release v0.1.5-rc.1
+  summary: '[中文](#cn-v0.1.5-rc.1) | [English](#en-v0.1.5-rc.1)    作为 `0.1.5` 系列的首个候选版本，本版本汇总了自 `v0.1.2-rc.1` 以来的主要用户和开发者相关变更。    <h3
+    id="cn-v0.1.5-rc.1">新增功能</h3>    - DeepSeek 模型适配器新增 `DeepSeek-V41-Flash`（`deepseek-flash`）支持文本、图片及会话历史中的系统提示词更新。新会话默认使用'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-rc.1
+    published_at: '2026-09-10T03:09:00Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-v4-1-flash-7478b81daa
+  date: '2026-09-10'
+  title: 'Hugging Face model update: deepseek-ai/DeepSeek-V4.1-Flash'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v41, text-generation, license:mit,
+    endpoints_compatible, 8-bit, fp8'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-v4-1-flash
+  source:
+    type: model_card
+    name: deepseek
+    url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash
+    published_at: '2026-09-10T05:51:21.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-meshy-b486004e1c
+  date: '2026-09-09'
+  title: OpenBMB/Meshy release v0.1.0
+  summary: 'We are thrilled to release **v0.1.0**, the first release of **Meshy**, a ray-less asynchronous RL Engine for LLMs.    ##
+    Highlights    - **Ray-less, role-driven architecture**      Meshy models inference, training, and rollout as independen'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - meshy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/Meshy/releases/tag/v0.1.0
+    published_at: '2026-09-09T06:07:09Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: baai-aidd-0397d94f1b
+  date: '2026-09-10'
+  title: 'Hugging Face model update: BAAI/AIDD'
+  summary: 'Model card/update on Hugging Face. Tags: license:cc-by-4.0, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - aidd
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/AIDD
+    published_at: '2026-09-10T04:10:43.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-744bb1483a
+  date: '2026-09-09'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B
+    published_at: '2026-09-09T07:48:21.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm5-2b-base-3c62e12447
+  date: '2026-09-09'
+  title: 'Hugging Face model update: openbmb/MiniCPM5-2B-Base'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5,
+    long-context, tool-calling'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm5-2b-base
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM5-2B-Base
+    published_at: '2026-09-09T07:47:42.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: github-repository-update-tencent-hunyuan-auk-a43c7a61cc
   date: '2026-09-09'
   title: 'GitHub repository update: Tencent-Hunyuan/AuK'
