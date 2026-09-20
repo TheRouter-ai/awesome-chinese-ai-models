@@ -1,4 +1,112 @@
 news:
+- id: github-repository-update-qwenlm-qwen-mm-plugins-hub-a2955e9a2a
+  date: '2026-09-20'
+  title: 'GitHub repository update: QwenLM/qwen-mm-plugins-hub'
+  summary: A documentation for Qwen-MM-Plugins
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-mm-plugins-hub
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-mm-plugins-hub
+    published_at: '2026-09-20T05:50:55Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-c963931d46
+  date: '2026-09-19'
+  title: QwenLM/qwen-code release Release v0.24.1
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  - refactor(goal)!:
+    stop emitting the active_goal stream event ([#12181](https://github.com/QwenLM/qwen-code/pull/12181)) by @qqqys  #'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.24.1
+    published_at: '2026-09-19T08:18:42Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-6e67666157
+  date: '2026-09-19'
+  title: QwenLM/qwen-code release Release v0.24.1-nightly.20260919.c1c00cbaab
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.1-nightly.20260919.c1c00cbaab
+    -->  ## What''s Changed * fix(ci): reclaim Docker cache and clean review scratch directories by @yiliang114 in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.24.1-nightly.20260919.c1c00cbaab
+    published_at: '2026-09-19T21:58:01Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-d0033c8976
+  date: '2026-09-19'
+  title: QwenLM/qwen-code release SDK TypeScript Release v0.1.13
+  summary: '## Bundled CLI Version  This SDK release bundles CLI version: 0.24.1  Source: CLI built from source (same branch/ref
+    as SDK)  ---  ## Bundled CLI Version  This SDK release bundles CLI version: 0.23.3  Source: CLI built from source (same
+    bra'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.13
+    published_at: '2026-09-19T09:05:56Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
 - id: qwenlm-qwen-code-01e5702e13
   date: '2026-09-18'
   title: QwenLM/qwen-code release Release v0.24.0-nightly.20260918.537311b8a5
