@@ -1,4 +1,137 @@
 news:
+- id: github-repository-update-qwenlm-qwen-image-2-1-e173d7ea9f
+  date: '2026-09-20'
+  title: 'GitHub repository update: QwenLM/Qwen-Image-2.1'
+  summary: Qwen's most powerful open-source image generation model
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-2-1
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/Qwen-Image-2.1
+    published_at: '2026-09-20T12:25:51Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-qwenlm-recreationworld-d4d6d8ffeb
+  date: '2026-09-21'
+  title: 'GitHub repository update: QwenLM/RecreationWorld'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - recreationworld
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/RecreationWorld
+    published_at: '2026-09-21T05:02:19Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen-image-2-1-34bee42ab1
+  date: '2026-09-21'
+  title: 'Hugging Face model update: Qwen/Qwen-Image-2.1'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, qwen, image-generation, image-editing, rgba,
+    text-to-image, license:other'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-2-1
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Image-2.1
+    published_at: '2026-09-21T04:50:49.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen-image-2-1-pe-i2i-bd5df3889b
+  date: '2026-09-20'
+  title: 'Hugging Face model update: Qwen/Qwen-Image-2.1-PE-I2I'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3_5, qwen, prompt-rewriting, image-editing, license:other,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-2-1-pe-i2i
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I
+    published_at: '2026-09-20T11:59:48.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen-image-2-1-pe-t2i-644afb4160
+  date: '2026-09-20'
+  title: 'Hugging Face model update: Qwen/Qwen-Image-2.1-PE-T2I'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3_5, qwen, prompt-rewriting, text-to-image, license:other,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-2-1-pe-t2i
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I
+    published_at: '2026-09-20T11:59:46.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
 - id: github-repository-update-qwenlm-qwen-mm-plugins-hub-a2955e9a2a
   date: '2026-09-20'
   title: 'GitHub repository update: QwenLM/qwen-mm-plugins-hub'
