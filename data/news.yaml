@@ -1,4 +1,381 @@
 news:
+- id: qwenlm-qwen-code-feca8e8023
+  date: '2026-09-26'
+  title: QwenLM/qwen-code release Release v0.24.6
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Complete Change List  ### Features  - feat(sdk-java): Add the Hosted Harness private client
+    ([#12654]('
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6
+    published_at: '2026-09-26T00:42:23Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-c77aac3ff1
+  date: '2026-09-26'
+  title: QwenLM/qwen-code release Release v0.24.6-nightly.20260926.d6f414190a
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.6-nightly.20260926.d6f414190a
+    -->  ## What''s Changed * test(cli): Close the fixture gaps deferred from managed-context/1 by @wenshao in https://github.'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6-nightly.20260926.d6f414190a
+    published_at: '2026-09-26T22:20:46Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-bb1d8de240
+  date: '2026-09-26'
+  title: QwenLM/qwen-code release SDK TypeScript Release v0.1.16
+  summary: '## Bundled CLI Version  This SDK release bundles CLI version: 0.24.6  Source: CLI built from source (same branch/ref
+    as SDK)  ---  ## Bundled CLI Version  This SDK release bundles CLI version: 0.24.5  Source: CLI built from source (same
+    bra'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.16
+    published_at: '2026-09-26T01:26:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-2b38aafc95
+  date: '2026-09-23'
+  title: deepseek-ai/deepseek-harness release v0.1.7-rc.1
+  summary: '[中文](#cn-v0.1.7-rc.1) | [English](#en-v0.1.7-rc.1)    作为 0.1.7 系列的首个候选版本，本版本汇总了自 v0.1.5-rc.3 以来的主要用户和开发者相关变更。    <h3
+    id="cn-v0.1.7-rc.1">新增功能</h3>    - Web 侧边栏新增终端，支持多标签、Shell 选择和刷新后恢复。 @LegGasai  - 管理会话归档：支持置顶、筛选、恢复，并在归档运行中会话时确认受影响的任务。
+    @ti'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1
+    published_at: '2026-09-23T13:30:24Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-d1ee0b3fcd
+  date: '2026-09-24'
+  title: deepseek-ai/deepseek-harness release v0.1.7-rc.2
+  summary: '[中文](#cn-v0.1.7-rc.2-community) | [English](#en-v0.1.7-rc.2-community)    <h3 id="cn-v0.1.7-rc.2-community">✨
+    新增</h3>    - 启用定时任务后，可创建和管理提醒、查看运行记录；重启后任务仍会保留，并支持最短每分钟重复一次。 @Chinesezjc, @ZiyaZhang  - 桌面端新增首次使用引导，介绍可用额度，并帮助选择用途和工作过程的展示方式；中途退出后'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.2
+    published_at: '2026-09-24T14:10:21Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-5e3383eef5
+  date: '2026-09-28'
+  title: deepseek-ai/deepseek-harness release v0.2.0-rc.1
+  summary: '[中文](#cn-v0.2.0-rc.1-community) | [English](#en-v0.2.0-rc.1-community)    作为 `0.2.0` 系列的首个候选版本，本版本汇总了自 `v0.1.7-rc.2`
+    以来的主要用户和开发者相关变更。    <h3 id="cn-v0.2.0-rc.1-community">🎨 体验优化</h3>    - 优化对话进行中和完成状态的实时动画、用时信息、过程信息间距。 @yixiangihsiang,
+    @imc'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.0-rc.1
+    published_at: '2026-09-28T12:36:21Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen3guard-stream-0-6b-4117ae6aed
+  date: '2026-09-27'
+  title: 'Hugging Face model update: Qwen/Qwen3Guard-Stream-0.6B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276,
+    base_model:Qwen/Qwen3-0.6B, base_model:finetune:Qwen/Qwen3-0.6B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3guard-stream-0-6b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B
+    published_at: '2026-09-27T02:00:16.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3guard-stream-4b-d3e5419704
+  date: '2026-09-27'
+  title: 'Hugging Face model update: Qwen/Qwen3Guard-Stream-4B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276,
+    base_model:Qwen/Qwen3-4B, base_model:finetune:Qwen/Qwen3-4B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3guard-stream-4b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3Guard-Stream-4B
+    published_at: '2026-09-27T02:00:18.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3guard-stream-8b-4d1e795d1f
+  date: '2026-09-27'
+  title: 'Hugging Face model update: Qwen/Qwen3Guard-Stream-8B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276,
+    base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3guard-stream-8b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3Guard-Stream-8B
+    published_at: '2026-09-27T02:00:07.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-internlm-intern-decision-34dc72404a
+  date: '2026-09-26'
+  title: 'GitHub repository update: InternLM/Intern-Decision'
+  summary: Fast multi-modal decision model
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-decision
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/Intern-Decision
+    published_at: '2026-09-26T08:58:47Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-lmdeploy-540b73135b
+  date: '2026-09-28'
+  title: InternLM/lmdeploy release v0.18.0
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at main -->    ## What''s Changed  ###
+    🚀 Features  * [Feat]: Support output input logprobs  by @RunningLeon in https://github.com/InternLM/lmdeploy/pull/4793  *
+    Expand S'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - lmdeploy
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/lmdeploy/releases/tag/v0.18.0
+    published_at: '2026-09-28T07:04:58Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-intern-decision-0-8b-d0415d713a
+  date: '2026-09-26'
+  title: 'Hugging Face model update: internlm/Intern-Decision-0.8B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making,
+    multimodal, structured-prediction, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-decision-0-8b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-Decision-0.8B
+    published_at: '2026-09-26T08:14:02.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-intern-decision-2b-cee05bd6f9
+  date: '2026-09-26'
+  title: 'Hugging Face model update: internlm/Intern-Decision-2B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making,
+    multimodal, structured-prediction, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-decision-2b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-Decision-2B
+    published_at: '2026-09-26T09:03:52.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-intern-decision-4b-a934ef1700
+  date: '2026-09-26'
+  title: 'Hugging Face model update: internlm/Intern-Decision-4B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making,
+    multimodal, structured-prediction, conversational'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - intern-decision-4b
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Intern-Decision-4B
+    published_at: '2026-09-26T07:57:03.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-028fcbadb4
   date: '2026-09-22'
   title: QwenLM/qwen-code release Release v0.24.4
