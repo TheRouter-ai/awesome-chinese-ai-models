@@ -1,4 +1,347 @@
 news:
+- id: qwenlm-qwen-code-7bb8045b63
+  date: '2026-10-07'
+  title: QwenLM/qwen-code release Release v0.25.0-nightly.20261007.8003d28042
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.0-nightly.20261007.8003d28042
+    -->  ## What''s Changed * fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.25.0-nightly.20261007.8003d28042
+    published_at: '2026-10-07T22:01:24Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-28e04c5703
+  date: '2026-10-09'
+  title: QwenLM/qwen-code release Release v0.25.0-nightly.20261009.085a44f336
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.0-nightly.20261009.085a44f336
+    -->  ## What''s Changed * fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://git'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.25.0-nightly.20261009.085a44f336
+    published_at: '2026-10-09T22:09:39Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-46de41ecc4
+  date: '2026-10-09'
+  title: QwenLM/qwen-code release Release v0.25.1-preview.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-preview.1 -->  ## What''s
+    Changed * fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://github.com/QwenLM/qwe'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-preview.1
+    published_at: '2026-10-09T05:35:14Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-cce8554018
+  date: '2026-10-03'
+  title: deepseek-ai/deepseek-harness release v0.2.1-alpha.1
+  summary: '[中文](#cn-v0.2.1-alpha.1-community) | [English](#en-v0.2.1-alpha.1-community)  <h3 id="cn-v0.2.1-alpha.1-community">✨
+    新增功能</h3>  - 新增实验性 Claude Code Mods 兼容层。目前阶段的主要目的是验证 Claude Code Mods API 功能大致为 DeepSeek Harness 插件的一个子集，而非为用户提供实际的完整兼容性。
+    @'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1
+    published_at: '2026-10-03T06:42:19Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-8f504d9e4a
+  date: '2026-10-09'
+  title: deepseek-ai/deepseek-harness release v0.2.1-alpha.2
+  summary: '[中文](#cn-v0.2.1-alpha.2-community) | [English](#en-v0.2.1-alpha.2-community)    <h3 id="cn-v0.2.1-alpha.2-community">新增功能</h3>    -
+    新增实验性思考过程机器翻译插件，可在插件页启用，选择 Bing、Google 或付费 DeepSeek Flash。 @tianyicui, @ZiyaZhang, @imccyu  - 新增实验性 Git Work'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.2
+    published_at: '2026-10-09T11:09:26Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen-image-2-1-turbo-ee936c9623
+  date: '2026-10-09'
+  title: 'Hugging Face model update: Qwen/Qwen-Image-2.1-Turbo'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, qwen, image-generation, image-editing, text-to-image,
+    base_model:Qwen/Qwen-Image-2.1, base_model:finetune:Qwen/Qwen-Image-2.1'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-image-2-1-turbo
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo
+    published_at: '2026-10-09T14:14:45.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-youtu-parsing-omni-e06d1c68b4
+  date: '2026-10-09'
+  title: 'Hugging Face model update: tencent/Youtu-Parsing-Omni'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, youtu_vita, text-generation, document-parsing,
+    ocr, omni, multimodal'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - youtu-parsing-omni
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Youtu-Parsing-Omni
+    published_at: '2026-10-09T09:43:48.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-internlm-instantfusion-10d1b82ace
+  date: '2026-10-10'
+  title: 'GitHub repository update: InternLM/InstantFusion'
+  summary: 'An official implementation of "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators"'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - instantfusion
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/InstantFusion
+    published_at: '2026-10-10T04:21:33Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-internlm-resopd-1c368d1214
+  date: '2026-10-09'
+  title: 'GitHub repository update: InternLM/ResOPD'
+  summary: 'ResOPD: Tail Residualization for Sparse On-Policy Distillation. Core implementation built on verl.'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - resopd
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/InternLM/ResOPD
+    published_at: '2026-10-09T08:03:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: github-repository-update-openbmb-trident-7888169772
+  date: '2026-10-10'
+  title: 'GitHub repository update: OpenBMB/Trident'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - trident
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/Trident
+    published_at: '2026-10-10T05:34:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-556098ed70
+  date: '2026-10-08'
+  title: OpenBMB/PilotDeck release v2026.10.08
+  summary: '## What''s Changed * fix: repair model removal and modernize appearance settings by @xhd0728 in https://github.com/OpenBMB/PilotDeck/pull/631
+    * feat(desktop): add RPM and Windows ARM64 support by @xhd0728 in https://github.com/OpenBMB/PilotD'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.08
+    published_at: '2026-10-08T02:58:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-057d874ac7
+  date: '2026-10-08'
+  title: OpenBMB/PilotDeck release v2026.10.09
+  summary: '## What''s Changed * fix(ui): preserve workspace parents on missing token by @blueberrycongee in https://github.com/OpenBMB/PilotDeck/pull/620
+    * fix(ui): keep auth tokens out of WebSocket connection logs by @blueberrycongee in https://github'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.09
+    published_at: '2026-10-08T23:27:30Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-9f80b9d852
+  date: '2026-10-09'
+  title: OpenBMB/PilotDeck release v2026.10.10
+  summary: '## What''s Changed * fix(permission): follow up #621 symlink traversal and deny rule matching by @Kaguya-19 in
+    https://github.com/OpenBMB/PilotDeck/pull/635 * fix(tool): check write permissions against symlink-resolved paths by @blueberrycon'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.10
+    published_at: '2026-10-09T22:46:06Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
 - id: qwenlm-qwen-code-feca8e8023
   date: '2026-09-26'
   title: QwenLM/qwen-code release Release v0.24.6
