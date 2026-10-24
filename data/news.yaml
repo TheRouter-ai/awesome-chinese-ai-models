@@ -1,4 +1,694 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-memory-e658b1440c
+  date: '2026-10-24'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Memory'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory
+    published_at: '2026-10-24T04:45:56Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-hy-nomas-7f0daf9bec
+  date: '2026-10-23'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Nomas'
+  summary: 'Hy-Nomas: Towards Free-form Interactive World Generation'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-nomas
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Nomas
+    published_at: '2026-10-23T21:40:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-deepseek-ai-deepinfer-78e10ff062
+  date: '2026-10-21'
+  title: 'GitHub repository update: deepseek-ai/DeepInfer'
+  summary: 'DeepInfer: High-performance, large-scale inference framework for DeepSeek models'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepinfer
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/DeepInfer
+    published_at: '2026-10-21T04:55:44Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-deepseek-ai-deepseek-recipe-f3f4cf947f
+  date: '2026-10-19'
+  title: 'GitHub repository update: deepseek-ai/deepseek-recipe'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-recipe
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-recipe
+    published_at: '2026-10-19T17:51:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-bc5466ef0a
+  date: '2026-10-22'
+  title: QwenLM/qwen-code release Release v0.26.0-nightly.20261022.bf66a26c97
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.0-nightly.20261022.bf66a26c97
+    -->  ## What''s Changed * feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen-code/pul'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0-nightly.20261022.bf66a26c97
+    published_at: '2026-10-22T22:30:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-2871b8aefa
+  date: '2026-10-23'
+  title: QwenLM/qwen-code release Release v0.26.0-nightly.20261023.5a0be33432
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.0-nightly.20261023.5a0be33432
+    -->  ## What''s Changed * feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen-code/pul'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0-nightly.20261023.5a0be33432
+    published_at: '2026-10-23T22:33:02Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-66e845454f
+  date: '2026-10-22'
+  title: QwenLM/qwen-code release SDK TypeScript Release v0.1.22
+  summary: '## Bundled CLI Version  This SDK release bundles CLI version: 0.26.0  Source: CLI built from source (same branch/ref
+    as SDK)  ---  ## Bundled CLI Version  This SDK release bundles CLI version: 0.25.3  Source: CLI built from source (same
+    bra'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.22
+    published_at: '2026-10-22T00:23:42Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hunyuan-hy-memory-8ef6e4effa
+  date: '2026-10-22'
+  title: Tencent-Hunyuan/Hy-Memory release hy-memory 2.0.5
+  summary: '## Hy Memory SDK 2.0.5  - Unified exact `get()` across Chat, Coding Experience, Working Fact, and raw IDs. - Added
+    explicit raw retrieval through existing `search()` and `list_memories()` contracts. - Added public embedding-service injectio'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/hy-memory-v2.0.5
+    published_at: '2026-10-22T12:59:49Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hunyuan-hy-memory-1d5054e2c3
+  date: '2026-10-18'
+  title: Tencent-Hunyuan/Hy-Memory release v1.0.4
+  summary: '## What''s Changed * feat(memhub): restore the one-click log export entry in settings by @kristinhe1111 in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/38
+    * Revise README for clarity and installation instructions by @kristinhe1111 in ht'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.4
+    published_at: '2026-10-18T11:14:04Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-2d4d08fb26
+  date: '2026-10-17'
+  title: deepseek-ai/deepseek-harness release v0.2.1-rc.1
+  summary: '[中文](#cn-v0.2.1-rc.1-community) | [English](#en-v0.2.1-rc.1-community)    作为 `0.2.1` 系列的首个候选版本，本版本汇总了自 `v0.2.0-rc.2`
+    以来的主要用户和开发者相关变更。    <h3 id="cn-v0.2.1-rc.1-community">新增功能</h3>    - 允许用户从“自定义插件索引源”中发现和安装插件。 @turtle1999  - 插件管理页新增「让
+    Agen'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.1
+    published_at: '2026-10-17T05:22:10Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-99ed42a1d1
+  date: '2026-10-17'
+  title: deepseek-ai/deepseek-harness release v0.2.1-rc.2
+  summary: '[中文](#cn-v0.2.1-rc.2-community) | [English](#en-v0.2.1-rc.2-community)    <h3 id="cn-v0.2.1-rc.2-community">新增功能</h3>    -
+    适配 DeepSeek-V4.1-Flash-1017 上线 @LegGasai  - 适配 DeepSeek Search 与 Fetch API，可在网页搜索设置中开启 @yudshj, @LegGasai    <h3 id="'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.2
+    published_at: '2026-10-17T08:16:33Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-e41e96c176
+  date: '2026-10-23'
+  title: deepseek-ai/deepseek-harness release v0.2.1-rc.3
+  summary: '[中文](#cn-v0.2.1-rc.3-community) | [English](#en-v0.2.1-rc.3-community)    <h3 id="cn-v0.2.1-rc.3-community">体验优化</h3>    -
+    新增左侧栏、会话视图和右侧栏的「更多」菜单，方便浏览和创建插件。 @Yifffan, @imccyu  - 修复切换会话后，点击「新会话」找不回未发送草稿的问题。 @imccyu    ### 其他变更    - DeepSeek A'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.3
+    published_at: '2026-10-23T15:26:39Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-v4-1-flash-1017-424978cbf8
+  date: '2026-10-17'
+  title: 'Hugging Face model update: deepseek-ai/DeepSeek-V4.1-Flash-1017'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v41, text-generation, image-text-to-text,
+    license:mit, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-v4-1-flash-1017
+  source:
+    type: model_card
+    name: deepseek
+    url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+    published_at: '2026-10-17T05:46:55.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-memory-30b-a3b-gguf-ee32204734
+  date: '2026-10-22'
+  title: 'Hugging Face model update: tencent/Hy-Memory-30B-A3B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, gguf, llama.cpp, text-generation, en, zh, arxiv:2610.22196,
+    base_model:tencent/Hy-Memory-30B-A3B'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory-30b-a3b-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-Memory-30B-A3B-GGUF
+    published_at: '2026-10-22T06:50:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-nomas-6cda3dd2d4
+  date: '2026-10-23'
+  title: 'Hugging Face model update: tencent/Hy-Nomas'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, hy-nomas, world-model, video-generation, interactive-video-generation,
+    camera-control, autoregressive'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-nomas
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-Nomas
+    published_at: '2026-10-23T21:50:10.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-hy-nomas-diffusers-9c3af8429b
+  date: '2026-10-24'
+  title: 'Hugging Face model update: tencent/Hy-Nomas-Diffusers'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, hy-nomas, world-model, video-generation, interactive-video-generation,
+    camera-control, autoregressive'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-nomas-diffusers
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-Nomas-Diffusers
+    published_at: '2026-10-24T05:46:48.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wevisone-vl-2b-2b94b71b72
+  date: '2026-10-23'
+  title: 'Hugging Face model update: tencent/WeVisOne-VL-2B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_vl, image-text-to-text, vision-language,
+    object-detection, referring-expression-comprehension, object-counting'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wevisone-vl-2b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeVisOne-VL-2B
+    published_at: '2026-10-23T06:43:35.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wevisone-vl-4b-5be78341ba
+  date: '2026-10-23'
+  title: 'Hugging Face model update: tencent/WeVisOne-VL-4B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_vl, image-text-to-text, vision-language,
+    object-detection, referring-expression-comprehension, object-counting'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wevisone-vl-4b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeVisOne-VL-4B
+    published_at: '2026-10-23T06:40:09.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-pilotdeck-2c371380d7
+  date: '2026-10-20'
+  title: OpenBMB/PilotDeck release v2026.10.20
+  summary: '## What''s Changed * fix: stop forcing thinking off in auxiliary model requests by @Kaguya-19 in https://github.com/OpenBMB/PilotDeck/pull/665
+    * ci: sync latest release assets to Huawei OBS daily by @Kaguya-19 in https://github.com/OpenBMB/P'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.10.20
+    published_at: '2026-10-20T03:25:16Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-atria-dawn-50f7303acd
+  date: '2026-10-23'
+  title: 'Hugging Face model update: internlm/Atria-Dawn'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, glm_moe_dsa, arxiv:2609.15818, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - atria-dawn
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Atria-Dawn
+    published_at: '2026-10-23T12:46:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-atria-dawn-fp8-3990ef68fd
+  date: '2026-10-23'
+  title: 'Hugging Face model update: internlm/Atria-Dawn-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, glm_moe_dsa, arxiv:2609.15818, fp8, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - atria-dawn-fp8
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Atria-Dawn-FP8
+    published_at: '2026-10-23T12:46:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-1b-dspark-gguf-b2a067658e
+  date: '2026-10-20'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-1B-DSpark-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, dspark, speculative-decoding, draft-model, quantized,
+    minicpmv, minicpmv4.7'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-1b-dspark-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-DSpark-gguf
+    published_at: '2026-10-20T05:48:13.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-1b-gptq-78c3ca26c2
+  date: '2026-10-19'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-1B-GPTQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v,
+    multimodal, On-Device Model, lightweight'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-1b-gptq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-GPTQ
+    published_at: '2026-10-19T13:11:04.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-1b-gguf-36fcb56a95
+  date: '2026-10-20'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-1B-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, quantized, imatrix, dspark, speculative-decoding, minicpm-v,
+    multimodal'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-1b-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-gguf
+    published_at: '2026-10-20T05:56:52.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-35b-a3b-dspark-gguf-6f6bb658fb
+  date: '2026-10-20'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, dspark, speculative-decoding, draft-model, quantized,
+    minicpmv, minicpmv4.7'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-35b-a3b-dspark-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf
+    published_at: '2026-10-20T05:49:04.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-35b-a3b-gguf-55bf5c4cd0
+  date: '2026-10-20'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-35B-A3B-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, quantized, imatrix, dspark, speculative-decoding, moe,
+    minicpm-v'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-35b-a3b-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf
+    published_at: '2026-10-20T05:57:46.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-feca8e8023
   date: '2026-09-26'
   title: QwenLM/qwen-code release Release v0.24.6
