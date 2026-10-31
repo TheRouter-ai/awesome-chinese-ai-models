@@ -1,40 +1,38 @@
-# Chinese AI Models Digest — 2026-09-29
+# Chinese AI Models Digest — 2026-10-31
 
-Accepted updates: 31
+Accepted updates: 29
 
 ## Updates
 
-- `open_source` `qwen` [GitHub repository update: QwenLM/Qwen-Live-Harness](https://github.com/QwenLM/Qwen-Live-Harness) — An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory. score=82
-- `open_source` `qwen` [GitHub repository update: QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — An open-source AI coding agent that lives in your terminal. score=82
-- `open_source` `tencent-hunyuan` [GitHub repository update: Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK) — AuK: An Open-Source Foundational Model for Speech Generation and Editing score=82
-- `open_source` `deepseek` [GitHub repository update: deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP) — DeepEP: an efficient expert-parallel communication library score=82
+- `open_source` `tencent-hunyuan` [GitHub repository update: Tencent-Hunyuan/Hy-Memory](https://github.com/Tencent-Hunyuan/Hy-Memory) — Repository tracked from an official GitHub organization. score=82
+- `open_source` `tencent-hunyuan` [GitHub repository update: Tencent-Hunyuan/Hy-Nomas](https://github.com/Tencent-Hunyuan/Hy-Nomas) — Hy-Nomas: Towards Free-form Interactive World Generation score=82
+- `open_source` `deepseek` [GitHub repository update: deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — DeepInfer: High-performance, large-scale inference framework for DeepSeek models score=82
+- `open_source` `deepseek` [GitHub repository update: deepseek-ai/FlashMLA](https://github.com/deepseek-ai/FlashMLA) — FlashMLA: Efficient Multi-head Latent Attention Kernels score=82
 - `open_source` `deepseek` [GitHub repository update: deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek Harness: Everything is a Plugin. score=82
-- `open_source` `qwen` [QwenLM/qwen-code release Release v0.24.6](https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6) — <!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No known breaking changes.  ## Complete Change List  ### Features  - feat(sdk-java): Add the Hosted Harness private client ([#12654]( score=82
-- `open_source` `qwen` [QwenLM/qwen-code release Release v0.24.6-nightly.20260926.d6f414190a](https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6-nightly.20260926.d6f414190a) — <!-- Release notes generated using configuration in .github/release.yml at release/v0.24.6-nightly.20260926.d6f414190a -->  ## What's Changed * test(cli): Close the fixture gaps deferred from managed-context/1 by @wenshao in https://github. score=82
-- `open_source` `qwen` [QwenLM/qwen-code release SDK TypeScript Release v0.1.16](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.16) — ## Bundled CLI Version  This SDK release bundles CLI version: 0.24.6  Source: CLI built from source (same branch/ref as SDK)  ---  ## Bundled CLI Version  This SDK release bundles CLI version: 0.24.5  Source: CLI built from source (same bra score=82
-- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.1.7-rc.1](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.1) — [中文](#cn-v0.1.7-rc.1) | [English](#en-v0.1.7-rc.1)    作为 0.1.7 系列的首个候选版本，本版本汇总了自 v0.1.5-rc.3 以来的主要用户和开发者相关变更。    <h3 id="cn-v0.1.7-rc.1">新增功能</h3>    - Web 侧边栏新增终端，支持多标签、Shell 选择和刷新后恢复。 @LegGasai  - 管理会话归档：支持置顶、筛选、恢复，并在归档运行中会话时确认受影响的任务。 @ti score=82
-- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.1.7-rc.2](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.2) — [中文](#cn-v0.1.7-rc.2-community) | [English](#en-v0.1.7-rc.2-community)    <h3 id="cn-v0.1.7-rc.2-community">✨ 新增</h3>    - 启用定时任务后，可创建和管理提醒、查看运行记录；重启后任务仍会保留，并支持最短每分钟重复一次。 @Chinesezjc, @ZiyaZhang  - 桌面端新增首次使用引导，介绍可用额度，并帮助选择用途和工作过程的展示方式；中途退出后 score=82
-- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.2.0-rc.1](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.0-rc.1) — [中文](#cn-v0.2.0-rc.1-community) | [English](#en-v0.2.0-rc.1-community)    作为 `0.2.0` 系列的首个候选版本，本版本汇总了自 `v0.1.7-rc.2` 以来的主要用户和开发者相关变更。    <h3 id="cn-v0.2.0-rc.1-community">🎨 体验优化</h3>    - 优化对话进行中和完成状态的实时动画、用时信息、过程信息间距。 @yixiangihsiang, @imc score=82
+- `open_source` `tencent-hunyuan` [Tencent-Hunyuan/Hy-Memory release v1.0.5](https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.5) — ## What’s New / 本次更新  - **Multi-language support / 多语言支持**     MemHub now supports Chinese, English, and Spanish interfaces.     MemHub 现已支持中文、英文和西班牙语界面。  - **More custom Harness connections / 支持更多 Harness 自定义连接**     Connect more custom Ha score=82
+- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.2.1-rc.4](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.4) — [中文](#cn-v0.2.1-rc.4-community) | [English](#en-v0.2.1-rc.4-community)    <h3 id="cn-v0.2.1-rc.4-community">问题修复</h3>    - 修复 ACP 模式下诊断输出混入 stdout 的问题。 @LegGasai, @tianyicui    <h3 id="en-v0.2.1-rc.4-community">Bug Fixes</h3>    - Fix diagn score=82
+- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.2.1-rc.5](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.5) — [中文](#cn-v0.2.1-rc.5-community) | [English](#en-v0.2.1-rc.5-community)  <h3 id="cn-v0.2.1-rc.5-community">体验优化</h3>  - 优化对话中思考内容的展示效果。 @LegGasai  <h3 id="en-v0.2.1-rc.5-community">Improvements</h3>  - Improve how thinking content is display score=82
+- `open_source` `deepseek` [deepseek-ai/deepseek-harness release v0.2.2-alpha.2](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.2) — [中文](#cn-v0.2.2-alpha.2-community) | [English](#en-v0.2.2-alpha.2-community)    <h3 id="cn-v0.2.2-alpha.2-community">新增功能</h3>    - 插件管理页支持展示富文本详情，并改善页面布局和导航行为。 @turtle1999, @turtle2099  - 插件管理支持更新第三方插件包；热更新失败时会尝试恢复旧版本。 @turtle1999, @turtle score=82
 - `api_update` `baidu` [TheRouter supported model page: baidu/ernie-4.5-turbo-128k](https://therouter.ai/models/baidu--ernie-4.5-turbo-128k) — TheRouter model page with model introduction and OpenAI-compatible access details. score=81
 - `api_update` `baidu` [TheRouter supported model page: baidu/ernie-4.5-turbo-vl-32k](https://therouter.ai/models/baidu--ernie-4.5-turbo-vl-32k) — TheRouter model page with model introduction and OpenAI-compatible access details. score=81
 - `api_update` `deepseek` [TheRouter supported model page: deepseek/deepseek-r1](https://therouter.ai/models/deepseek--deepseek-r1) — TheRouter model page with model introduction and OpenAI-compatible access details. score=81
 - `api_update` `zhipu` [TheRouter supported model page: zhipu/cogvideox-3](https://therouter.ai/models/zhipu--cogvideox-3) — TheRouter model page with model introduction and OpenAI-compatible access details. score=81
 - `api_update` `zhipu` [TheRouter supported model page: zhipu/cogview-4](https://therouter.ai/models/zhipu--cogview-4) — TheRouter model page with model introduction and OpenAI-compatible access details. score=81
-- `model_update` `qwen` [Hugging Face model update: Qwen/Qwen3Guard-Stream-0.6B](https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-0.6B, base_model:finetune:Qwen/Qwen3-0.6B score=80
-- `model_update` `qwen` [Hugging Face model update: Qwen/Qwen3Guard-Stream-4B](https://huggingface.co/Qwen/Qwen3Guard-Stream-4B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-4B, base_model:finetune:Qwen/Qwen3-4B score=80
-- `model_update` `qwen` [Hugging Face model update: Qwen/Qwen3Guard-Stream-8B](https://huggingface.co/Qwen/Qwen3Guard-Stream-8B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, feature-extraction, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B score=80
-- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/EVIE-4.5B](https://huggingface.co/tencent/EVIE-4.5B) — Model card/update on Hugging Face. Tags: colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka score=80
-- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/EVIE-8B](https://huggingface.co/tencent/EVIE-8B) — Model card/update on Hugging Face. Tags: colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, vidore score=80
-- `open_source` `unknown` [GitHub repository update: InternLM/Intern-Decision](https://github.com/InternLM/Intern-Decision) — Fast multi-modal decision model score=78
+- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/Hy-Nomas](https://huggingface.co/tencent/Hy-Nomas) — Model card/update on Hugging Face. Tags: diffusion-single-file, diffusers, safetensors, hy-nomas, world-model, video-generation, interactive-video-generation, camera-control score=80
+- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/Hy-SimulMT-30B-A3B-Interleave-GGUF](https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave-GGUF) — Model card/update on Hugging Face. Tags: gguf, endpoints_compatible, region:us, conversational score=80
+- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/WeVisCut](https://huggingface.co/tencent/WeVisCut) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, video-editing, agent, tool-use, long-horizon score=80
+- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/WeVisOne-VL-2B](https://huggingface.co/tencent/WeVisOne-VL-2B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_vl, image-text-to-text, vision-language, object-detection, referring-expression-comprehension, object-counting score=80
+- `model_update` `tencent-hunyuan` [Hugging Face model update: tencent/Youtu-Parsing-Omni](https://huggingface.co/tencent/Youtu-Parsing-Omni) — Model card/update on Hugging Face. Tags: transformers, safetensors, youtu_vita, text-generation, document-parsing, ocr, omni, multimodal score=80
 - `open_source` `unknown` [GitHub repository update: InternLM/lmdeploy](https://github.com/InternLM/lmdeploy) — LMDeploy is a toolkit for compressing, deploying, and serving LLMs. score=78
-- `open_source` `unknown` [GitHub repository update: InternLM/xtuner](https://github.com/InternLM/xtuner) — A Next-Generation Training Engine Built for Ultra-Large MoE Models score=78
-- `open_source` `unknown` [InternLM/lmdeploy release v0.18.0](https://github.com/InternLM/lmdeploy/releases/tag/v0.18.0) — <!-- Release notes generated using configuration in .github/release.yml at main -->    ## What's Changed  ### 🚀 Features  * [Feat]: Support output input logprobs  by @RunningLeon in https://github.com/InternLM/lmdeploy/pull/4793  * Expand S score=78
-- `model_update` `unknown` [Hugging Face model update: internlm/Intern-Decision-0.8B](https://huggingface.co/internlm/Intern-Decision-0.8B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making, multimodal, structured-prediction, conversational score=76
-- `model_update` `unknown` [Hugging Face model update: internlm/Intern-Decision-2B](https://huggingface.co/internlm/Intern-Decision-2B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making, multimodal, structured-prediction, conversational score=76
-- `model_update` `unknown` [Hugging Face model update: internlm/Intern-Decision-4B](https://huggingface.co/internlm/Intern-Decision-4B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, decision-making, multimodal, structured-prediction, conversational score=76
-- `model_update` `unknown` [Hugging Face model update: internlm/Intern-S2-397B](https://huggingface.co/internlm/Intern-S2-397B) — Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5_moe, image-text-to-text, conversational, license:apache-2.0, endpoints_compatible, region:us score=76
-- `model_update` `unknown` [Hugging Face model update: internlm/InternLumina-U2](https://huggingface.co/internlm/InternLumina-U2) — Model card/update on Hugging Face. Tags: transformers, safetensors, diffusion, multimodal, unified-model, image-generation, image-editing, vision-language score=76
-- `model_update` `unknown` [Hugging Face model update: openbmb/MiniCPM5-2B](https://huggingface.co/openbmb/MiniCPM5-2B) — Model card/update on Hugging Face. Tags: transformers, safetensors, llama, text-generation, minicpm, minicpm5, long-context, tool-calling score=76
+- `open_source` `unknown` [GitHub repository update: OpenBMB/ForgeKernel](https://github.com/OpenBMB/ForgeKernel) — Repository tracked from an official GitHub organization. score=78
+- `open_source` `unknown` [GitHub repository update: OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) — See, hear, and interact on your local devices. score=78
+- `open_source` `unknown` [GitHub repository update: OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) — A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines score=78
+- `model_update` `unknown` [Hugging Face model update: BAAI/MS-Human-700](https://huggingface.co/BAAI/MS-Human-700) — Model card/update on Hugging Face. Tags: mujoco, reinforcement-learning, musculoskeletal, sensorimotor, en, arxiv:2312.05473, arxiv:2407.11472, license:apache-2.0 score=76
+- `model_update` `unknown` [Hugging Face model update: openbmb/MiniCPM-V-4.7-1B](https://huggingface.co/openbmb/MiniCPM-V-4.7-1B) — Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight score=76
+- `model_update` `unknown` [Hugging Face model update: openbmb/MiniCPM-V-4.7-1B-AWQ](https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-AWQ) — Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight score=76
+- `model_update` `unknown` [Hugging Face model update: openbmb/MiniCPM-V-4.7-1B-int4](https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-int4) — Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight score=76
+- `model_update` `unknown` [Hugging Face model update: openbmb/MiniCPM-V-4.7-35B-A3B](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B) — Model card/update on Hugging Face. Tags: transformers, safetensors, minicpmv4_7, image-text-to-text, minicpm-v, multimodal, On-Device Model, lightweight score=76
+- `model_update` `unknown` [Hugging Face model update: openbmb/Trident-Qwen3VL-2B](https://huggingface.co/openbmb/Trident-Qwen3VL-2B) — Model card/update on Hugging Face. Tags: safetensors, qwen3_vl, multimodal-embedding, mixed-modality-retrieval, multimodal-retrieval, visual-document-retrieval, qwen3-vl, feature-extraction score=76
 
 ## TheRouter model pages
 
@@ -44,7 +42,6 @@ Accepted updates: 31
 - [Cogvideox Flash](https://therouter.ai/models/zhipu--cogvideox-flash/)
 - [Cogview 3 Flash](https://therouter.ai/models/zhipu--cogview-3-flash/)
 - [Cogview 4](https://therouter.ai/models/zhipu--cogview-4/)
-- [Cosyvoice2 0.5b](https://therouter.ai/models/alibaba--cosyvoice2-0.5b)
 - [Deepseek R1](https://therouter.ai/models/deepseek--deepseek-r1/)
 - [Deepseek V3.1](https://therouter.ai/models/deepseek--deepseek-v3.1)
 - [Deepseek V3.1 Terminus](https://therouter.ai/models/deepseek--deepseek-v3.1-terminus)
@@ -73,23 +70,6 @@ Accepted updates: 31
 - [GLM Image](https://therouter.ai/models/zhipu--glm-image/)
 - [GLM OCR](https://therouter.ai/models/zhipu--glm-ocr/)
 - [Hunyuan A13b](https://therouter.ai/models/tencent--hunyuan-a13b/)
-- [Qwen Image Edit](https://therouter.ai/models/qwen--qwen-image-edit/)
-- [Qwen3 14b](https://therouter.ai/models/qwen--qwen3-14b/)
-- [Qwen3 235b](https://therouter.ai/models/qwen--qwen3-235b/)
-- [Qwen3 235b Thinking](https://therouter.ai/models/qwen--qwen3-235b-thinking/)
-- [Qwen3 30b](https://therouter.ai/models/qwen--qwen3-30b/)
-- [Qwen3 30b Thinking](https://therouter.ai/models/qwen--qwen3-30b-thinking/)
-- [Qwen3 32b](https://therouter.ai/models/qwen--qwen3-32b/)
-- [Qwen3 8b](https://therouter.ai/models/qwen--qwen3-8b/)
-- [Qwen3 Coder 30b](https://therouter.ai/models/qwen--qwen3-coder-30b/)
-- [Qwen3 Coder 480b](https://therouter.ai/models/qwen--qwen3-coder-480b/)
-- [Qwen3 Next 80b](https://therouter.ai/models/qwen--qwen3-next-80b/)
-- [Qwen3 VL 235b](https://therouter.ai/models/qwen--qwen3-vl-235b/)
-- [Qwen3 VL 32b](https://therouter.ai/models/qwen--qwen3-vl-32b/)
-- [Qwen3 VL 8b](https://therouter.ai/models/qwen--qwen3-vl-8b/)
-- [Qwen3.6 35b A3b](https://therouter.ai/models/qwen--qwen3.6-35b-a3b)
-- [QWQ 32b](https://therouter.ai/models/qwen--qwq-32b/)
-- [Sensevoice Small](https://therouter.ai/models/alibaba--sensevoice-small/)
 - [Vidu2 Image](https://therouter.ai/models/zhipu--vidu2-image/)
 - [Vidu2 Reference](https://therouter.ai/models/zhipu--vidu2-reference/)
 - [Vidu2 Start End](https://therouter.ai/models/zhipu--vidu2-start-end/)
