@@ -1,40 +1,35 @@
-# Social Drafts — This Week in China AI Models (2026-W36)
+# Social Drafts — This Week in China AI Models (2026-W40)
 
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W36.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## X
 
-This Week in China AI Models (2026-W36): Tencent led with Hy4-preview + FP8, ContextPilot agent/context models (8B/14B/E4B), and WeMM multimodal embeddings.
+This Week in China AI Models (2026-W40): a tooling-heavy week featuring Qwen Code v0.24.4, DeepSeek Harness v0.1.7 alpha releases, and OpenBMB PilotDeck reliability updates. No new model checkpoint appeared in the tracked rollup.
 
-Qwen added Qwen3.8-Flash-Next + FP8, while Qwen Code and DeepSeek Harness kept pushing coding-agent tooling.
-
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W36.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## Reddit
 
-Title: This Week in China AI Models: Tencent Hy4, ContextPilot, Qwen3.8-Flash-Next, WeMM embeddings
+Title: This Week in China AI Models: Qwen Code, DeepSeek Harness, and PilotDeck
 
 Body:
 
-This week's roundup covers 20 tracked updates from August 25–31, 2026.
+This week's roundup covers seven tracked updates from September 22–28, 2026. It was a tooling-focused week rather than a model-release week.
 
 Highlights:
 
-- Tencent published Hy4-preview and Hy4-preview-FP8, with an official Tencent-Hunyuan GitHub repo.
-- Tencent added ContextPilot-8B, ContextPilot-14B, and ContextPilot-E4B, tagged for context management, tool use, and agent workflows.
-- Qwen surfaced Qwen3.8-Flash-Next and an FP8 variant, plus the official foundation-model repository.
-- Tencent added WeMM-Embedding models at 2B, 4B, and 9B for multimodal text/image embedding.
-- OpenBMB updated robotics/navigation projects: MiniCPM-Robot and SimpleNav.
-- Qwen Code and DeepSeek Harness continued fast release cadences around long sessions, web shells, plugins, recovery, and multi-session coding-agent workflows.
+- Qwen Code v0.24.4 added workspace catalogs, plan-drift reporting, SSH workspaces, QR pairing, mobile profiles, managed runtimes, and tighter sandbox execution.
+- DeepSeek Harness v0.1.7-alpha.1 and alpha.2 improved session management, background work, file previews and review, agent teams, and recovery.
+- OpenBMB PilotDeck v2026.09.23 added upload feedback, configuration-safety fixes, responsive UI work, and better Windows/macOS lifecycle behavior.
 
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W36.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## Hacker News
 
-Title: This Week in China AI Models: Hy4-preview, ContextPilot, Qwen3.8-Flash-Next
+Title: This Week in China AI Models: Qwen Code, DeepSeek Harness, and PilotDeck
 
-URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W36.md
+URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 Optional text:
 
-Weekly roundup of Chinese AI model releases. Week 36 covers Tencent Hy4-preview/FP8, Tencent ContextPilot agent/context models, Qwen3.8-Flash-Next/FP8, Tencent WeMM multimodal embeddings, OpenBMB robotics/navigation projects, and continued Qwen Code + DeepSeek Harness coding-agent tooling releases.
+Weekly roundup of the Chinese AI model ecosystem. Week 40 was tooling-heavy: Qwen Code expanded its multi-surface agent platform, DeepSeek Harness improved sessions and background workflows, and OpenBMB PilotDeck focused on desktop reliability. The tracked rollup contained no new model checkpoint.
