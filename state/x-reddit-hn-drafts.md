@@ -1,35 +1,35 @@
 # Social Drafts — This Week in China AI Models (2026-W40)
 
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W40.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## X
 
-This Week in China AI Models (2026-W40): Qwen3Guard-Stream (0.6B/4B/8B), InternLM Intern-Decision (0.8B/2B/4B), and Qwen Code v0.24.6. Model families plus fast-moving coding-agent tooling.
+This Week in China AI Models (2026-W40): a tooling-heavy week featuring Qwen Code v0.24.4, DeepSeek Harness v0.1.7 alpha releases, and OpenBMB PilotDeck reliability updates. No new model checkpoint appeared in the tracked rollup.
 
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W40.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## Reddit
 
-Title: This Week in China AI Models: Qwen3Guard-Stream and Intern-Decision
+Title: This Week in China AI Models: Qwen Code, DeepSeek Harness, and PilotDeck
 
 Body:
 
-This week's roundup covers seven tracked updates from September 22–28, 2026, with eight high-signal items selected for broadcast.
+This week's roundup covers seven tracked updates from September 22–28, 2026. It was a tooling-focused week rather than a model-release week.
 
 Highlights:
 
-- Qwen added Qwen3Guard-Stream in 0.6B, 4B, and 8B sizes, with Qwen3-based streaming-guard and feature-extraction metadata.
-- InternLM published the Intern-Decision repository and 0.8B, 2B, and 4B multimodal decision checkpoints with structured-prediction metadata.
-- Qwen Code shipped v0.24.6 and a nightly build, continuing its rapid coding-agent release cadence.
+- Qwen Code v0.24.4 added workspace catalogs, plan-drift reporting, SSH workspaces, QR pairing, mobile profiles, managed runtimes, and tighter sandbox execution.
+- DeepSeek Harness v0.1.7-alpha.1 and alpha.2 improved session management, background work, file previews and review, agent teams, and recovery.
+- OpenBMB PilotDeck v2026.09.23 added upload feedback, configuration-safety fixes, responsive UI work, and better Windows/macOS lifecycle behavior.
 
-Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W40.md
+Digest: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 ## Hacker News
 
-Title: This Week in China AI Models: Qwen3Guard-Stream, Intern-Decision, Qwen Code
+Title: This Week in China AI Models: Qwen Code, DeepSeek Harness, and PilotDeck
 
-URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/main/newsletters/weekly/2026-W40.md
+URL: https://github.com/TheRouter-ai/awesome-chinese-ai-models/blob/bot/weekly-2026-W40/newsletters/weekly/2026-W40.md
 
 Optional text:
 
-Weekly roundup of Chinese AI model ecosystem updates. Week 40 covers Qwen3Guard-Stream across 0.6B/4B/8B, InternLM Intern-Decision across 0.8B/2B/4B, and Qwen Code v0.24.6 plus a nightly build.
+Weekly roundup of the Chinese AI model ecosystem. Week 40 was tooling-heavy: Qwen Code expanded its multi-surface agent platform, DeepSeek Harness improved sessions and background workflows, and OpenBMB PilotDeck focused on desktop reliability. The tracked rollup contained no new model checkpoint.
