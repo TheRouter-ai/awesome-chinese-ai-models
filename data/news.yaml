@@ -1,4 +1,561 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-memory-e658b1440c
+  date: '2026-11-06'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Memory'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory
+    published_at: '2026-11-06T09:05:37Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-tencent-hunyuan-hy-nomas-7f0daf9bec
+  date: '2026-11-06'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Nomas'
+  summary: 'Hy-Nomas: Towards Free-form Interactive World Generation'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-nomas
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Nomas
+    published_at: '2026-11-06T04:54:53Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-deepseek-ai-dsh-superagent-prototype-19927cc1b1
+  date: '2026-11-03'
+  title: 'GitHub repository update: deepseek-ai/dsh-superagent-prototype'
+  summary: Towards a More Autonomous Agent System
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - dsh-superagent-prototype
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/dsh-superagent-prototype
+    published_at: '2026-11-03T09:29:14Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-21d82279f9
+  date: '2026-11-05'
+  title: QwenLM/qwen-code release Release v0.26.8
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Complete Change List  ### Features  - feat(mods): run prompt.submit hooks in the OpenTUI terminal
+    ([#1'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8
+    published_at: '2026-11-05T16:23:57Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-e55fbb2bb3
+  date: '2026-11-06'
+  title: QwenLM/qwen-code release Release v0.26.9
+  summary: '<!-- qwen-release-notes:v2 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Skill installation and activation  Skill ZIP uploads, daemon APIs, TypeScript SDK support,
+    bulk activa'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9
+    published_at: '2026-11-06T16:07:57Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-72f91913e8
+  date: '2026-11-07'
+  title: QwenLM/qwen-code release Release v0.26.9-nightly.20261106.80fd7c3353
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.9-nightly.20261106.80fd7c3353
+    -->  ## What''s Changed * test(interactive): poll the foreground-shell frame instead of snapshotting it by @yiliang114
+    in'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9-nightly.20261106.80fd7c3353
+    published_at: '2026-11-07T00:19:54Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hunyuan-hy-memory-8473830ec3
+  date: '2026-11-06'
+  title: Tencent-Hunyuan/Hy-Memory release MemHub v1.0.6
+  summary: '## What’s New / 本次更新  - **Memory modes / 记忆模式**     lite (no LLM; keeps raw conversations and searches them directly),
+    pro (LLM extraction) and ultra (adds a knowledge graph and nightly consolidation). Choose one during onboarding or switch'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.6
+    published_at: '2026-11-06T09:40:25Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-0e13c36802
+  date: '2026-11-03'
+  title: deepseek-ai/deepseek-harness release v0.2.2-alpha.3
+  summary: '[中文](#cn-v0.2.2-alpha.3-5) | [English](#en-v0.2.2-alpha.3-5)    <h3 id="cn-v0.2.2-alpha.3-5">新增功能</h3>    - 支持统一右键与键盘菜单，覆盖会话、工作区和侧边栏，并支持开发者扩展
+    @std4453  - 文件预览支持常驻目录树和文件定位功能。 @yudshj  - 实验性「变更请求与工作树」统一代码审查与工作树入口，支持通过可搜索文件树和逐文件导航查看本地及 PR 差异，将'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.3
+    published_at: '2026-11-03T07:56:48Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-f27a70c987
+  date: '2026-11-04'
+  title: deepseek-ai/deepseek-harness release v0.2.2-rc.1
+  summary: '[中文](#cn-v0.2.2-rc.1-5) | [English](#en-v0.2.2-rc.1-5)    作为 0.2.2 系列的首个候选版本，本版本汇总了自 v0.2.1-rc.5 以来的主要用户和开发者相关变更。    <h3
+    id="cn-v0.2.2-rc.1-5">新增功能</h3>    - 完善手机和平板适配，优化软键盘交互、导航与窄屏布局，保持菜单和操作入口可用。 @Stevring, @turtle2099, @LegGasai, @EricMoi'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1
+    published_at: '2026-11-04T13:07:14Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: tencent-hy-nomas-cb80d1d265
+  date: '2026-11-04'
+  title: 'Hugging Face model update: tencent/Hy-Nomas'
+  summary: 'Model card/update on Hugging Face. Tags: diffusion-single-file, diffusers, safetensors, hy-nomas, world-model,
+    video-generation, interactive-video-generation, camera-control'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-nomas
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Hy-Nomas
+    published_at: '2026-11-04T22:04:35.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-unicom-unified-multimodal-modeling-via-compressed-continuous-semantic-representations-eb06f0b04f
+  date: '2026-11-05'
+  title: 'Hugging Face model update: tencent/Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations'
+  summary: 'Model card/update on Hugging Face. Tags: diffusers, safetensors, multimodal, text-to-image, image-editing, image-reconstruction,
+    unicom, siglip2'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - unicom-unified-multimodal-modeling-via-compressed-continuous-semantic-representations
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Unicom-Unified-Multimodal-Modeling-via-Compressed-Continuous-Semantic-Representations
+    published_at: '2026-11-05T18:20:13.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: openbmb-pilotdeck-e949e5c5e7
+  date: '2026-11-04'
+  title: OpenBMB/PilotDeck release v2026.11.05
+  summary: '## Downloads  | System | Architecture | Installer | | --- | --- | --- | | Linux | arm64 | [DEB](https://github.com/OpenBMB/PilotDeck/releases/download/v2026.11.05/PilotDeck-2026.1105.0-linux-arm64.deb)
+    | | Linux | arm64 | [RPM](https://gith'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.11.05
+    published_at: '2026-11-04T23:48:57Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-24b90e5dc3
+  date: '2026-11-05'
+  title: OpenBMB/PilotDeck release v2026.11.06
+  summary: '## Downloads  | System | Architecture | Installer | | --- | --- | --- | | Linux | arm64 | [DEB](https://github.com/OpenBMB/PilotDeck/releases/download/v2026.11.06/PilotDeck-2026.1106.0-linux-arm64.deb)
+    | | Linux | arm64 | [RPM](https://gith'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.11.06
+    published_at: '2026-11-05T23:47:27Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-pilotdeck-adf025d47e
+  date: '2026-11-07'
+  title: OpenBMB/PilotDeck release v2026.11.07
+  summary: '## Downloads  | System | Architecture | Installer | | --- | --- | --- | | Linux | arm64 | [DEB](https://github.com/OpenBMB/PilotDeck/releases/download/v2026.11.07/PilotDeck-2026.1107.0-linux-arm64.deb)
+    | | Linux | arm64 | [RPM](https://gith'
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pilotdeck
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/PilotDeck/releases/tag/v2026.11.07
+    published_at: '2026-11-07T02:57:27Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: baai-pingpongrealworldrl-329f45d9f3
+  date: '2026-11-05'
+  title: 'Hugging Face model update: BAAI/PingPongRealWorldRL'
+  summary: 'Model card/update on Hugging Face. Tags: onnx, robotics, reinforcement-learning, unitree-h2, table-tennis, en,
+    region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - pingpongrealworldrl
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/BAAI/PingPongRealWorldRL
+    published_at: '2026-11-05T16:41:06.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-sage-sciperception-3c1e3ffac3
+  date: '2026-11-06'
+  title: 'Hugging Face model update: internlm/Sage-SciPerception'
+  summary: 'Model card/update on Hugging Face. Tags: scientific-perception, multimodal, projector, pytorch, chemistry, biology,
+    materials-science, time-series'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - sage-sciperception
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Sage-SciPerception
+    published_at: '2026-11-06T12:57:46.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-1-0-dd838ba636
+  date: '2026-11-04'
+  title: 'Hugging Face model update: openbmb/MiniCPM-OCR-1.0'
+  summary: 'Model card/update on Hugging Face. Tags: minicpm-ocr, safetensors, minicpm_ocr, ocr, document-parsing, multimodal,
+    vision-language, table-recognition'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr-1-0
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-OCR-1.0
+    published_at: '2026-11-04T08:23:17.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-1-0-dspark-24795042b1
+  date: '2026-11-04'
+  title: 'Hugging Face model update: openbmb/MiniCPM-OCR-1.0-DSpark'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3, minicpm-ocr, dspark, speculative-decoding,
+    draft-model, ocr'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr-1-0-dspark
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark
+    published_at: '2026-11-04T09:35:39.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-1-0-dspark-gguf-8729dd2468
+  date: '2026-11-04'
+  title: 'Hugging Face model update: openbmb/MiniCPM-OCR-1.0-DSpark-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, minicpm-ocr, dspark, speculative-decoding, draft-model,
+    ocr, image-text-to-text'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr-1-0-dspark-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark-gguf
+    published_at: '2026-11-04T09:34:32.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-1-0-gptq-453e5b0c5e
+  date: '2026-11-04'
+  title: 'Hugging Face model update: openbmb/MiniCPM-OCR-1.0-GPTQ'
+  summary: 'Model card/update on Hugging Face. Tags: minicpm-ocr, safetensors, minicpm_ocr, ocr, document-parsing, multimodal,
+    gptq, 4-bit'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr-1-0-gptq
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-OCR-1.0-GPTQ
+    published_at: '2026-11-04T09:04:17.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-1-0-gguf-11d5034d57
+  date: '2026-11-04'
+  title: 'Hugging Face model update: openbmb/MiniCPM-OCR-1.0-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: minicpm-ocr, gguf, ocr, document-parsing, llama.cpp, multimodal, quantized,
+    image-text-to-text'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr-1-0-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-OCR-1.0-gguf
+    published_at: '2026-11-04T09:38:00.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-feca8e8023
   date: '2026-09-26'
   title: QwenLM/qwen-code release Release v0.24.6
