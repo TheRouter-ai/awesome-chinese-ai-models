@@ -1,4 +1,430 @@
 news:
+- id: github-repository-update-tencent-hunyuan-hy-memory-e658b1440c
+  date: '2026-11-13'
+  title: 'GitHub repository update: Tencent-Hunyuan/Hy-Memory'
+  summary: Repository tracked from an official GitHub organization.
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - hy-memory
+  source:
+    type: github_release
+    name: tencent-hunyuan
+    url: https://github.com/Tencent-Hunyuan/Hy-Memory
+    published_at: '2026-11-13T02:27:38Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-deepseek-ai-awesome-deepseek-integration-1b3c80ada3
+  date: '2026-11-13'
+  title: 'GitHub repository update: deepseek-ai/awesome-deepseek-integration'
+  summary: Integrate the DeepSeek API into popular software
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - awesome-deepseek-integration
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/awesome-deepseek-integration
+    published_at: '2026-11-13T10:31:30Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: github-repository-update-deepseek-ai-chat-demo-1023282c00
+  date: '2026-11-13'
+  title: 'GitHub repository update: deepseek-ai/chat-demo'
+  summary: Chat Demo
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo
+    published_at: '2026-11-13T14:33:08Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-d0f2b7630a
+  date: '2026-11-13'
+  title: QwenLM/qwen-code release Qwen Code Desktop v0.27.3
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at ddeba2fd3436d86780dc90cf621e46e67542656e
+    -->  ## What''s Changed * fix(ci): read prettier''s whole ignore set at the base tip by @wenshao in https://github.com/QwenLM/'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.3
+    published_at: '2026-11-13T01:18:29Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-f2ce452fe3
+  date: '2026-11-13'
+  title: QwenLM/qwen-code release Release v0.27.3
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Complete Change List  ### Features  - Added chips above the Web Shell composer for unfinished
+    backgrou'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3
+    published_at: '2026-11-13T00:24:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-a732fa0462
+  date: '2026-11-13'
+  title: QwenLM/qwen-code release SDK TypeScript Release v0.1.33
+  summary: '## Bundled CLI Version  This SDK release bundles CLI version: 0.27.3  Source: CLI built from source (same branch/ref
+    as SDK)  ---  ## Bundled CLI Version  This SDK release bundles CLI version: 0.27.2  Source: CLI built from source (same
+    bra'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33
+    published_at: '2026-11-13T01:14:28Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-chat-demo-02669a211e
+  date: '2026-11-13'
+  title: deepseek-ai/chat-demo release v0.1.0
+  summary: ''
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo/releases/tag/v0.1.0
+    published_at: '2026-11-13T14:03:17Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-chat-demo-c622f01d5e
+  date: '2026-11-13'
+  title: deepseek-ai/chat-demo release v0.1.1
+  summary: 修复导入失败提示文案
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo/releases/tag/v0.1.1
+    published_at: '2026-11-13T14:33:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-07cc75051f
+  date: '2026-11-11'
+  title: deepseek-ai/deepseek-harness release v0.2.2-rc.2
+  summary: '[中文](#cn-v0.2.2-rc.2) | [English](#en-v0.2.2-rc.2)    <h3 id="cn-v0.2.2-rc.2">新增功能</h3>    - Git Worktree 支持按分支、提交和文件类型审阅改动，并直接处理
+    GitHub 评审、同步已审阅进度和更新分支。 @LegGasai  - SubAgent 支持具名与多层协作，AgentTeam 可按会话开启，共用成员与任务面板。 @Dudu-0223, @Yifffan  - 桌面'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.2
+    published_at: '2026-11-11T11:33:06Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-afb95273f6
+  date: '2026-11-13'
+  title: deepseek-ai/deepseek-harness release v0.2.2-rc.3
+  summary: '[中文](#cn-v0.2.2-rc.3) | [English](#en-v0.2.2-rc.3)    <h3 id="cn-v0.2.2-rc.3">新增功能</h3>    - 新增实验性「DeepSeek 会话导入」插件，支持将
+    DeepSeek App 或网页版的历史会话导入工作区，并继续对话。 @imccyu    ### 问题修复    - 修复 Windows 桌面版应用内更新可能失败、无法自动重新打开的问题。 @winewill    <h3 id="en'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3
+    published_at: '2026-11-13T07:56:55Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-v4-1-flash-1017-5167246af5
+  date: '2026-11-10'
+  title: 'Hugging Face model update: deepseek-ai/DeepSeek-V4.1-Flash-1017'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, deepseek_v41, text-generation, image-text-to-text,
+    conversational, license:mit, eval-results'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-v4-1-flash-1017
+  source:
+    type: model_card
+    name: deepseek
+    url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+    published_at: '2026-11-10T02:22:56.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-kalm-embedding-gemma3-12b-2511-1dc145e481
+  date: '2026-11-11'
+  title: 'Hugging Face model update: tencent/KaLM-Embedding-Gemma3-12B-2511'
+  summary: 'Model card/update on Hugging Face. Tags: sentence-transformers, safetensors, gemma3_text, Retrieval, STS, Classification,
+    Clustering, Reranking'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - kalm-embedding-gemma3-12b-2511
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/KaLM-Embedding-Gemma3-12B-2511
+    published_at: '2026-11-11T08:11:57.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-qwen3-8-27b-dspine-b16-633bb491d8
+  date: '2026-11-09'
+  title: 'Hugging Face model update: tencent/Qwen3.8-27B-DSpine-b16'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, qwen3, dspine, speculative-decoding, draft-model, sglang,
+    text-generation, arxiv:2609.36173'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - qwen3-8-27b-dspine-b16
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16
+    published_at: '2026-11-09T09:26:40.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-minicpm-ocr-b0a89daada
+  date: '2026-11-13'
+  title: 'GitHub repository update: OpenBMB/MiniCPM-OCR'
+  summary: Fast, accurate OCR with correctness assessment.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-OCR
+    published_at: '2026-11-13T10:13:34Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm-ocr-71db93c309
+  date: '2026-11-09'
+  title: OpenBMB/MiniCPM-OCR release MiniCPM-OCR SDK v1.0.5
+  summary: Support parsing multiple files at once, with each file getting its own result.     - The parse command line supports
+    passing multiple files or a directory at the same time (top level only, no recursion), and with -o DIR outputs a separate
+    M
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-OCR/releases/tag/sdk-v1.0.5
+    published_at: '2026-11-09T09:42:30Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: openbmb-minicpm-v-4-7-35b-a3b-gguf-e3e3a42040
+  date: '2026-11-11'
+  title: 'Hugging Face model update: openbmb/MiniCPM-V-4.7-35B-A3B-gguf'
+  summary: 'Model card/update on Hugging Face. Tags: llama.cpp, gguf, quantized, imatrix, dspark, speculative-decoding, moe,
+    minicpm-v'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-v-4-7-35b-a3b-gguf
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf
+    published_at: '2026-11-11T03:36:11.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-feca8e8023
   date: '2026-09-26'
   title: QwenLM/qwen-code release Release v0.24.6
