@@ -33,3 +33,9 @@ benchmarks:
     type: aggregator
     coverage: Task-specific community leaderboards (coding, reasoning, embeddings).
     note: Coverage varies by leaderboard; check maintainer and methodology.
+  - id: aihot
+    name: AIHOT 模型榜
+    url: https://aihot.news/leaderboard
+    type: aggregator
+    coverage: 中文界面的公开评测汇总，覆盖 Qwen、DeepSeek、Kimi 等模型。
+    note: 第三方汇总；模型详情列出原始评测、成绩和来源，使用时可核对评测版本与覆盖范围。

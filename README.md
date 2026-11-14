@@ -149,6 +149,8 @@ and reports, with notes on how each covers Chinese AI models.
   - Chinese-language focus; verify test version and date.
 - [Hugging Face Leaderboards](https://huggingface.co/collections) — Task-specific community leaderboards (coding, reasoning, embeddings).
   - Coverage varies by leaderboard; check maintainer and methodology.
+- [AIHOT 模型榜](https://aihot.news/leaderboard) — 中文界面的公开评测汇总，覆盖 Qwen、DeepSeek、Kimi 等模型。
+  - 第三方汇总；模型详情列出原始评测、成绩和来源，使用时可核对评测版本与覆盖范围。
 <!-- AUTO-GENERATED:END benchmarks -->
 
 ## Latest Updates
