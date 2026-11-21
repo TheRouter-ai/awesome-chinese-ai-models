@@ -1,4 +1,565 @@
 news:
+- id: github-repository-update-deepseek-ai-chat-demo-1023282c00
+  date: '2026-11-20'
+  title: 'GitHub repository update: deepseek-ai/chat-demo'
+  summary: Chat Demo
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo
+    published_at: '2026-11-20T08:48:26Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-162334843a
+  date: '2026-11-20'
+  title: QwenLM/qwen-code release Release v0.28.0-nightly.20261120.19b31401f5
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.0-nightly.20261120.19b31401f5
+    -->  ## What''s Changed * test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in
+    ht'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0-nightly.20261120.19b31401f5
+    published_at: '2026-11-20T22:34:18Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-512c99cabc
+  date: '2026-11-20'
+  title: QwenLM/qwen-code release Release v0.28.1-preview.1
+  summary: '<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.1-preview.1 -->  ## What''s
+    Changed * test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/Q'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.1
+    published_at: '2026-11-20T19:20:36Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwenlm-qwen-code-00a30fac7c
+  date: '2026-11-21'
+  title: QwenLM/qwen-code release Release v0.28.3
+  summary: '<!-- qwen-release-notes:v1 -->  ## Highlights  _See the complete change list below._  ## Breaking Changes  No
+    known breaking changes.  ## Complete Change List  ### Features  - feat(web-shell): explain background tasks from the composer
+    chip'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen-code
+  source:
+    type: github_release
+    name: qwen
+    url: https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3
+    published_at: '2026-11-21T01:45:48Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-chat-demo-449371a5ae
+  date: '2026-11-19'
+  title: deepseek-ai/chat-demo release v0.1.2
+  summary: '- 草稿和聊天记录中的附件可以直接打开。支持预览的图片和 PDF 会在新标签页显示，SVG 和其他文件可下载原件。 - 回复中的搜索结果、引用和网页读取记录仅允许打开 HTTP 或 HTTPS 链接。'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo/releases/tag/v0.1.2
+    published_at: '2026-11-19T04:42:29Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-chat-demo-84193fe040
+  date: '2026-11-20'
+  title: deepseek-ai/chat-demo release v0.1.3
+  summary: 修复超大图片导致聊天请求失败的问题。长边超过 4096 像素的图片会在上传前等比缩小，历史对话再次引用这类图片时会自动补传。
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - chat-demo
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/chat-demo/releases/tag/v0.1.3
+    published_at: '2026-11-20T08:50:00Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-8aebbbfd59
+  date: '2026-11-17'
+  title: deepseek-ai/deepseek-harness release v0.2.2-rc.4
+  summary: '[中文](#cn-v0.2.2-rc.4) | [English](#en-v0.2.2-rc.4)    <h3 id="cn-v0.2.2-rc.4">问题修复</h3>    - 优化模型请求收到异常消息响应时的表现。
+    @turtle2099  - 修复 LiveShare 在桌面端无法创建分享的问题。 @mektpoy    <h3 id="en-v0.2.2-rc.4">Bug Fixes</h3>    - Improve handling of
+    unexpect'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.4
+    published_at: '2026-11-17T17:53:41Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: deepseek-ai-deepseek-harness-7b953e35d9
+  date: '2026-11-18'
+  title: deepseek-ai/deepseek-harness release v0.2.2-rc.5
+  summary: '[中文](#cn-v0.2.2-rc.5) | [English](#en-v0.2.2-rc.5)    <h3 id="cn-v0.2.2-rc.5">体验优化</h3>    - DeepSeek 模型使用 DeepSeek
+    服务端搜索，搜索不按次收费；其他模型默认使用 DeepSeek Search API。 @LegGasai    <h3 id="en-v0.2.2-rc.5">Improvements</h3>    - DeepSeek models
+    use'
+  category: open_source
+  importance: medium
+  entities:
+    providers:
+    - deepseek
+    models:
+    - deepseek-harness
+  source:
+    type: github_release
+    name: deepseek
+    url: https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.5
+    published_at: '2026-11-18T12:51:39Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - deepseek
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 82
+  decision: stable_entry
+- id: qwen-qwen2-1-5b-instruct-0de2c64bdf
+  date: '2026-11-20'
+  title: 'Hugging Face model update: Qwen/Qwen2-1.5B-Instruct'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen2, text-generation, chat, conversational,
+    en, license:apache-2.0'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen2-1-5b-instruct
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct
+    published_at: '2026-11-20T06:45:50.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen2-vl-2b-instruct-8ed31b9ced
+  date: '2026-11-20'
+  title: 'Hugging Face model update: Qwen/Qwen2-VL-2B-Instruct'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen2_vl, image-text-to-text, multimodal,
+    conversational, en, arxiv:2409.12191'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen2-vl-2b-instruct
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
+    published_at: '2026-11-20T06:46:42.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-5-27b-8a76f1a1f8
+  date: '2026-11-20'
+  title: 'Hugging Face model update: Qwen/Qwen3.5-27B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, conversational,
+    license:apache-2.0, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-5-27b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.5-27B
+    published_at: '2026-11-20T06:46:35.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-5-35b-a3b-a7e83343c9
+  date: '2026-11-20'
+  title: 'Hugging Face model update: Qwen/Qwen3.5-35B-A3B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5_moe, image-text-to-text, conversational,
+    base_model:Qwen/Qwen3.5-35B-A3B-Base, base_model:finetune:Qwen/Qwen3.5-35B-A3B-Base, license:apache-2.0'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-5-35b-a3b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.5-35B-A3B
+    published_at: '2026-11-20T06:46:32.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: qwen-qwen3-6-27b-cf2b097577
+  date: '2026-11-20'
+  title: 'Hugging Face model update: Qwen/Qwen3.6-27B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, image-text-to-text, conversational,
+    license:apache-2.0, eval-results, endpoints_compatible'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - qwen
+    models:
+    - qwen3-6-27b
+  source:
+    type: model_card
+    name: qwen
+    url: https://huggingface.co/Qwen/Qwen3.6-27B
+    published_at: '2026-11-20T06:46:39.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - qwen
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-video-35ba3b-6f02e58ddb
+  date: '2026-11-21'
+  title: 'Hugging Face model update: tencent/WeMM-Video-35BA3B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, wemm_qwen3_5_moe, feature-extraction, wemm,
+    multimodal, video, audio'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-video-35ba3b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Video-35BA3B
+    published_at: '2026-11-21T02:52:13.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-video-35ba3b-awq-68a468b813
+  date: '2026-11-21'
+  title: 'Hugging Face model update: tencent/WeMM-Video-35BA3B-AWQ'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, wemm_qwen3_5_moe, feature-extraction, wemm,
+    multimodal, video, audio'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-video-35ba3b-awq
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Video-35BA3B-AWQ
+    published_at: '2026-11-21T02:38:42.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-video-35ba3b-gguf-e1347d3b57
+  date: '2026-11-21'
+  title: 'Hugging Face model update: tencent/WeMM-Video-35BA3B-GGUF'
+  summary: 'Model card/update on Hugging Face. Tags: gguf, wemm_qwen3_5_moe, wemm, multimodal, video, audio, quantized, moe'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-video-35ba3b-gguf
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Video-35BA3B-GGUF
+    published_at: '2026-11-21T02:38:42.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-video-35ba3b-nvfp4-04f3498f5d
+  date: '2026-11-21'
+  title: 'Hugging Face model update: tencent/WeMM-Video-35BA3B-NVFP4'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, wemm_qwen3_5_moe, wemm, multimodal, video, audio, quantized,
+    nvfp4'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-video-35ba3b-nvfp4
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Video-35BA3B-NVFP4
+    published_at: '2026-11-21T02:38:45.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: tencent-wemm-video-9b-53654f0c02
+  date: '2026-11-21'
+  title: 'Hugging Face model update: tencent/WeMM-Video-9B'
+  summary: 'Model card/update on Hugging Face. Tags: transformers, safetensors, qwen3_5, feature-extraction, wemm, multimodal,
+    video, audio'
+  category: model_update
+  importance: medium
+  entities:
+    providers:
+    - tencent-hunyuan
+    models:
+    - wemm-video-9b
+  source:
+    type: model_card
+    name: tencent-hunyuan
+    url: https://huggingface.co/tencent/WeMM-Video-9B
+    published_at: '2026-11-21T02:52:56.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - tencent-hunyuan
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 80
+  decision: stable_entry
+- id: github-repository-update-openbmb-minicpm-ocr-b0a89daada
+  date: '2026-11-19'
+  title: 'GitHub repository update: OpenBMB/MiniCPM-OCR'
+  summary: Fast, accurate OCR with correctness assessment.
+  category: open_source
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - minicpm-ocr
+  source:
+    type: github_release
+    name: source
+    url: https://github.com/OpenBMB/MiniCPM-OCR
+    published_at: '2026-11-19T14:58:22Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - open_source
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 78
+  decision: stable_entry
+- id: internlm-sage-s2-1-flash-b4b2cf3ccb
+  date: '2026-11-16'
+  title: 'Hugging Face model update: internlm/Sage-S2.1-Flash'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, glm5_next, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - sage-s2-1-flash
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Sage-S2.1-Flash
+    published_at: '2026-11-16T08:30:35.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
+- id: internlm-sage-s2-1-flash-fp8-2150fa4de6
+  date: '2026-11-16'
+  title: 'Hugging Face model update: internlm/Sage-S2.1-Flash-FP8'
+  summary: 'Model card/update on Hugging Face. Tags: safetensors, glm5_next, fp8, region:us'
+  category: model_update
+  importance: medium
+  entities:
+    providers: []
+    models:
+    - sage-s2-1-flash-fp8
+  source:
+    type: model_card
+    name: source
+    url: https://huggingface.co/internlm/Sage-S2.1-Flash-FP8
+    published_at: '2026-11-16T08:30:22.000Z'
+  verification:
+    status: verified
+    checked_by: awesome-chinese-ai-models-maintainer
+  tags:
+  - model_update
+  - chinese-ai
+  include_in_newsletter: true
+  include_in_readme: true
+  score: 76
+  decision: stable_entry
 - id: qwenlm-qwen-code-feca8e8023
   date: '2026-09-26'
   title: QwenLM/qwen-code release Release v0.24.6
